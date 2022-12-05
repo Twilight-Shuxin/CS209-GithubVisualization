@@ -222,18 +222,18 @@ public class DatabaseBuilder {
     }
 
     public void buildDatabase() throws IOException, SQLException {
-        //insertRepoInfo();
-        getRepoInfo();
+        insertRepoInfo();
+        //getRepoInfo();
         insertContributorsInfo(getTopContributorsInfo());
         for (String repoName : repoNames) {
-//            JSONArray releases = getReleaseInfo(repoName);
-//            insertReleaseInfo(repoName, releases);
+            JSONArray releases = getReleaseInfo(repoName);
+            insertReleaseInfo(repoName, releases);
             JSONArray contributions = getContributionsInfo(repoName);
             insertContributionsInfo(repoName, contributions);
-//            JSONArray issuesInfo = getIssueInfo(repoName);
-//            insertIssuesInfo(repoName, issuesInfo);
-//            JSONArray commitsInfo = getCommitsInfo(repoName);
-//            insertCommitsInfo(repoName, commitsInfo);
+            JSONArray issuesInfo = getIssueInfo(repoName);
+            insertIssuesInfo(repoName, issuesInfo);
+            JSONArray commitsInfo = getCommitsInfo(repoName);
+            insertCommitsInfo(repoName, commitsInfo);
         }
         connection.commit();
     }
