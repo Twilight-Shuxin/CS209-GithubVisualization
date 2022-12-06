@@ -1,5 +1,6 @@
-package cs209.app.dto;
+package cs209.app.util;
 
+import cs209.app.dto.*;
 import cs209.app.model.*;
 import org.springframework.core.convert.converter.Converter;
 
@@ -46,6 +47,19 @@ public class DTOUtil {
                 contribution.getRepo().getId(),
                 contribution.getContributor().getId(),
                 contribution.getCommitCnt()
+        );
+    }
+
+    public static ContributorInRepoDTO toContributorInRepoDTO(Contribution contribution) {
+        Contributor contributor = contribution.getContributor();
+        return new ContributorInRepoDTO(
+                contributor.getId(),
+                contributor.getName(),
+                contribution.getRepo().getId(),
+                contribution.getCommitCnt(),
+                contributor.getFollowerCnt(),
+                contributor.getFollowingCnt(),
+                contributor.getPublicRepoCnt()
         );
     }
 

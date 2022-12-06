@@ -24,4 +24,6 @@ public interface ReleaseService {
 
     public Page<ReleaseDTO> getReleaseByRepoIdBeforeTime(int repoId, OffsetDateTime end,
                                                         Pageable paging);
+
+    public int getAverageCommitCntBetweenRelease(int repoId);
 }

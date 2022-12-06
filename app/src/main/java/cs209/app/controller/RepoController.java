@@ -61,8 +61,12 @@ public class RepoController {
     public Page<CommitDTO> getCommitByRepoIdTimeInterval(@PathVariable("id") int repoId,
                                                          @RequestParam(value = "start", required = false) String startTimeStr,
                                                          @RequestParam(value = "end", required = false) String endTimeStr,
-                                                         @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum) {
+                                                         @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum,
+                                                         @RequestParam(value = "weekday", required = false, defaultValue = "-1") int weekday) {
         Pageable paging = PageRequest.of(pageNum, AppApplication.pageSize);
+        if(weekday >= 0) {
+            return commitService.getCommitByRepoIdWeekDay(repoId, weekday, paging);
+        }
         if(startTimeStr == null) {
             if(startTimeStr == null && endTimeStr == null) {
                 return commitService.getCommitByRepoId(repoId, paging);

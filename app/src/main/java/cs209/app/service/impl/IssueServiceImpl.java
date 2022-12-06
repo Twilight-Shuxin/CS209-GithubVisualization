@@ -1,19 +1,16 @@
 package cs209.app.service.impl;
 
-import cs209.app.AppApplication;
 import cs209.app.dto.IssueDTO;
-import cs209.app.model.Issue;
 import cs209.app.repository.IssueRepository;
 import cs209.app.service.IssueService;
 import cs209.app.service.RepoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import java.time.OffsetDateTime;
 
-import static cs209.app.dto.DTOUtil.toIssueDTO;
+import static cs209.app.util.DTOUtil.toIssueDTO;
 
 @Service
 public class IssueServiceImpl implements IssueService {
