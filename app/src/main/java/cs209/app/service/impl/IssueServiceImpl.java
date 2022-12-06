@@ -11,6 +11,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import java.time.OffsetDateTime;
+
 import static cs209.app.dto.DTOUtil.toIssueDTO;
 
 @Service
@@ -37,4 +39,15 @@ public class IssueServiceImpl implements IssueService {
         return issueRepository.findByRepoId(repoService.getRepoByName(repoName).get().getId(),
                 paging).map(issue -> toIssueDTO(issue));
     }
+
+    @Override
+    public Page<IssueDTO> getIssueByRepoIdTimeInterval(int repoId, OffsetDateTime start, OffsetDateTime end, Pageable page) {
+        return null;
+    }
+
+    @Override
+    public Page<IssueDTO> getIssueByRepoNameTimeInterval(String repoName, OffsetDateTime start, OffsetDateTime end, Pageable page) {
+        return null;
+    }
+
 }

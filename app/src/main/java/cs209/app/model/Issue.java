@@ -3,7 +3,7 @@ package cs209.app.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
-import java.sql.Timestamp;
+import java.time.OffsetDateTime;
 
 @Entity
 @Table(name = "issues")
@@ -20,10 +20,10 @@ public class Issue {
     String userName;
 
     @Column(name = "created_at")
-    Timestamp createTime;
+    OffsetDateTime createTime;
 
     @Column(name = "closed_at")
-    Timestamp closedTime;
+    OffsetDateTime closedTime;
 
     @Column(name = "state")
     boolean stateClosed;
@@ -66,19 +66,19 @@ public class Issue {
         this.userName = userName;
     }
 
-    public Timestamp getCreateTime() {
+    public OffsetDateTime getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(Timestamp createTime) {
+    public void setCreateTime(OffsetDateTime createTime) {
         this.createTime = createTime;
     }
 
-    public Timestamp getClosedTime() {
+    public OffsetDateTime getClosedTime() {
         return closedTime;
     }
 
-    public void setClosedTime(Timestamp closedTime) {
+    public void setClosedTime(OffsetDateTime closedTime) {
         this.closedTime = closedTime;
     }
 
@@ -113,4 +113,13 @@ public class Issue {
     public void setUrl(String url) {
         this.url = url;
     }
+
+    public Repo getRepo() {
+        return repo;
+    }
+
+    public void setRepo(Repo repo) {
+        this.repo = repo;
+    }
+
 }

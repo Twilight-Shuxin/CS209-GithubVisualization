@@ -144,25 +144,36 @@ public class DatabaseBuilder {
 
     public void insertCommitsInfo(String repoName, JSONArray commitInfoList) throws SQLException {
         int repo_id = repoIdMap.get(repoName);
-        String SQL_INSERT = "insert into commits(repo_id, user_name, message, commit_time) " +
+        String SQL_INSERT = "insert into commits(repo_id, contributor_id, message, commit_time) " +
                 "values (?,?,?,?);";
         PreparedStatement stmt = connection.prepareStatement(SQL_INSERT);
+        String SQL_QUERY = "select id FROM contributors WHERE name=?";
+        PreparedStatement stmt_query = connection.prepareStatement(SQL_QUERY);
         for (int i = 0; i < commitInfoList.length(); i++) {
             JSONObject commitInfo = commitInfoList.getJSONObject(i);
             String user_name;
             try {
                 user_name = commitInfo.getJSONObject("author").getString("login");
             } catch (Exception e) {
-                user_name = null;
+                continue;
             }
             String commit_time = commitInfo.getJSONObject("commit")
                     .getJSONObject("committer").getString("date");
             String message = commitInfo.getJSONObject("commit").getString("message");
+
+            stmt_query.setString(1, user_name);
+            ResultSet rs = stmt_query.executeQuery();
+            int contributor_id = -1;
+            if (rs.next()) {
+                contributor_id = rs.getInt("id");
+            }
+            else continue;
+
             stmt.setInt(1, repo_id);
-            stmt.setString(2, user_name);
+            stmt.setInt(2, contributor_id);
             stmt.setString(3, message);
             stmt.setString(4, commit_time);
-            //stmt.executeUpdate();
+
             simpleInsertTimeStamptz(stmt);
         }
     }
@@ -225,6 +236,7 @@ public class DatabaseBuilder {
         insertRepoInfo();
         //getRepoInfo();
         insertContributorsInfo(getTopContributorsInfo());
+        // getContributorsInfo();
         for (String repoName : repoNames) {
             JSONArray releases = getReleaseInfo(repoName);
             insertReleaseInfo(repoName, releases);

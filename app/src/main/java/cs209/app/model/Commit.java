@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import org.hibernate.annotations.ValueGenerationType;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import java.sql.Timestamp;
+import java.time.OffsetDateTime;
 
 @Entity
 @Table(name = "commits")
@@ -20,14 +20,14 @@ public class Commit {
     @JsonIgnore
     Repo repo;
 
-    @Column(name = "user_name")
-    String userName;
+    @Column(name = "contributor_id")
+    int contributorId;
 
     @Column(name = "message")
     String message;
 
     @Column(name = "commit_time")
-    Timestamp commitTime;
+    OffsetDateTime commitTime;
 
     public int getId() {
         return id;
@@ -35,14 +35,6 @@ public class Commit {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
     }
 
     public String getMessage() {
@@ -53,11 +45,27 @@ public class Commit {
         this.message = message;
     }
 
-    public Timestamp getCommitTime() {
+    public OffsetDateTime getCommitTime() {
         return commitTime;
     }
 
-    public void setCommitTime(Timestamp commitTime) {
+    public void setCommitTime(OffsetDateTime commitTime) {
         this.commitTime = commitTime;
+    }
+
+    public Repo getRepo() {
+        return repo;
+    }
+
+    public void setRepo(Repo repo) {
+        this.repo = repo;
+    }
+
+    public int getContributorId() {
+        return contributorId;
+    }
+
+    public void setContributorId(int contributorId) {
+        this.contributorId = contributorId;
     }
 }

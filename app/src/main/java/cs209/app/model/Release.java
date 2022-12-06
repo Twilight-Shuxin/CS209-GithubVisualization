@@ -3,7 +3,7 @@ package cs209.app.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
-import java.sql.Timestamp;
+import java.time.OffsetDateTime;
 
 @Entity
 @Table(name = "releases")
@@ -16,8 +16,16 @@ public class Release {
     @Column(name = "release_name")
     String releaseName;
 
+    public Repo getRepo() {
+        return repo;
+    }
+
+    public void setRepo(Repo repo) {
+        this.repo = repo;
+    }
+
     @Column(name = "published_at")
-    Timestamp publishTime;
+    OffsetDateTime publishTime;
 
     @Column(name = "message")
     String message;
@@ -43,11 +51,11 @@ public class Release {
         this.releaseName = releaseName;
     }
 
-    public Timestamp getPublishTime() {
+    public OffsetDateTime getPublishTime() {
         return publishTime;
     }
 
-    public void setPublishTime(Timestamp publishTime) {
+    public void setPublishTime(OffsetDateTime publishTime) {
         this.publishTime = publishTime;
     }
 

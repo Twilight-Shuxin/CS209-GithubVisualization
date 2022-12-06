@@ -11,9 +11,6 @@ public class Contribution {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
-    @Column(name = "contributor_id")
-    int contributorId;
-
 //    @Column(name = "repo_id")
 //    int repoId;
 
@@ -25,10 +22,10 @@ public class Contribution {
     @JsonIgnore
     Repo repo;
 
-//    @JsonIgnore
-//    @ManyToOne
-//    @JoinColumn(name = "contributor_id")
-//    Contributor contributor;
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "contributor_id")
+    Contributor contributor;
 
     public int getId() {
         return id;
@@ -38,19 +35,27 @@ public class Contribution {
         this.id = id;
     }
 
-    public int getContributorId() {
-        return contributorId;
-    }
-
-    public void setContributorId(int contributorId) {
-        this.contributorId = contributorId;
-    }
-
     public int getCommitCnt() {
         return commitCnt;
     }
 
     public void setCommitCnt(int commitCnt) {
         this.commitCnt = commitCnt;
+    }
+
+    public Repo getRepo() {
+        return repo;
+    }
+
+    public void setRepo(Repo repo) {
+        this.repo = repo;
+    }
+
+    public Contributor getContributor() {
+        return contributor;
+    }
+
+    public void setContributor(Contributor contributor) {
+        this.contributor = contributor;
     }
 }

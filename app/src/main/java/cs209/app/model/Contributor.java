@@ -25,10 +25,10 @@ public class Contributor {
     @Column(name = "public_repos")
     int publicRepoCnt;
 
-//    @JsonIgnore
-//    @OneToMany
-//    @JoinColumn(name = "id")
-//    Set<Contribution> contributionSet;
+    @JsonIgnore
+    @OneToMany
+    @JoinColumn(name = "id")
+    Set<Contribution> contributionSet;
 
     public int getId() {
         return id;
