@@ -48,7 +48,7 @@ public class DatabaseBuilder {
         PreparedStatement stmt = connection.prepareStatement(sql,
                 Statement.RETURN_GENERATED_KEYS);
         for (String repoName : repoNames) {
-            stmt.setString(1, repoName);
+            stmt.setString(1, changeDescriptionToFileName(repoName));
             stmt.executeUpdate();
             ResultSet keys = stmt.getGeneratedKeys();
             if (keys.next()) {
@@ -116,6 +116,41 @@ public class DatabaseBuilder {
         }
     }
 
+    public int getContributorId(String userName) throws SQLException {
+        String SQL_QUERY = "select id FROM contributors WHERE name=?";
+        PreparedStatement stmt_query = connection.prepareStatement(SQL_QUERY);
+        stmt_query.setString(1, userName);
+        ResultSet rs = stmt_query.executeQuery();
+        int contributor_id = -1;
+        if (rs.next()) {
+            contributor_id = rs.getInt("id");
+        }
+        return contributor_id;
+    }
+
+    public int insertContributorByName(String userName) throws SQLException {
+        String SQL_INSERT = "insert into contributors(name, followers, followings, public_repos) " +
+                "values(?,?,?,?);";
+        PreparedStatement stmt = connection.prepareStatement(SQL_INSERT, Statement.RETURN_GENERATED_KEYS);
+        stmt.setString(1, userName);
+        stmt.setNull(2, Types.INTEGER);
+        stmt.setNull(3, Types.INTEGER);
+        stmt.setNull(4, Types.INTEGER);
+        stmt.executeUpdate();
+        ResultSet keys = stmt.getGeneratedKeys();
+        int id = -1;
+        if (keys.next()) {
+            id = keys.getInt(1);
+        }
+        return id;
+    }
+
+    public int getOrCreateContributorByName(String userName) throws SQLException {
+        int id = getContributorId(userName);
+        if(id == -1) id = insertContributorByName(userName);
+        return id;
+    }
+
     public void insertContributionsInfo(String repoName, JSONArray contributionInfoList) throws SQLException {
         int repo_id = repoIdMap.get(repoName);
         String SQL_INSERT = "insert into contributions(contributor_id, repo_id, commits) " +
@@ -127,12 +162,7 @@ public class DatabaseBuilder {
             JSONObject contributionInfo = contributionInfoList.getJSONObject(i);
             String user_name = contributionInfo.getString("login");
             stmt_query.setString(1, user_name);
-            ResultSet rs = stmt_query.executeQuery();
-            int contributor_id = -1;
-            if (rs.next()) {
-                contributor_id = rs.getInt("id");
-            }
-            else continue;
+            int contributor_id = getOrCreateContributorByName(user_name);
             int commits = contributionInfo.getInt("contributions");
 
             stmt.setInt(1, contributor_id);

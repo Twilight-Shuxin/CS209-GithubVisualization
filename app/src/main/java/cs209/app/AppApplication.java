@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class AppApplication {
 
-	public static int pageSize = 2;
+	public static int pageSize = 50;
 
 	public static void main(String[] args) {
 		SpringApplication.run(AppApplication.class, args);

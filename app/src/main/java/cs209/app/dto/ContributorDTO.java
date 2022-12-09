@@ -5,7 +5,7 @@ import java.io.Serializable;
 public record ContributorDTO(
         int id,
         String name,
-        int followerCnt,
-        int followingCnt,
-        int publicRepoCnt
+        Integer followerCnt,
+        Integer followingCnt,
+        Integer publicRepoCnt
 ) implements Serializable {}

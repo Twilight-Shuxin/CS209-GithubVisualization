@@ -7,7 +7,7 @@ public record ContributorInRepoDTO(
         String name,
         int repoId,
         int commitCnt,
-        int followerCnt,
-        int followingCnt,
-        int publicRepoCnt
+        Integer followerCnt,
+        Integer followingCnt,
+        Integer publicRepoCnt
 ) implements Serializable {}

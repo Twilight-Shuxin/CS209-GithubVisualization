@@ -9,12 +9,15 @@ import org.springframework.data.domain.Pageable;
 import java.time.OffsetDateTime;
 
 public interface IssueService {
-    public Page<IssueDTO> getIssueByRepoId(int repoId, Pageable paging);
-    public Page<IssueDTO> getIssueByRepoIdWithState(int repoId, String state, Pageable paging);
-    public Page<IssueDTO> getIssueByRepoName(String repoName, Pageable paging);
+    public Page<IssueDTO> getIssueByRepo(int repoId, Pageable paging);
+    public Page<IssueDTO> getIssueByRepo(String repoName, Pageable paging);
 
-    public Page<IssueDTO> getIssueByRepoIdTimeInterval
+
+    public Page<IssueDTO> getIssueByRepoWithState(int repoId, String state, Pageable paging);
+    public Page<IssueDTO> getIssueByRepoWithState(String repoName, String state, Pageable paging);
+
+    public Page<IssueDTO> getIssueByRepoTimeInterval
             (int repoId, OffsetDateTime start, OffsetDateTime end, Pageable page);
-    public Page<IssueDTO> getIssueByRepoNameTimeInterval
+    public Page<IssueDTO> getIssueByRepoTimeInterval
             (String repoName,OffsetDateTime start, OffsetDateTime end, Pageable page);
 }

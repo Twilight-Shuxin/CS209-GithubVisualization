@@ -17,17 +17,17 @@ public class Contributor {
     String name;
 
     @Column(name = "followers")
-    int followerCnt;
+    Integer followerCnt;
 
     @Column(name = "followings")
-    int followingCnt;
+    Integer followingCnt;
 
     @Column(name = "public_repos")
-    int publicRepoCnt;
+    Integer publicRepoCnt;
 
     @JsonIgnore
     @OneToMany
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "contributor_id")
     Set<Contribution> contributionSet;
 
     public int getId() {
@@ -46,7 +46,7 @@ public class Contributor {
         this.name = name;
     }
 
-    public int getFollowerCnt() {
+    public Integer getFollowerCnt() {
         return followerCnt;
     }
 
@@ -54,7 +54,7 @@ public class Contributor {
         this.followerCnt = followerCnt;
     }
 
-    public int getFollowingCnt() {
+    public Integer getFollowingCnt() {
         return followingCnt;
     }
 
@@ -62,7 +62,7 @@ public class Contributor {
         this.followingCnt = followingCnt;
     }
 
-    public int getPublicRepoCnt() {
+    public Integer getPublicRepoCnt() {
         return publicRepoCnt;
     }
 

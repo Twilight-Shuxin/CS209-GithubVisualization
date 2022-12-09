@@ -21,30 +21,38 @@ public class IssueServiceImpl implements IssueService {
 
 
     @Override
-    public Page<IssueDTO> getIssueByRepoId(int repoId, Pageable paging) {
+    public Page<IssueDTO> getIssueByRepo(int repoId, Pageable paging) {
         return issueRepository.findByRepoId(repoId, paging).map(issue -> toIssueDTO(issue));
     }
 
     @Override
-    public Page<IssueDTO> getIssueByRepoIdWithState(int repoId, String state, Pageable paging) {
+    public Page<IssueDTO> getIssueByRepo(String repoName, Pageable paging) {
+        return issueRepository.findByRepoRepoName(repoName, paging)
+                .map(issue -> toIssueDTO(issue));
+    }
+
+    @Override
+    public Page<IssueDTO> getIssueByRepoWithState(int repoId, String state, Pageable paging) {
         boolean stateClosed = state.equals("closed") ? true : false;
         return issueRepository.findByRepoIdAndStateClosed(repoId, stateClosed, paging).map(issue -> toIssueDTO(issue));
     }
 
     @Override
-    public Page<IssueDTO> getIssueByRepoName(String repoName, Pageable paging) {
-        return issueRepository.findByRepoId(repoService.getRepoByName(repoName).get().getId(),
-                paging).map(issue -> toIssueDTO(issue));
+    public Page<IssueDTO> getIssueByRepoWithState(String repoName, String state, Pageable paging) {
+        boolean stateClosed = state.equals("closed") ? true : false;
+        return issueRepository.findByRepoRepoNameAndStateClosed(repoName, stateClosed, paging).map(issue -> toIssueDTO(issue));
     }
 
     @Override
-    public Page<IssueDTO> getIssueByRepoIdTimeInterval(int repoId, OffsetDateTime start, OffsetDateTime end, Pageable page) {
-        return null;
+    public Page<IssueDTO> getIssueByRepoTimeInterval(int repoId, OffsetDateTime start, OffsetDateTime end, Pageable page) {
+        return issueRepository.findAllByRepoIdAndCreateTimeGreaterThanEqualAndCreateTimeLessThanEqual(repoId, start, end, page)
+                .map(issue -> toIssueDTO(issue));
     }
 
     @Override
-    public Page<IssueDTO> getIssueByRepoNameTimeInterval(String repoName, OffsetDateTime start, OffsetDateTime end, Pageable page) {
-        return null;
+    public Page<IssueDTO> getIssueByRepoTimeInterval(String repoName, OffsetDateTime start, OffsetDateTime end, Pageable page) {
+        return issueRepository.findAllByRepoRepoNameAndCreateTimeGreaterThanEqualAndCreateTimeLessThanEqual(repoName, start, end, page)
+                .map(issue -> toIssueDTO(issue));
     }
 
 }

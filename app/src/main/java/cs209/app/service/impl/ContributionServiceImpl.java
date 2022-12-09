@@ -22,19 +22,27 @@ public class ContributionServiceImpl implements ContributionService {
     RepoService repoService;
 
     @Override
-    public Page<ContributionDTO> getContributionByRepoId(int repoId, Pageable page) {
+    public Page<ContributionDTO> getContributionByRepo(int repoId, Pageable page) {
         return contributionRepository.findByRepoId(repoId, page).map(contribution -> toContributionDTO(contribution));
     }
 
     @Override
-    public Page<ContributionDTO> getContributionByRepoName(String repoName, Pageable page) {
+    public Page<ContributionDTO> getContributionByRepo(String repoName, Pageable page) {
         return contributionRepository.findByRepoId(
                 repoService.getRepoByName(repoName).get().getId(), page)
                 .map(contribution -> toContributionDTO(contribution));
     }
 
     @Override
-    public Page<ContributorInRepoDTO> getContributorByContributionInRepoByRepoId(int repoId, Pageable page) {
-        return contributionRepository.findByRepoId(repoId, page).map(contribution -> toContributorInRepoDTO(contribution));
+    public Page<ContributorInRepoDTO> getContributorByContributionInRepoSorted(int repoId, Pageable page) {
+        return contributionRepository.findByRepoIdOrderByCommitCntDesc(repoId, page)
+                .map(contribution -> toContributorInRepoDTO(contribution));
+    }
+
+    @Override
+    public Page<ContributorInRepoDTO> getContributorByContributionInRepoSorted(String repoName, Pageable page) {
+        int repoId = repoService.getRepoByName(repoName).get().getId();
+        return contributionRepository.findByRepoIdOrderByCommitCntDesc(repoId, page)
+                .map(contribution -> toContributorInRepoDTO(contribution));
     }
 }

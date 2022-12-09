@@ -2,12 +2,12 @@ package cs209.app.controller;
 
 import cs209.app.AppApplication;
 import cs209.app.dto.CommitDTO;
+import cs209.app.dto.ContributionDTO;
+import cs209.app.dto.ContributorInRepoDTO;
 import cs209.app.dto.IssueDTO;
 import cs209.app.model.Issue;
 import cs209.app.model.Repo;
-import cs209.app.service.CommitService;
-import cs209.app.service.IssueService;
-import cs209.app.service.RepoService;
+import cs209.app.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -20,56 +20,55 @@ import java.time.OffsetDateTime;
 import java.util.Optional;
 
 @RestController
+@RequestMapping("/repo")
 public class RepoController {
     @Autowired private RepoService repoService;
     @Autowired
     IssueService issueService;
     @Autowired
     CommitService commitService;
+    @Autowired
+    ContributionService contributionService;
+    @Autowired
+    ReleaseService releaseService;
 
-    @PostMapping("/repo")
-    public Repo addRepo(@RequestBody Repo repo) {
-        System.out.println(repo.getId() + " " + repo.getRepoName());
-        return repoService.addRepo(repo);
-    }
-
-    @GetMapping("/repo/{id}")
-    public Optional<Repo> getRepo(@PathVariable("id") int repoId) {
-        return repoService.getRepoById(repoId);
-    }
-
-    @GetMapping("/repo")
-    public Optional<Repo> getRepo(@RequestParam("repo_name") String repoName) {
+    @GetMapping("{repo_name}")
+    public Optional<Repo> getRepo(@PathVariable("repo_name") String repoName) {
         return repoService.getRepoByName(repoName);
     }
 
-    @GetMapping("/repo/{id}/issue")
-    public Page<IssueDTO> getIssueByRepoId(@PathVariable("id") int repoId,
+    @GetMapping("test/{repo_id}")
+    public Optional<Repo> getRepo(@PathVariable("repo_id") int repoId) {
+        return repoService.getRepoById(repoId);
+    }
+
+    @GetMapping("{repo_name}/issue")
+    public Page<IssueDTO> getIssueByRepo(@PathVariable("repo_name") String repoName,
                                            @RequestParam(value = "state", required = false) String state,
                                            @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum) {
         Pageable paging = PageRequest.of(pageNum, AppApplication.pageSize);
         if(state == null) {
-            Page<IssueDTO> issueDTOS = issueService.getIssueByRepoId(repoId, paging);
+            Page<IssueDTO> issueDTOS = issueService.getIssueByRepo(repoName, paging);
             OffsetDateTime timestamp = issueDTOS.getContent().get(0).closedTime();
             System.out.println(timestamp);
             return issueDTOS;
         }
-        else return issueService.getIssueByRepoIdWithState(repoId, state, paging);
+        else return issueService.getIssueByRepoWithState(repoName, state, paging);
     }
 
-    @GetMapping("/repo/{id}/commit")
-    public Page<CommitDTO> getCommitByRepoIdTimeInterval(@PathVariable("id") int repoId,
+    @GetMapping("{repo_name}/commit")
+    public Page<CommitDTO> getCommitByRepoTimeInterval(@PathVariable("repo_name") String repoName,
                                                          @RequestParam(value = "start", required = false) String startTimeStr,
                                                          @RequestParam(value = "end", required = false) String endTimeStr,
                                                          @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum,
                                                          @RequestParam(value = "weekday", required = false, defaultValue = "-1") int weekday) {
         Pageable paging = PageRequest.of(pageNum, AppApplication.pageSize);
         if(weekday >= 0) {
-            return commitService.getCommitByRepoIdWeekDay(repoId, weekday, paging);
+            return commitService.getCommitByRepoWeekDay(repoName, weekday, paging);
         }
         if(startTimeStr == null) {
             if(startTimeStr == null && endTimeStr == null) {
-                return commitService.getCommitByRepoId(repoId, paging);
+                return commitService.getCommitByRepo(repoName, paging);
             }
             return null;
         }
@@ -78,6 +77,25 @@ public class RepoController {
         }
         OffsetDateTime startTime = OffsetDateTime.parse(startTimeStr);
         OffsetDateTime endTime = OffsetDateTime.parse(endTimeStr);
-        return commitService.getCommitByRepoIdTimeInterval(repoId, startTime, endTime, paging);
+        return commitService.getCommitByRepoTimeInterval(repoName, startTime, endTime, paging);
+    }
+
+    @GetMapping("{repo_name}/contribution")
+    public Page<ContributionDTO> getContributionByRepo(@PathVariable("repo_name") String repoName,
+                                                       @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum) {
+        Pageable paging = PageRequest.of(pageNum, AppApplication.pageSize);
+        return contributionService.getContributionByRepo(repoName, paging);
+    }
+
+    @GetMapping("{repo_name}/contributors")
+    public Page<ContributorInRepoDTO> getTopContributorsByRepo(@PathVariable("repo_name") String repoName,
+                                                               @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum) {
+        Pageable paging = PageRequest.of(pageNum, AppApplication.pageSize);
+        return contributionService.getContributorByContributionInRepoSorted(repoName, paging);
+    }
+
+    @GetMapping("{repo_name}/average_commit_count")
+    public int getAverageCommitCntBetweenReleases(@PathVariable("repo_name") String repoName) {
+        return releaseService.getAverageCommitCntBetweenRelease(repoName);
     }
 }

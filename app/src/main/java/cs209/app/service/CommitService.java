@@ -11,22 +11,29 @@ import java.time.OffsetDateTime;
 
 
 public interface CommitService {
-    public Page<CommitDTO> getCommitByRepoId(int repoId, Pageable page);
-    public Page<CommitDTO> getCommitByRepoName(String repoName, Pageable page);
+    public Page<CommitDTO> getCommitByRepo(int repoId, Pageable page);
+    public Page<CommitDTO> getCommitByRepo(String repoName, Pageable page);
 
-    public Page<CommitDTO> getCommitByRepoIdTimeInterval
+    public Page<CommitDTO> getCommitByRepoTimeInterval
             (int repoId, OffsetDateTime start, OffsetDateTime end, Pageable page);
-    public Page<CommitDTO> getCommitByRepoNameTimeInterval
+    public Page<CommitDTO> getCommitByRepoTimeInterval
             (String repoName,OffsetDateTime start, OffsetDateTime end, Pageable page);
 
-    public Page<CommitDTO> getCommitByRepoNameWeekDay
-            (String repoName, int weekDay, Pageable page);
-    public Page<CommitDTO> getCommitByRepoIdWeekDay
+    public Page<CommitDTO> getCommitByRepoWeekDay
             (int repoId, int weekDay, Pageable page);
+    public Page<CommitDTO> getCommitByRepoWeekDay
+            (String repoName, int weekDay, Pageable page);
 
-    public Page<CommitDTO> getCommitByRepoIdAfterTime(int repoId, OffsetDateTime start,
+    public Page<CommitDTO> getCommitByRepoAfterTime(int repoId, OffsetDateTime start,
                                                         Pageable paging);
+    public Page<CommitDTO> getCommitByRepoAfterTime(String repoName, OffsetDateTime start,
+                                                      Pageable paging);
 
-    public Page<CommitDTO> getCommitByRepoIdBeforeTime(int repoId, OffsetDateTime end,
+    public Page<CommitDTO> getCommitByRepoBeforeTime(int repoId, OffsetDateTime end,
                                                          Pageable paging);
+    public Page<CommitDTO> getCommitByRepoBeforeTime(String repoName, OffsetDateTime end,
+                                                       Pageable paging);
+
+    public int getTotalContributorCountsByRepo(int repoId);
+    public int getTotalContributorCountsByRepo(String repoName);
 }

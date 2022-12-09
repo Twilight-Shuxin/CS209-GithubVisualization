@@ -9,4 +9,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ContributionRepository extends JpaRepository<Contribution, Integer> {
     Page<Contribution> findByRepoId(int repoId, Pageable paging);
+    Page<Contribution> findByRepoIdOrderByCommitCntDesc(int repoId, Pageable paging);
 }

@@ -17,20 +17,20 @@ public class Repo {
     String repoName;
 
     @OneToMany
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "repo_id")
     Set<Commit> commitSet;
 
     @OneToMany
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "repo_id")
     Set<Contribution> contributionSet;
 
     @OneToMany
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "repo_id")
     Set<Issue> issueSet;
 
     @JsonIgnore
     @OneToMany
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "repo_id")
     Set<Release> releaseSet;
 
     public int getId() {

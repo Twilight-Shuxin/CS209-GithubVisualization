@@ -10,20 +10,24 @@ import java.time.OffsetDateTime;
 import java.util.List;
 
 public interface ReleaseService {
+    public Page<ReleaseDTO> getByRepo(int repoId, Pageable paging);
+    public Page<ReleaseDTO> getByRepo(String repoName, Pageable paging);
+    public Page<ReleaseDTO> getByRepoTimeInterval(int repoId, OffsetDateTime start,
+                                                  OffsetDateTime end, Pageable paging);
+    public Page<ReleaseDTO> getByRepoTimeInterval(String repoName, OffsetDateTime start,
+                                                      OffsetDateTime end, Pageable paging);
 
-    public Page<ReleaseDTO> getByRepoName(String repoName, Pageable paging);
-    public Page<ReleaseDTO> getByRepoNameTimeInterval(String repoName, OffsetDateTime start,
-                                                 OffsetDateTime end, Pageable paging);
-
-    public Page<ReleaseDTO> getByRepoId(int repoId, Pageable paging);
-    public Page<ReleaseDTO> getByRepoIdTimeInterval(int repoId, OffsetDateTime start,
-                                                    OffsetDateTime end, Pageable paging);
-
-    public Page<ReleaseDTO> getReleaseByRepoIdAfterTime(int repoId, OffsetDateTime start,
+    public Page<ReleaseDTO> getReleaseByRepoAfterTime(int repoId, OffsetDateTime start,
                                                         Pageable paging);
-
-    public Page<ReleaseDTO> getReleaseByRepoIdBeforeTime(int repoId, OffsetDateTime end,
-                                                        Pageable paging);
+    public Page<ReleaseDTO> getReleaseByRepoAfterTime(String repoName, OffsetDateTime start,
+                                                      Pageable paging);
+    public Page<ReleaseDTO> getReleaseByRepoBeforeTime(int repoId, OffsetDateTime end,
+                                                       Pageable paging);
+    public Page<ReleaseDTO> getReleaseByRepoBeforeTime(String repoName, OffsetDateTime end,
+                                                       Pageable paging);
 
     public int getAverageCommitCntBetweenRelease(int repoId);
+
+    public int getAverageCommitCntBetweenRelease(String repoName);
+
 }
