@@ -8,6 +8,7 @@ import cs209.app.dto.IssueDTO;
 import cs209.app.model.Issue;
 import cs209.app.model.Repo;
 import cs209.app.service.*;
+import org.postgresql.util.PGInterval;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -94,8 +95,13 @@ public class RepoController {
         return contributionService.getContributorByContributionInRepoSorted(repoName, paging);
     }
 
-    @GetMapping("{repo_name}/average_commit_count")
+    @GetMapping("{repo_name}/avg_commit_count")
     public int getAverageCommitCntBetweenReleases(@PathVariable("repo_name") String repoName) {
         return releaseService.getAverageCommitCntBetweenRelease(repoName);
+    }
+
+    @GetMapping("{repo_name}/avg_resolve_time")
+    public PGInterval getAverageIssueResolveTime(@PathVariable("repo_name") String repoName) {
+        return issueService.getAverageIntervalByRepo(repoName);
     }
 }

@@ -4,7 +4,6 @@ import cs209.app.dto.*;
 import cs209.app.model.*;
 import org.springframework.core.convert.converter.Converter;
 
-
 public class DTOUtil {
     public static IssueDTO toIssueDTO(Issue issue) {
         return new IssueDTO(

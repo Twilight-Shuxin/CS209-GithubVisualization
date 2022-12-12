@@ -2,8 +2,10 @@ package cs209.app.service.impl;
 
 import cs209.app.dto.IssueDTO;
 import cs209.app.repository.IssueRepository;
+import cs209.app.repository.RepoRepository;
 import cs209.app.service.IssueService;
 import cs209.app.service.RepoService;
+import org.postgresql.util.PGInterval;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -18,6 +20,8 @@ public class IssueServiceImpl implements IssueService {
     IssueRepository issueRepository;
     @Autowired
     RepoService repoService;
+    @Autowired
+    private RepoRepository repoRepository;
 
 
     @Override
@@ -53,6 +57,16 @@ public class IssueServiceImpl implements IssueService {
     public Page<IssueDTO> getIssueByRepoTimeInterval(String repoName, OffsetDateTime start, OffsetDateTime end, Pageable page) {
         return issueRepository.findAllByRepoRepoNameAndCreateTimeGreaterThanEqualAndCreateTimeLessThanEqual(repoName, start, end, page)
                 .map(issue -> toIssueDTO(issue));
+    }
+
+    @Override
+    public PGInterval getAverageIntervalByRepo(String repoName) {
+        return issueRepository.getAverageIssueResolveTime(
+                repoService.getRepoByName(repoName).get().getId());
+    }
+
+    public PGInterval getAverageIntervalByRepo(int repoID) {
+        return issueRepository.getAverageIssueResolveTime(repoID);
     }
 
 }
