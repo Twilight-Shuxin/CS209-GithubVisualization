@@ -1,0 +1,838 @@
+Migrating changes from our branch to openPDF Part I
+Bump checkstyle from 10.3.4 to 10.4
+The X-axis chart of the DST is not displayed.
+Bump mockito-core from 4.8.0 to 4.8.1
+Migrating changes from our branch to openPDF Part I
+Bump pitest-junit5-plugin from 1.0.0 to 1.1.0
+Bump checkstyle from 10.3.3 to 10.3.4
+Bump junit.version from 5.9.0 to 5.9.1
+Bump maven-jar-plugin from 3.2.2 to 3.3.0
+#781 - Fix wrong deletion of chunks in HeaderFooter
+Bump maven-jxr-plugin from 3.2.0 to 3.3.0
+Bump maven-checkstyle-plugin from 3.1.2 to 3.2.0
+Bump bouncycastle.version from 1.71 to 1.71.1
+Bump mockito-core from 4.6.1 to 4.8.0
+fix slow or OutOfMemory in SmartCopy with some pdfs
+Simplify merging pdfs from java
+add method to extract ownerPasswordUsed value
+Implemented password based AES256 (ISO 32000-2) support, see issue #375
+fix style issues
+Ensure deterministic behavior on protected PDF signature
+Help! How to find the keyword textPosition?
+Bump checkstyle from 10.3.1 to 10.3.3
+Bump maven-javadoc-plugin from 3.4.0 to 3.4.1
+Bump mockito-core from 4.6.1 to 4.7.0
+Bump maven-bundle-plugin from 5.1.6 to 5.1.8
+Bump checkstyle from 10.3.1 to 10.3.2
+Bump junit.version from 5.8.2 to 5.9.0
+Support for embedded images in HTMLWorker
+Bump maven-bundle-plugin from 5.1.6 to 5.1.7
+Header and Footer phrase is no longer being rendered
+RTL support for List Items -  adding run direction at List Item level
+Bump checkstyle from 10.3 to 10.3.1
+Bump actions/checkout from 2 to 3
+Update pitest-junit5-plugin from 0.16 to 1.0.0
+Bump pitest-junit5-plugin from 0.16 to 1.0.0
+Bump pitest-junit5-plugin from 0.15 to 0.16
+Bump mockito-core from 4.6.0 to 4.6.1
+Bump jakarta.servlet-api from 5.0.0 to 6.0.0
+Correct license in all jars
+Update PdfPRow.java
+Bump assertj-core from 3.23.0 to 3.23.1
+Bump assertj-core from 3.22.0 to 3.23.0
+Bump mockito-core from 4.5.1 to 4.6.0
+Bump checkstyle from 10.2 to 10.3
+Issue619: add support for rowspan
+Issue747: fix wrong layout of generating a table with alignment setting
+Fix bug in setBottom method with alignment setting
+wrong layout of table with setVerticalAlignment as bottom
+fix the issue 744: Use PdfStamper.getPdfLayers() causes java.lang.NullPointerException
+Use PdfStamper.getPdfLayers() causes java.lang.NullPointerException.
+Improve monospaced font mapping on Windows and Linux
+fix the merge pdf version #737
+Add multiple PDFs and merge them into one PDF
+Add pagination + informations at the end of the page
+Add pagination + informations at the end of the page
+Fix bug about ColumnText
+Bump maven-bundle-plugin from 5.1.5 to 5.1.6
+fix dictionary casting for issue #729
+Cast error class com.lowagie.text.pdf.PRIndirectReference cannot be cast to class com.lowagie.text.pdf.PdfDictionary
+Fix for issue #727: Use PdfStamper.getPdfLayers() causes java.lang.NullPointerException
+NullpointerException on this.OCGRadioGroup
+Update Bouncy Castle dependency to version 1.71.  
+Add linebreak after Content Stream
+Bump maven-bundle-plugin from 5.1.4 to 5.1.5
+Issue 720: Fixed Null Pointer Exception
+NullPointerException when opening PDF
+Fix #718
+ArrayIndexOutOfBoundsException when opening PDF file with invalid indirect reference
+Bump checkstyle from 10.1 to 10.2
+fix the issue #620: Paragraph leading ist ignored, when keepTogether is set
+Fix bug about SAXiTextHandler
+Bump mockito-core from 4.4.0 to 4.5.1
+Bump nexus-staging-maven-plugin from 1.6.12 to 1.6.13
+fix nonsupport of rowspan
+Bump maven-javadoc-plugin from 3.3.2 to 3.4.0
+Adding Paragraphs with different run directions to same ColumnText ob…
+Bump mockito-core from 4.4.0 to 4.5.0
+Document 3rd party lib dep for getTiffImage
+HtmlParser: maybe there should be a new line between title and body
+Set permissions for GitHub actions
+parsing of cross reference streams with multiple revisions
+Bump icu4j from 70.1 to 71.1
+Update Bouncy castle version
+fix bug: Image in footer has wrong y value
+solve the bug #687: Image in Paragraph has unexpected behavior
+Bump maven-clean-plugin from 3.1.0 to 3.2.0
+Included GitHub Actions for debpendabot
+Split row with rowspan > 1 evenly
+How to split a row whose rowspan > 1 evenly
+Adding Paragraphs with different run directions to same ColumnText object
+Does the recent spring vulnerability affect openPDF?
+Bump checkstyle from 10.0 to 10.1
+Image in Paragraph has unexpected behavior
+Bump maven-jxr-plugin from 3.1.1 to 3.2.0
+Bump maven-compiler-plugin from 3.10.0 to 3.10.1
+Bump mockito-core from 4.3.1 to 4.4.0
+Add ECDSA support to PdfPKCS7
+Add support for PDF/UA (PDF/Universal Accessibility)
+Add example for ColumnText to create text with drop cap
+Bump checkstyle from 9.3 to 10.0
+Improve documentation for setting header/footer
+RTL support 
+Fix issue #668
+Digital Signature invalidated after encrypt a pdf by PdfStamper#setEncryption(...)
+Correct run direction for RTL fields
+Bump nexus-staging-maven-plugin from 1.6.11 to 1.6.12
+Header and Footer definition is ignored
+class com.lowagie.text.pdf.PdfDictionary cannot be cast to class com.lowagie.text.pdf.PRIndirectReference
+Bump nexus-staging-maven-plugin from 1.6.8 to 1.6.11
+Bump maven-compiler-plugin from 3.9.0 to 3.10.0
+New release of OpenPDF?
+Remove dependency on javax.annotation
+Bump maven-javadoc-plugin from 3.3.1 to 3.3.2
+Bump nexus-staging-maven-plugin from 1.6.8 to 1.6.10
+Bump mockito-core from 4.2.0 to 4.3.1
+Bump checkstyle from 9.2.1 to 9.3
+support AES-256 encryption
+toolbox: fix compile warning in JFreeChartExample
+update FOP dependency to 2.7
+Allow local builds without signing
+Bump maven-jar-plugin from 3.2.0 to 3.2.2
+Bump maven-compiler-plugin from 3.8.1 to 3.9.0
+Balancing market content operators when using without properties
+Bump maven-jar-plugin from 3.2.0 to 3.2.1
+Bump maven-bundle-plugin from 5.1.3 to 5.1.4
+Bump assertj-core from 3.21.0 to 3.22.0
+Encoding for cross reference table wrong
+Bump checkstyle from 9.2 to 9.2.1
+PDF digital signature validation - Exception SHA1with1.2.840.10045.4.1 Signature not available
+openpdf:1.3.26 is flagged as vulnerable to CVE-2021-43113 due to com.lowagie.itext package
+Prevent ClassCastExceptions for PdfNull object during signing PDF docs
+Bump mockito-core from 4.1.0 to 4.2.0
+Radio Button is not filled correctly
+Bump maven-bundle-plugin from 5.1.2 to 5.1.3
+#589
+wirting a single table in the ColumnText in simulation mode is not taken in consideration and skiped
+Adding Constructor Code for Footer in Table 
+Wrong License in maven.org distributed file
+Issue 629 fix: Throw exception if an xref PREV points to the startxref
+Infinite loop in xref table causes OOM
+Bump bouncycastle.version from 1.69 to 1.70
+Issue 623 : Make BaseFont subset prefix generation deterministic
+Bump junit.version from 5.8.1 to 5.8.2
+Bump checkstyle from 9.1 to 9.2
+Make BaseFont subset prefix generation deterministic
+Bump mockito-core from 4.0.0 to 4.1.0
+starting new pull request for bolding italics and diff font for words
+Paragraph leading ist ignored, when keepTogether is set
+rowspan-attribute gets ignored when converting from html to (pdf-)document
+Bump checkstyle from 9.0.1 to 9.1
+Replace getBytes with getISOBytes
+Font Nirmala not supported?
+Remove ITXT from PdfName
+Shrink an existing PDF document
+Remove ITXT or replace it with a new Name
+Incorrect license in pom.xml
+Bump mockito-core from 3.12.4 to 4.0.0
+Add reference to LayoutProcessor to README
+Extend HeaderFooter functionality to create without before Phrase part
+Bump checkstyle from 9.0 to 9.0.1
+Bump junit.version from 5.8.0 to 5.8.1
+Bump assertj-core from 3.20.2 to 3.21.0
+Error in parsing of cross reference streams with multiple revisions
+Bump pitest-junit5-plugin from 0.14 to 0.15
+Bump junit.version from 5.7.2 to 5.8.0
+Fix NPE in PdfSmartCopy for some maybe corrupted files
+Bump maven-javadoc-plugin from 3.3.0 to 3.3.1
+Bump checkstyle from 8.45.1 to 9.0
+Bump mockito-core from 3.12.3 to 3.12.4
+Bump mockito-core from 3.12.1 to 3.12.3
+Bump mockito-core from 3.12.0 to 3.12.1
+Bump mockito-core from 3.11.2 to 3.12.0
+make use of compositeFontDrawer configurable
+Set Font in PdfGraphics2D not working / PdfGraphics2D manipulates set Font (not expected)
+Bump checkstyle from 8.44 to 8.45.1
+Update README.md
+Add motivations to add FOP
+Bump checkstyle from 8.44 to 8.45
+Fix NPE in SimpleBookmark when title element is missing
+PDFWriter uses wrong file.encoding to write XREF
+NullPointerException in SimpleBookmark.getBookmark()
+Add example for ColumnText to place text boxes at absolute positions
+Bookmark examples
+Update GitHub Pages to refer to GitHub repository
+Bump commons-io from 2.10.0 to 2.11.0
+License query
+Adding bookmarks for lists and list items
+Bolding/Italics/different font for words, in middle of Column Text
+Bump checkstyle from 8.43 to 8.44
+Bump mockito-core from 3.11.1 to 3.11.2
+When add a Table by ColumnText, the ColumnText doesn't  reconize there is no space in the document
+Bump assertj-core from 3.20.1 to 3.20.2
+Bump assertj-core from 3.19.0 to 3.20.1
+Bump assertj-core from 3.19.0 to 3.20.0
+fix possible ArrayIndexOutOfBoundsException
+Bump mockito-core from 3.11.0 to 3.11.1
+Bump commons-io from 2.9.0 to 2.10.0
+VirusTotal flags the 1.3.26 Source Code.
+Bump bouncycastle.version from 1.68 to 1.69
+Bump mockito-core from 3.10.0 to 3.11.0
+HTTP Proxy in OCSP and TSA clients and other config for TSA
+Manually positioning text on the pdf
+Bump checkstyle from 8.42 to 8.43
+Bump commons-io from 2.8.0 to 2.9.0
+I am trying to migrate a project from itext to openPdf
+Bump maven-javadoc-plugin from 3.2.0 to 3.3.0
+Fix LibrePDF/OpenPDF5#7: LineSeparator prints out OBJECT_REPLACEMENT_CHARACTER
+fix and improve 526
+feat: keeptogether on a ListItem
+fix: issue #300: codewords padding for Macro PDF417 barcodes
+Implement KeepTogether on ListItem
+fix and improve 526
+Bump junit.version from 5.7.1 to 5.7.2
+Resolve #513: For attachments if file name is not PdfDocEncoding then…
+more change about issue:534
+fix issue: 534
+Bump mockito-core from 3.9.0 to 3.10.0
+Bug fix: 536
+setSkipFirstHeader not working
+Bump maven-gpg-plugin from 1.6 to 3.0.1
+Justified Text not supporting RTL
+Bug Fix 512: Fix wrong OSGI header for javax.annotation package
+document.add(paragraph) does not add paragraph object to document
+Bump checkstyle from 8.41.1 to 8.42
+Bug fix 529: error /toUnicode
+error with PDFTextExtractor
+Fix #408: Add a lock for protecting fontFamilies from race condition
+Support Text Extract for symbol font and ZapfDingbats font
+Fix #392: FontSelector.process should NOT skip characters
+Fix: An improper assertion of TabTest
+fix: PdfPTable missing line using setSplitLate
+Fix #399: KeepTogether in paragraph broken with more than one chunk and different font
+Bump maven-jxr-plugin from 3.0.0 to 3.1.1
+Bug fix 330: Text extract
+[Bug-fix] IndexOutOfBoundsException is thrown while getting Metadata of huge files
+fix issue 454
+fix issue 517
+The size pdf always be bigger than iText5
+fix 500 issues
+fix issue 500
+Help wanted: How to attach file with unicode name
+Wrong OSGI import for javax.annotation
+Make drawing circles more accurate by changing the bezier constant
+Bump mockito-core from 3.8.0 to 3.9.0
+Bump checkstyle from 8.41 to 8.41.1
+Bump maven-bundle-plugin from 5.1.1 to 5.1.2
+Bump pitest-junit5-plugin from 0.12 to 0.14
+Replacing signing maven plugin to avoid using external gpg
+Fixing issue with searching startxref with trash at the end of the file
+Fix #502: Changed constructor for PdfDocument
+Font Color on PdfPCell increases the PDF file size more than 2x times
+NPE when exporting JasperPrint to PDF/A document
+Wiki page for Correct positioning of accents, DIN SPEC 91379, non-latin scripts
+NullPointerException using PdfCopyFields (broken since v1.1.0)
+Bump checkstyle from 8.40 to 8.41
+Tamil Font Display
+Bump mockito-core from 3.7.7 to 3.8.0
+Bump jfreechart from 1.5.2 to 1.5.3
+mockito 3.7.7
+Bump junit.version from 5.7.0 to 5.7.1
+Fix #318 Small unit test checking that a single paragraph should crea…
+Fix #405: Bold+Underline is bolder than expected
+Replace iText With openPDF in Gradle Project
+Test checkstyle
+Bump maven-checkstyle-plugin from 3.1.1 to 3.1.2
+Bump checkstyle from 8.39 to 8.40
+For Android support Java 8 
+Bump assertj-core from 3.18.1 to 3.19.0
+Check if the annotation belongs to a valid page
+Bump fop from 2.5 to 2.6
+Bump mockito-core from 3.7.0 to 3.7.7
+Checktyle rules
+Check if the returned ANNOTS object is not PdfNull
+Bump mockito-core from 3.6.28 to 3.7.0
+Bump jfreechart from 1.5.1 to 1.5.2
+Bump commons-io from 2.6 to 2.8.0
+How to add Chunk with chinese
+Documenting correct version of bouncycastle
+Bump bcprov-jdk15on from 1.67 to 1.68
+Bump bcpkix-jdk15on from 1.67 to 1.68
+documentation - Provide clear explanation of correct version of Bouncy Castle to be used.
+Remove or clear added icon images from PDF file
+Missing text from pdf file when calling PDFReader getPageContent
+License cleanups (review)
+Migrate from travis-ci.org to GitHub actions.
+Bump spotbugs from 4.1.4 to 4.2.0
+Discussion: detatch OpenPdf from the fork network
+Bump mockito-core from 3.6.0 to 3.6.28
+Bump imageio-tiff from 3.6 to 3.6.1
+Fix issue #450
+Glyph layout - See Issue #442
+Tab character is not visible in the PDF generated as glyph substitution not working
+Bump assertj-core from 3.18.0 to 3.18.1
+Fix #450 : avoid creating new graphic state for stroke colors, if not needed
+Fix #450 : avoid creating new graphic state if not needed
+Huge increase in PDF filesize since 1.3.12
+Bump bcprov-jdk15on from 1.66 to 1.67
+Bump bcpkix-jdk15on from 1.66 to 1.67
+Fix module-info.java for jfreechart update from 1.5.0 to 1.5.1 in
+Fix module-info.java for jfreechart update from 1.5.0 to 1.5.1 in pdftoolbox (#444)
+avoid NPE in StandardDecryption#finish
+Bump jfreechart from 1.5.0 to 1.5.1
+NullPointerException on decrypting an empty stream
+Accented Letters composed of Unicode base letter and combining accent are rendered incorrectly. 
+No added space to extracted text
+Update module-info.java
+since 1.3.22 setColor(java.awt.Color.SOMECOLOR) does not work anymore in jpms program
+Bump mockito-core from 3.5.15 to 3.6.0
+Bump assertj-core from 3.17.2 to 3.18.0
+Bump mockito-core from 3.5.13 to 3.5.15
+Create pull_request_template.md
+Update issue templates
+Create CODE_OF_CONDUCT.md
+Add a Gitter chat badge to README.md
+Fix Javadoc errors and warnings
+Bump spotbugs from 4.1.3 to 4.1.4
+Bump jakarta.servlet-api from 5.0.0-M2 to 5.0.0
+Maven cleanups
+Use jakarta-EE instead of javax (only for tests)
+Fix all errors and some warnings in the Javadoc comments.
+Restore contributors layout
+Image is not rendered correctly with HtmlParser
+Bump pitest-junit5-plugin from 0.7 to 0.12
+Bump maven-surefire-plugin from 2.22.1 to 2.22.2
+Bump mockito-core from 2.25.1 to 3.5.13
+Bump maven-checkstyle-plugin from 3.0.0 to 3.1.1
+Bump assertj-core from 3.12.2 to 3.17.2
+Bump imageio-tiff from 3.5 to 3.6
+Bump pitmp-maven-plugin from 1.3.6 to 1.3.7
+Fix #413: Update dependencies & enable dependabot
+Align README.md license to actual content of License.md
+Build fails on JDK 15 due to maven bundle plugin error
+Fixes #411 - Release 1.3.21 (on Maven Central) is broken on Java 8
+1.3.21 (on Maven Central) is broken on Java 8
+Travis CI build only with 3 jdks
+Some Cleanups
+ConcurrentModificationException in FontFactory
+added module-info to newly created module openpdf-fonts-extra
+Bold+Underline is bolder than expected
+1.3.21 release
+Recover newline between contributors
+Clean room implementation of `detectCharsetFromBOM`
+Remove duplicate contributor.
+Remove dependency to juniversalchardet or make it an optional dependency
+KeepTogether in paragraph broken with more than one chunk and different font
+New module with UTF-8 Fonts added
+How to add Chunk with chinese?
+which LGPL?
+Fixes #344 - jlink complains about openpdf being an automatic module
+java.util.regex.PatternSyntaxException on android
+how to compress images from camera and gallery ,PDF size by adding one picture is more than 1mb 
+FontSelector.Process should NOT skip characters
+license issue
+ivs font writing support
+Support IVS font display, irregular ideographic font display.
+ivs font support
+ivs font cannot be displayed
+Test for issue #383
+Nordic letters "ÅÄÖ" are removed when settings field to text
+Fix encoding of ByteBuffer.append(long) > 16777216
+Big signatures broken since 1.2.18
+Cleanup WebColors API (open for discussion, breaking change)
+Support CSS4 colors in WebColors
+Fix WebColors transparency
+Create chunks on the fly if an image resides in two nested span-elements
+Parsing img-Tag in two nested span-Tags leads to EmptyStackException
+"Unknown encryption type R = 6"  support AES256
+Fix PDF/A Conformance
+Table in footer get wrong y value
+(Question) Migrate to Gradle
+java.lang.Class<com.lowagie.text.pdf.PdfPrinterGraphics2D>: java.lang.NoClassDefFoundError: Failed resolution of: Ljava/awt/print/PrinterGraphics
+NPE in PdfContentByte ... table cannot be drawn when exceeding space and uses background color ... now with test
+openpdf-xml 1.2/1.3 pull in slf4j-api 1.8beta breaking logging functionality
+Issue-367: improve javadoc, remove errors and warning, provide links …
+Improve JavaDoc!
+Issue-365: correct javadoc tag (use '</code>' instead of '</cide>')
+Minor spelling issue found in javadocs (</CIDE> -> </CODE> i.e. in-balance HTML tag)
+Size of the created pdf files
+PdfAnnotation font
+Resolve fonts for FOP which loaded externally and passed as byte array to BaseFont.createFont 
+Hey ! Im Newbie , 
+Avoid NPE in AcroFields related to PdfAppearance
+AcroFields.setFieldProperty with NullPointerException start from v1.3.12
+Re-use the already set document language in new PdfWriter instances.
+Anchor with a URL containing a fragment doesn't work
+How to number pages in the footer (with total page number)
+Fix NPE when adding illegal child to nameless PdfLayer
+Improve error reporting when processing bookmark destination
+Fixed issues introduced with Apache FOP:
+Missing embedded HTML Support with using openPDF with JBoss-Seam-PDF
+How to remove dot after chapter/section number?
+fixed bug concerning simulated bold fonts and lineWidth
+With glyph substitution question mark is coming in PDF
+How to make title page with different header/footer?
+PdfPTable is sometime missing a line when using setSplitLate
+jlink complains about openpdf being an automatic module
+Convert dangerous PDFs to a safe PDF using OpenPDF
+2 x IntelliJ Licenses for active Contributors
+Glyph mapping exists in fonts
+Trying to add fillColor operation with PdfSpotColor, but references to GraphicState and ColorState don't exists in final PDF
+OpenPDF 3x file size than itext 2.1.7
+Iterate through the elements of a PDF's page and change font color.
+Set specific page size and DPI.
+What happened to module 'pdf-rtf' ?
+Making code backwards compatible
+Bugfix illegal reflective access operation
+Illegal reflective access warning at Java 13
+Extracting text from PDF with embedded Identity-H font fails
+Adding advanced typography capability #297
+OpenPDF jar version with XXE vulnerability fix
+Producer program + version number metadata is not populated in PDF's
+Update BouncyCastle dependency to 1.64
+Crash on document.add(image) on android
+Fixes issue #322 (Subclasses of List render "bulletpoint"-characters properly again)
+Subclasses of List no longer render "bulletpoint"-characters properly
+Issue-320: Use TSAClient algorithm to digest timestamp, instead of ha…
+OpenPDF uses hardcoded digest algorithm SHA-1 for timestamp imprint. Doesn't support any other algorithm (e.g. SHA-256)
+Document.close() always add a new page if PdfWriter is used.
+Bugfix Bold fonts not working for Calibri #312
+Problem with displaying strings with composite fonts 
+Problem with simulating bold font by drawing text
+StackOverflowError by calling PdfGraphics2D.translate(int,int) 
+Bold fonts not working for Calibri 
+Help to get the value of Item Object
+GPL License header in PdfCrossReferenceTest
+Bugfix supporting open type fonts containing cff data
+Bugfix displaying strings with composite fonts
+Bugfix displaying bold composite font
+Bugfix stack overflow in pdf graphics2 d translate method(since f73467c)
+Table with .setTableFitsPage(true) and border fills rest of page with empty bordered table
+Inconsistent output result fix
+Validation error is caused by the use of item /ITXT inside PDF file
+PNG type TYPE_BYTE_BINARY incorrectly printed.
+PNG type TYPE_BYTE_BINARY incorrectly printed
+codewords padding for Macro PDF417-macro barcodes 
+Please help on how to parse
+feat(watermark): customizing watermark font
+Multilingual fonts not supported properly as typography rules not implemented.
+Visible signature loses its state
+Another infinite loop fix
+Update Bouncycastle to 1.64 
+How to add watermarker use chinese?
+Infinite loop fix
+ScaleToFit but don't increase size
+Parse HTML List
+Parsing nested lists with HTMLWorker
+Reduce delta between master and java7
+Asturio/merge master into java7
+Work In Progress : Feat/move examples to project
+Java7: pull from master, update branch
+fix PdfPCell background color ignoring alpha channel of an rgba
+Refactor PdfBoolean class instantiation
+fix(build): removed unused import
+Fix some potential NullPointerExceptions
+Fix LGTM Errors
+JAR size has increased due to included fonts
+PdfPCell background color ignoring alpha channel of an rgba
+New tests and example code
+Hacktoberfest
+Fixes #271 - Make nested table visible when keepTogether is set for paragraph
+PdfPTable not visible in Paragraph if keepTogether is set to true
+Fixes PageNumbersWatermark example
+Using this library for a commercial use?
+Fix document version at build time
+WIP : Generate version number at build time
+Fixes #264 - Change font without styles from Tahoma to non-existing-font
+Fixed issue 264
+Test failures on systems where Tahoma-bold font is available
+Test failures with Bouncy Castle 1.63 in ExtractCertificatesTest
+Fix style of already styled fonts
+Incorrect information about the library
+Fix issue #258
+Incorrect bottom height calculation in table cell
+Fix Lgtm Warnings 01
+Fixes Producer metadata manipulation in Stamper
+Fix LGTM Errors
+Producer value gets scambled
+Issue with createStamp annotation on Adobe Acrobat Reader DC
+Fix #250 - Remove Closable And AutoClosable From PdfWriter
+Custom rendering of paragraph
+add close call to nested document
+Convert PDF to image
+Fix #211 null pointer on auto closing document
+Fix #211 : remove unneeded call to close() on PDFFile when closing PdfWriter
+Backport metadata enhacements to java7 branch
+Clean metadata: doesn't export Producer in XMP if explicitly removed
+JasperReports - Export PDF - Bold fonts are too thick
+Use ForEach instead of Iterator
+PageNumbersWatermark is broken
+Fix #240 - Sample Arabic Text test broken
+Sample Arabic text, test is broken 
+Internationalization support ( Cyrillic, Chinese....)
+Use Try With Resources
+Feat : clean Javadoc Warnings
+Generate new XMP metadata if cleanMetadata is called.
+Fix Warnings
+Refactorings: Generics, Interfaces, Cleanups
+:bug: Fix bug #231 : Text is not rendered with specific font
+Fixin bug #231
+Text is not rendered with specific font
+Doesn't clean metadata by default in Stamper.
+Compilation error: The default package '.' is not permitted by the Import-Package syntax.
+Remove warnings 11
+Remove warnings 10
+Remove warnings 9
+Remove warnings 8
+Remove warnings 7
+Remove warnings 6
+#216: Fix binary transparency bug
+Bugfixes by drawing text in PdfGraphics2D
+Fix bug concerning stroke colors when simulating bold fonts.
+Remove warnings 5
+Merge pull request #2 from LibrePDF/master
+Image transparency loaded incorrectly - Image's black color "burns out"
+Should metadata be cleaned or maintained by default in pdfstamper?
+Clean metadata patch only hide metadata instead of removing
+Fix NullPointerException for OTF Fonts
+Bugfix for issue #211.
+Allow to create indirect references from other projects
+Exception writing font to PDF file
+Backwards compatible
+Bugfix check font size before drawing string
+Bugfix check font size before drawing string
+Remove Warnings
+OpenPDF template engine
+Warnings compiling OpenPDF
+Fix warnings
+Fix Warnings
+Fix warnings
+Fix using Document in try-with-resources
+Try-with-resources not working properly
+Unbalanced save/restore state operators (in example PageNumbersWatermark)
+BUG PdfGraphics2D: fixed simulating of italic font also for the plain bold fonts.
+Added UTF-8 Fonts
+Modernization and fixing Warnings compiling OpenPDF
+Remove unused imports
+Fix reading from signed pdfs with SHA-512 hash
+moved from inexistent com.lowagie.html to com.lowagie.text.html
+Fix writing of large (>2GB) pdfs
+Java 7
+Merge pdf-html and pdf-xml into the openpdf module. #185
+Help people with OpenPDF on Stackoverflow
+Module / Split Package Issue with pdf-xml
+Automatic-Module Names broken for certain JARs
+Add support for very large PDF files
+Allow overriding File ID
+Generate clean metadata by default when creating (and stamping) documents
+More null-check annotations, minor code cleanup
+Reverting incompatible changes with new typed methods
+fix NPE in PdfWriter#getNewObjectNumber
+Avoiding star imports
+Added pitest plugin configuration for multimodule project
+Code reformat and checkstyle
+NullPointerException when using otf font type non CID
+Make RandomAccessFileOrArray to search in all registered fonts
+Migrating raw types to generics, fixed couple of deprecated calls
+Make RandomAccessFileOrArray to search in all registered directories
+com.lowagie.text.pdf.ExtendedColo Class not found issue 
+Refactorings and cleanup
+Make Document and PdfWriter compatible with try-with-resources
+issue occurs randomly: The page 2 was requested but the document has only 1 pages
+static analysis fixes.
+update versions of dependencies
+Bugfix/fix verfiy signature
+acroFields.verifySignature throws ClassCastException
+Bugfix/signature covers whole doc
+signature wrapping attack
+fixed problems to launch jUnit5 tests
+Fb 001 java8 generics
+Build issue on OpenJDK 12
+Update HelloWorldServlet.java
+Question/FR: Extract thumbnail
+remove fork status
+examples reference itextdocs.lowagie.com
+How to edit text on a page
+Help other project upgrade from iText 2.x to OpenPDF
+Run IndelliJ IDEA code cleanup on whole codebase.
+Handling for multiple Catalog pdfs v2
+Add generics to a few raw collections
+Add generics to a few raw collections
+Convert some main methods to testing methods
+OpenJDK 11 and 12 build error
+Fix an issue with null URLs in Image.getInstance calls
+Handling for multiple Catalog pdfs
+Since  1.2.0 loading Image with path/URL is not working
+Slight refactoring of cross-reference table entries
+Fix Maven range.
+Logic behind the method AcroFields.getBlankSignatureNames()
+test: migrate to JUnit 5
+fix: preserving font style property value
+refactor: constraining alignment settings
+upgrade juniversalchardet to version 2.3.0
+Restoring Bidi functionality without relying on BidiOrder class.
+BidiLine - Handling of indexChars when runDirection is LTR (or RTL)
+Duplicate files in deployed Jar
+Make com.twelvemonkeys.imageio imageio-tiff an optional maven dependency
+PdfTextExtractor.getTextFromPage seems to add spaces between words
+upgrade Maven plugins
+Travis build matrix: oraclejdk11 -> openjdk11
+Make TwelveMonkeys imageio-tiff optional maven dependency
+Replace Commons Text with custom escapeXml
+Reduce dependencies
+get the coordinates of the text in PDF
+Could not compile from Ant
+How to create a PDF/A for long term archiving?
+Update to Junit 5
+Java Modules support
+Wrong font style when concatenating Phrases
+Font style gets ignored when instantiating a new font
+Require JDK 8
+Fix Illegal reflective access warning in Java 10
+Incorrect table splitting when rowspan > 1 and the cell contains a nested table
+Hyphenation does not not work with 1.2.x
+Illegal reflective access operation warning in Java 10
+Question about potentially unsafe code
+Allow changing the producer value.
+Order of objects in generated PDF file is not always consistent
+Add unit test to stabilize visible signature
+can i use this library for commercial? (lib included in my project)
+Allows to set the modificationDate (issue #86)
+ Add includeFileID and overrideFileId properties to PdfStampler. 
+Nested tables
+Update to Commons-Imaging 1.0 release
+Unable to add Group3/Group4 TIFFs into Version 1.2.0
+Code cleanup (Add library dependencies, remove old custom code)
+misc_licenses.txt
+SHA-1 is unsafe / deprecated
+Changed DocumentException to be unchecked (RuntimeException). 
+DocumentException should be unchecked 
+add modificationAllowedWithoutOwnerPassword flag
+Possibility to customize "producer"-Flag in PDF-Metadata
+Recent changes to PdfArray broke the Kids field
+Fix: always create Pdf with empty pages and support of certification chain in signature 
+Add Closeable to PdfReader, to allow try-with-resources.
+Limited update related to issue#77
+New text extraction option for plain text, and misc fixes
+New behaviour of how text is extracted from a page
+Add a deprecated method ot keep binary compatibility with itext-4.2.0
+Image.getInstance: mono PNG with color ICC profile displays wrong
+Broken retro-compatibility
+fix to make the decoder work better with highly corrupted TIFFs
+NullPointerException due to missing trailer (on bad startxref?)
+Bouncycastle is now optional.
+Watermarker enhancement
+56 html parser fix
+Bouncy Castle is not optional
+Extract text from forms
+Add PDF 2.0 support
+Update to Bouncy Castle 1.59 
+Manual is missing
+This does not work when my PDF starts with "%PDF-1.4". "%PDF-" should be checked
+Unable to parse HTML table with whitespace inside it
+Modifications made by TIBCO Software for JasperReports >= 6.2
+Allow to read from stdin.
+Fix for CVE-2017-9096 iText XML External Entity Vulnerability
+Read version from MANIFEST
+PDF Metadata producer is always "OpenPDF 1.0.0-SNAPSHOT"
+docs?
+Fix: Floating point format was incorrect for extracted text
+Bug/#50 test dependency scope
+Assertj dependency should have test scope
+Add OpenJDK7 as test.
+Generified some collections where easily applicable.
+Make Travis use JDK 7.
+Add a Gitter chat badge to README.md
+Compilation error on Java 7
+Updated bouncycastle to 1.58
+Update to Bouncy Castle version 1.58
+Test unicode
+Fix for loading of TIFF with transparency.
+Fix/deprecation
+Fix/pom corrected
+POM dependency is incorrect
+Provide CSS resolver
+Language glyphs and diacritics
+OpenPDF makes no distinctions between reading password vs editing password
+Error while retrieving text from pdf with an empty page
+Unicode Characters
+Some fixes and improvements
+Release of OpenPDF 1.0.2
+Change package name to com.github.librepdf
+Fix: CheckType of RadioCheckField was not respected
+Handle ACROFORM that is PdfNull
+How to use openPDF in vbscript and C#
+fix issue https://github.com/LibrePDF/OpenPDF/issues/24
+Nullpointer on Font create
+Limited functionality under Google App Engine
+Removed duplicate class.
+Duplicate entry
+Bouncy Castle maven dependency moved
+Issue closed: LGPL license
+PdfGraphics2D.java: Add missing public keyword on constructor
+I made a quick logo, is it okay?
+Updated OSGi mappings to include version number
+Added configuration for the Maven release plugin
+Added OSGi mappings for all projects
+Change Maven groupId to com.github.librepdf
+Setup Travis CI automatic tests
+Issue-9 Added a fix for line-height being a number
+Improper handling of line-height by HTML to PDF parser
+Updated Maven version to 1.0.1-SNAPSHOT
+Develop version - SNAPSHOT?
+Added c9.io developer mini guide to README.md
+FontAwesome icons bundled in openpdf
+Update README
+Update pom.xml and create a new Maven Release to reflect organizational ownership.
+Correct the license
+change group ID in pom.xml
+The content of the innermost element of multiple nested elements is missing
+Use of mutation testing in OpenPDF - Help needed
+Bump checkstyle from 10.3.4 to 10.5.0
+Migrating changes from our branch to openPDF Part I
+[SECURITY] Fix Temporary File Information Disclosure Vulnerability
+
+Bump mockito-core from 4.8.0 to 4.9.0
+Bump fop from 2.7 to 2.8
+Fixing umlauts in form fields
+Umlauts doesn't displayed in form fields
+#837 Modified PdfPTable add cell method to return cell
+Update javadoc on document class
+Progressive PDF: how to indicate progress within generation of a large document
+In PDF we can see additional top space in a cell containing text 
+Bump icu4j from 71.1 to 72.1
+com.lowagie.text.pdf.PdfPTable.addCell(....) should return the generated cell
+Throw InvalidPdfException in PdfReader.rebuildXref if no trailer is found
+getTextFromPage extracts text in wrong order
+Merging pdfs doesn't merge the acro form fields
+AutoCloseable interface for classes that already implement it
+Bump bouncycastle.version from 1.71.1 to 1.72
+Merging two PDF/A files using PdfCopy does not generate PDF/A compliant resultant file
+NoClassDefFoundError after system running several days
+#373 - fix table rendering in footers
+Add CIDSet for font subset to ensure PDF/A compliance
+Add optional metadata/info update in a sequential revision
+PdfStamper to implement AutoCloseable
+填充PDF表单，无法加粗字体
+Text (AWT font) is not stretched with TextAttribute.TRACKING set greater than zero 
+Borders not displayed correctly in table
+Errors in indentation and tab positions
+Using negative values in setFirstLineIndent in combination with TAB causes line-break to be wrong
+Tab position is not interpreted correctly
+Run test method: visibleExternalSignature to generate a pdf file with digital-signature
+Increase buffer size.
+RTL Issue with english and arabic content in single PDF
+Embed SVG for beautifying signatures
+Skipping eliminateSharedStreams() method call.
+setSkipFirstHeader not working on table when inserted into a cell
+Enable kerning and ligatures for LayoutProcessor
+Indian language support with glyphs and Html parsing
+Issue676: references in tag structure tree are incorrect
+Certain documents with shared objects/streams gets the modified page blank after signing
+Reflective access operation
+Open discussion about the motivation of this project.
+fix the issue #659: PdfPRow setMayNotBreak property
+Not all PdfName properties are settable in PdfViewerPreferencesImp (eg. MediaBox)
+Extracting incomplete text from pdf page
+setVerticalAlignment methods for Cell class causes endless loop when starting a new page 
+Setting page size doesn't take effect until new page
+showText isn't creating new lines if string is bigger than pdf width
+Not Show the getNumberPage on the Page 1
+NullPointerException in PdfReader.readPages()
+ClassCastException in PdfReader.consolidateNamedDestinations: com.lowagie.text.pdf.PdfArray cannot be cast to class com.lowagie.text.pdf.PdfString 
+fix the .HEIC image bug #130
+OSGi MANIFEST.MF Requires sun.misc which is not available in newer Java versions
+Adding PDFStructureElement to Chapter
+Adding Chunks to Marked Content Sequences
+Smart mode (like PdfSmartCopy) for PdfWriter
+XFA - Duplicated subform tag and pages in the Form DOM
+Simplified Chinese Text using Noto font
+Why Default Appearance is created for an empty signature field?
+Exception when registering Unicode Font
+Tagged PDF fails Acrobat syntax check
+keepRowsTogether method not implemented
+Bold fonts not working
+PdfPRow setMayNotBreak property && setter/getter as iText
+PdfPTable keepRowsTogether()  and getLastCompletedRowIndex() method implementations like iText
+remove javax.annotation dependency
+Text extractor NullPointerException
+Font.BOLD not working, when the Euro sign (€) is in the Text.
+Java 11 Support and Software Site
+Text extractor with UTF-8
+Convert pdf pages to images
+Parsing nested HTML lists with HTMLWorker does not nest the PDF lists correctly
+Image.getInstance on PNG performs worse compared to original code
+example code and test case for #591: FopGlyphProcessor.convertToBytesWithGlyphs()
+FopGlyphProcessor.convertToBytesWithGlyphs() does not consider surrogate pair
+Alpha value of fill color take no effect after PdfContentByte.restoreState() call.
+TextPosition and Image extraction
+Bengali font is always broken in pdf
+What PDF and PDF/A versions are supported?
+Changing fonts of form fields not working correctly
+Font embedded setting may not work
+Android Support for API < 24
+Pdf form write data endless loop
+PDF 2.0 standard support
+Rendering a SVG file with `feGaussianBlur` leads to a glitch in the resulting PDF file
+`shape-rendering="geometricPrecision"` leads to pixelated rendered text
+OpenPDF Not Using JVM Supplied Fonts
+PDF/A PDF/UA Support
+Radiogroup in a table split due a page break, is rendered wrong
+openPDF still vulnerable to Signature wraping attack
+ lock document with signature
+Add Text extraction tutorial example to Wiki
+PdfTemplate not visible
+KeepTogether on ListItem not implemented
+Incorrect mm to pt conversion due to floats
+Convert pdf to images
+Duplicate Comments on using setPDFXConformance
+Table over multiple pages with cell borders
+Reduce size of sticky notes
+I need append more watermaker ,do tile effect.
+Lines get lost on page break
+Repeat Cell Content on new Page after Page-Break
+Code Convention and Style Guide
+iText 2.x compatibility issue in recent OpenPDF versions
+setMargins() not working after document.open() and before document.newPage()
+Investigate using spotless for code style consistency
+Blank page if second PTable is not fit on 1 page.
+Blank Page after PTable added into Document
+Add Image rendering callback
+PDF-UA AccessibilityProperties for building a tag-tree
+custom image bullet point not showing in list
+invalid pdf generation (can only be opened with some PDF renders)
+Maintain Tutorial on Wiki
+How to use Tabs and set Spasing of Tabs
+Maintain Java 7 branch
+Help other projects upgrade from iText 2.x to OpenPDF
+Modernization efforts
+Root object is missing or invalid
+HEIC image format support
+LGTM code review
+ Android support
+PAdES signatures support
+svg file support in OpenPDF
+Calls to String.toLowerCase(), and friends should be checked for proper use of locales
+Issue with subsetting on OTF/CFF fonts 
+Problem In Signing of Pdf with externalSiging service (eSign)
+Some input files use or override a deprecated API

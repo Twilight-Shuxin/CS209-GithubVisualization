@@ -1,12 +1,10 @@
 package cs209.app.controller;
 
 import cs209.app.AppApplication;
-import cs209.app.dto.CommitDTO;
-import cs209.app.dto.ContributionDTO;
-import cs209.app.dto.ContributorInRepoDTO;
-import cs209.app.dto.IssueDTO;
+import cs209.app.dto.*;
 import cs209.app.model.Issue;
 import cs209.app.model.Repo;
+import cs209.app.model.WordCnt;
 import cs209.app.service.*;
 import org.postgresql.util.PGInterval;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +30,9 @@ public class RepoController {
     ContributionService contributionService;
     @Autowired
     ReleaseService releaseService;
+
+    @Autowired
+    WordCntService wordCntService;
 
     @GetMapping("{repo_name}")
     public Optional<Repo> getRepo(@PathVariable("repo_name") String repoName) {
@@ -103,5 +104,12 @@ public class RepoController {
     @GetMapping("{repo_name}/avg_resolve_time")
     public PGInterval getAverageIssueResolveTime(@PathVariable("repo_name") String repoName) {
         return issueService.getAverageIntervalByRepo(repoName);
+    }
+
+    @GetMapping("{repo_name}/word_cnt")
+    public Page<WordCntDTO> getWordCntByRepo(@PathVariable("repo_name") String repoName,
+                                             @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum) {
+        Pageable paging = PageRequest.of(pageNum, AppApplication.pageSize);
+        return wordCntService.getByRepoWordCntDesc(repoName, paging);
     }
 }

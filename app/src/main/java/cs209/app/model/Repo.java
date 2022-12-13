@@ -33,6 +33,10 @@ public class Repo {
     @JoinColumn(name = "repo_id")
     Set<Release> releaseSet;
 
+    @OneToMany
+    @JoinColumn(name = "repo_id")
+    Set<Issue> wordCntSet;
+
     public int getId() {
         return id;
     }

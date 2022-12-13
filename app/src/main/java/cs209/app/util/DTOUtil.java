@@ -71,4 +71,13 @@ public class DTOUtil {
                 commit.getCommitTime()
         );
     }
+
+    public static WordCntDTO toWordCntDTO(WordCnt wordCnt) {
+        return new WordCntDTO(
+                wordCnt.getId(),
+                wordCnt.getRepo().getId(),
+                wordCnt.getWord(),
+                wordCnt.getCnt()
+        );
+    }
 }

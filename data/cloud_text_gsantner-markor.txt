@@ -1,0 +1,1716 @@
+links to sections in another dokument
+Horizontal swiping/scrolling in QuickNote is janky
+Use system theme by default
+Formula
+Auto save
+Link to headers in other files
+Create Markdown templates and set default in settings
+Support for extended markdown ==highlight syntax==
+Possiblity of iOS App?
+Cursor position saving question
+Scroll to file in filebrowser from currently opened file
+View-Mode: add hide viewing options toolbar in settings 
+Table of contents not displayed when the button is pressed 
+By testing, Markor is compatible for Nut Cloud
+Adjust the value of web. to net.
+Todo.txt advanced search system
+New Crowdin updates
+correction of the translation into brazilian portuguese
+Crash after adding three nested unordered Lists to markdown file
+New Crowdin updates
+Files.toPath() crash on older Android versions
+crash trying to open file testing.foo
+Markdown: Italic syntax character settings option
+Homescreen shortcut does not work
+Not starting if file permission revoked (Android 12 / LineageOS 19.1)
+enable the choice of color schemes that also work for red-green color-deficient users
+fix confusing typo in bug template
+handle file intent by mimetype rather than file extension
+Open *.xml files
+Widget: Hide dotFiles, similar to in-app filebrowser
+Share image link into Markor
+Add new format AsciiDoc, closes #808
+In a list, current item merges with next item when using auto complete
+File browser & file listing performance improvements: Add generic method to replace file references with GsFileWithMetadataCache counterparts
+Detect empty generally non-detectable files as text/plain, closes #1863
+Unify file opening functionalities, binary handling improvements, widget open non-supported files in external app
+Fix undo-redo crash on toolbar click, by @gsantner
+Post action to fragment, fixes FAB crash
+Remove file associations from Manifest
+allow additional file extensions for templates
+Is that possible to make newline in edit mode a newline in view mode?
+(git master) crash at QuickNote/ToDo selection setting
+Null reference when resuming MainActivity
+Add more Files view appearance options
+Remove ambiguity and streamline checklist items in issue templates
+Clean URLs with/like urlchecker
+Voice Assistant, Speech recognition, Transcription
+Widget: Non-textfiles are opened as textfiles
+New Crowdin updates
+Elusive bug deletes content of files randomly
+Markor always crashes, when I try to call settings for action buttons
+Widget: Remove filter, show all files
+Minimize unnecessary cursor shifting at editor, various fixes & improvements
+AutoTextFormatter: Fix crashes with very long numbers
+Continuous rotation adds date to to.do list
+Rework onFragmentFirstTimeVisible, use isVisible&isResumed
+Various bug fixes, early sept 2022
+onViewStateRestored: 2.10.3+ nightly build crashes on startup
+Remove extra tooltip handling
+Unreadable text & background color combination since v2.10.3
+Cannot create a file with an apostrophe in the name
+New Crowdin updates
+Fixe borked Instance State
+New Crowdin updates
+New Crowdin updates
+Defensive data loss prevention v2
+New Crowdin updates
+Zim: Problems with list indentation
+New Crowdin updates
+Support open `.mdx` file
+[feature request]: transparent widget background
+v2.10.3: Widget + button not opens ShareInto but unnamed file
+Integrate 'personal log' 
+Action Order crash, v2.10.3
+Sharing from a web page doesn't work anymore
+[jolla] Markor v2.10.2 crashes on Android 4.4 (MultiDex)
+View-Mode: Action buttons similar to Edit-Mode
+New Crowdin updates
+Defensive data loss prevention
+[Feature] View mode: open Image,Video,Audio files in Markor
+Fix EditText component doubletap due android minWidth bug
+Syntax highlighting: Color underline for #rrggbbaa
+Editor performance: disable emoji compat, closes #1794
+”Special key" layout cut off in landscape orientation
+Markor 2.10.2 can't write/edit SD Card files
+v2.10.1 crashes when I try to edit a file (on first character entered)
+New Crowdin updates
+New Crowdin updates
+space in front of shared text
+Editor goes to bottom of file, always
+Mention zim wiki support in F-Droid description
+Double click on a word when editing crash the app.
+Prevent crash on rotate in main activity
+Layout Simplification,  by @gsantner
+New Crowdin updates
+ Remove Butterknife library uses & remove library, by @gsantner, #1359
+Cannot type after creating new note
+make images fill 100% width of the screen, closes #1769
+Crash: after install markor 2.10.0 , if I don't give permission to markor, app will crash
+New Crowdin updates
+Don't overwrite newer files unless content modified
+Partial highlighting
+Markor Update v2.10.0
+Suppress highlighting for completed filter in todo.txt dialogs
+Tweaked multi-select neutral button naming
+Bugfix - missing ok button in dialogs
+Launcher ShortCuts: Open ToDo & QuickNote at bottom
+New Crowdin updates
+Slowed typing after reaching 500kb in file size 
+New Crowdin updates
+More deterministic save / resume
+Performance improvements
+Basic Draft for 'View Mode: Save & Restore scroll position'
+Superfluous warning
+[spam] Add Croatian translation
+[spam] a request for Croatian translation
+[spam] Just try to use another colorPicker
+[spam] solve QuickNote disappear problem
+[spam] sovle  problem
+[spam] solve blinding flash problem
+add new feature of H1,H2,H3
+Fullscreen settings option (Hide SystemUI status/nav) #1247
+WIP: Debounced the change listener
+Dialog ok button constraints
+Improve file handling in a few places
+A blinding flash of light when opening a file
+New Crowdin updates
+New Crowdin updates
+New Crowdin updates
+New Crowdin updates
+Favourite tags to follow file changes #1566
+Favourite tags to follow file changes #1566
+Save as New File, closes #760
+Solution for Issue #760 (Feature: Save as New File)
+Cannot edit file from Dropbox
+dotFiles  "*_files" and "*.assets" from browser->save page to html
+WIP: More deterministic saving
+Trying to add a special key while using quicknote causes a crash
+Unexpected OK button available at some dialogs, crashing on click
+ crash and exit after rotating the screen twice during searching
+When renaming using lowercase form of the existing note name, the existing file will be overwritten
+Increase performance on editables, more chunked operations, by @harshad1
+Supports UTF-8 file with BOM.
+Markor v2.9 update release
+Keep in-files search dialog open, closes #1663, by @harshad1
+Renumber list performance improvement
+[spam] change location
+[spam] change location
+[spam] 'Add_file_button' is often accidentally touched
+[spam] Gradle changed
+[spam] In Asia, the original project did not work.
+[spam] add more fonts in app
+New line is being added occasionally to markdown files
+[spam] add thai language
+[spam] add thai language
+[spam] ａｄｄ　　　ｔｈａｉ　　ｌａｎｇｕａｇｅ
+Saved QuickNote changes disappear sometimes
+Fix: Template is not applied when creating new file.
+If the renaming character contains "?" , the renaming will be invalid
+file list in widget does not autorefresh
+Cleaner widget logic, update widget on path change
+New Crowdin updates
+Several tweaks to showing selection and related functions
+WIP: Widget shortcut improvements
+filemanager: Slow folder list loading
+New Crowdin updates
+Improvements to show selection after search / heading etc
+There is a search function in the root directory, but no files can be searched 
+markdown: Fix list indent with depth 3, closes #1643
+New Crowdin updates
+Bright and Auto Themes not readable
+layout error in mixed unsorted lists with
+callback compatibility issue when initialing method
+compatibility issue when calling method
+Rotation make switch to editor mode
+New Crowdin updates
+AppIntro dependency binary v4.2.3 is gone
+New Crowdin updates
+Simplified action handling
+Revert "[pull] master from gsantner:master"
+Snippets
+Set HTML lang attribute
+Fixes for spacing and save
+Reduce minimum action spacing
+Fix wrong indentation of code blocks in checklists
+New Crowdin updates
+New Crowdin updates
+line breaks are removed when past external content
+New Crowdin updates
+Per file auto format
+New Crowdin updates
+Wrong indentation of code blocks in checklists
+Support and display YAML front-matter block contents
+Auto update of numbered lists at Plaintext
+YAML Frontmatter may be followed by optional empty line
+Update the log ？
+Add support for flexmark admonition extension
+is it possible to update on gplay? It is still 2.8.0
+Remove EXTRA_PATH_IS_FOLDER intent parameter everywhere
+Add support for mermaid flowcharts
+Mermaid
+Simplify document handling
+Fix multiple windows
+Fence KaTeX math expressions
+Add support for mhchem (KaTeX extension)
+Difficulty with Tables
+Line ends garbled when sharing URL into Markdown
+Fix multiple windows bug and simplify DocumentActivity document handling
+New Crowdin updates
+v2.8.5: Multiple Windows not working
+ShareInto: Sharing into file strips too much newlines
+md: Break line inside tables (two spaces at end of line)
+per-file-settings: incl favorite state when renaming/moving a file
+Crash after rotating the note to landscape or back to portrait 
+[removed]
+New Crowdin updates
+zim: subpages are saving in some alternate location
+shareinto: Add more tokens for "Share Into - Format" setting
+When sharing a link, a space is inserted at the end of the URL, before the final bracket
+markdown: auto format tables
+New Crowdin updates
+Create shortcuts for folders
+New feature: Create a shortcut to a directory
+Image not getting rendered in HTML
+New Crowdin updates
+Moving a file crashes the app
+BUGFIX: null document
+Day / night colors
+Changing filename on only case/capitalisation adjustment
+Linux Support
+Text disappears when moving between apps (sometimes)
+How to make <a> link content has a soft wrapper show?
+filebrowser: Change notebook folder menu icon to home
+New Crowdin updates
+Markor autosave question - regarding deleting all contents
+Underscores in filenames break filename truncation logic
+Can`t preview .gif and .webp images
+New Crowdin updates
+Sharing a link removes the spaces attached after the previous one
+New Crowdin updates
+Upgrade architecture - Android SDK33, AndroidX & MANAGE_EXTERNAL_STORAGE,  closes #1359
+Android Launcher-specific white flash when starting Markor (Markor icon in external splashsceen)
+File change state indication & general improvements
+New Crowdin updates
+#1174 disallow screenshots
+File List Intermittently Disappear or is Slow in Samsung Galaxy Fold 3
+Support spaces in image url #1365
+Encrypted file was wiped after orientation change. Is recovery possible?
+Fix #1507: Enable autocompletion/correction in search dialogs
+Enable autocompletion/correction at search dialogs
+[feature request] Ticking checkboxes in viewing mode.
+New Crowdin updates
+New Crowdin updates
+New Crowdin updates
+setDocumentViewVisibility() has been called 3 times when opening a file.
+Freeze in view mode
+How to specify the upload folder
+Share into prefix
+File modification date/time changes without modifying file
+Overwrites changed files with out-of-date cached version
+Markor is very slow in loading files in Android 11
+New Crowdin updates
+ShareInto: Add URL cleaning
+Basic defensive file io
+WIP: More defensive file IO
+Hide QuickNote & ToDo menu buttons & launchers
+No more "[TOC]" ?
+v2.8.2 update: contents of QuickNote.md deleted
+v2.8.2: ShareInto/QuickNote Markor not saving
+Renaming files to change case is not possible
+New Crowdin updates
+[Feature Request] Option to disable Action Bar
+"Recently viewed documents" not updated often enough
+New Crowdin updates
+Marking a task as DONE with x 
+[duplicate] sdcard looping
+Fix v2.8.1 saving issues
+v2.8.1 update: Saving issues
+New Crowdin updates
+Save todo search views
+Workaround for buggy keyboard @file/folder creation, fixes #1461
+Workaround for buggy keyboard - trim filenames prior creation
+New Crowdin updates
+Fix preference-key based buttons not working with turkish locale
+Fix recently added languages not displayed accordingly, by @gsantner
+Fix language preference: Properly show all languages, by @gsantner
+New Crowdin updates
+New Crowdin updates
+App hanging when loading folder with more than 50 notes (approximately)
+Hacktoberfest at Markor
+[feature request] Adding a pin lock
+"Auto" theme should be the default
+New Crowdin updates
+Settings: Notebook chooser not working with Turkish app language
+markor for zava8 fonts
+New Crowdin updates
+UI Suggestion: A button to edit or view file in file manager
+Zim: follow links to other wiki pages (closes #1223)
+New Crowdin updates
+ZimWiki: Syntax highlighting for code, global setting
+New Crowdin updates
+Allow to see and search first header instead of file names 
+New Crowdin updates
+Add option to view headings up to H6 in the table of contents
+Feature Request: Add option to display first-level heading as title
+Some buttons doesn't work in Turkish.
+Empty display preview for some syntax highlighting markdown text in code block
+Using pri:X tags to preserve priority
+[duplicate] Auto-Save and Auto-Load/Refresh
+File browser: Install APK on click, by @gsantner
+New Crowdin updates
+FR Most recently used files list?
+Todo.txt should support preserving priority on completion (via pri:A)
+filebrowser: "Sort by" per-directory setting
+Markdown Preview issue
+[sdcard] Every time I open a file, a blank of the same name is put in folder documents/documents. (No data loss) 
+Button to delete every formatting, Button to copy and paste formatting
+Browse todo.txt file by various filters
+Allow setting of base path(s) for Markdown path parsing [FEATURE]
+New Crowdin updates
+Enhancement: Allow image link syntax to include other markdown/text files
+Fix multiselect item height
+Share Into: Markor does not detect duplicate strings in EXTRA_SUBJECT and EXTRA_TEXT
+Multi select with no no deselect, ok button has count, fixed search / replace
+New Crowdin updates
+New Crowdin updates
+Improve multi-select dialog UI
+New Crowdin updates
+Ability to check/uncheck the item in view mode
+In math mode, the percent sign is not shown
+Release Markor update v2.8.0
+Start on bottom doesn't work for QuickNote
+Errorneous TeX rendering where multiple `_` or `^` exist in math expressions
+Search encrypted files, closes #1375
+Search the text of all files
+Add option to open links in default browser
+Option to hide header underline!
+New Crowdin updates
+Remove debug editor syntax highlighter settings option, always enable for debug flavor builds
+Android 11 can't use Markor to open Markdown files in instant messaging apps
+Restore scroll position (#1025, #1242)
+Use OpenPGP to encrypt file with AES256 in a Markor compatible way
+Files opened via (markdown) link code blank
+Support in-content filesearch for encrypted textfiles
+New Crowdin updates
+New Crowdin updates
+Improve content-search
+New Crowdin updates
+Feature Request: Share Into Timestamp/Append-Prepend Options
+Markdown: Don't match extra spaces at ordered-list regex
+Have issues with files sometimes not listed at filemanager
+Support [my image.jpg](<assets/my image.jpg>) syntax
+Last line obscured by Android toolbar
+[Feature Request] Option to always open links in default browser
+Couldn't mark as favorite more than one file at time
+Allow set checklist to done/undone in Markdown view mode
+Convert Images to Text | Enhancement
+Migrate to androidx & newer Android architecture
+todo.txt: duplicate category inserted
+New-line button doesn't work inside accordion
+Shortcut apps without extension and icons specific to extension
+Add format: jrnl
+Support ISO 8601 and RFC 3339 for Data and Time
+Multi-select capability to add projects and contexts
+Wrong data units in embedded file manager
+QUESTION: Will Markor Work With Bromite Webview?
+FeatureRequest : Add a Agenda.txt nav_bottom tab ?
+Please add option to enable line numbers in editor
+Highlighting in project and context search
+Duplicate file / allow copy into same folder
+Q: How does Tab character setting work
+Word-corrector+Auto-save+Undo inconsistency?
+Move tool cannot transfer Files & Folders 
+Fix for Android 4.4 crash when opening .txt files, closes  #1328
+Can you add Nord theme in main app theme also
+auto-scroll test #699
+ Recursive file search with in-content search, closes #1295, by @adelobosko #1337 
+Fix App might crash on toolbar-click for TOC, closes #1327
+Sticky Notes or Widgets support
+How to make a encrypted file unencrypted?
+Fix Android 4.4 crash on file move/copy, closes #1239
+Per-file font size, closes #1326
+Feature Request: Ability to check boxes [x] from view mode
+Centralized data storage please
+Android 4.4 crash when moving files
+Android 4.4 ZimWiki detection crash when opening .txt file
+App might crash on toolbar-click for TOC
+Per-file font size
+Q: TOC jump keyboard visibility
+Add a "sort by last opened" option
+New Crowdin updates
+Filter at Filebrowser
+Wrong string in Swedish translation.
+Request: Touch to toggle checkboxes
+[Feature request] Vim folds
+Auto mode for the light/dark theme is always dark
+New Crowdin updates
+New Crowdin updates
+New Crowdin updates
+New Crowdin updates
+Updated Polish translation
+Not able to search for files
+File modified indicator 
+Fix cursor placement at Regex replace etc
+New Crowdin updates
+Additional contexts & projects - cleanup of PR #1305 changes, closes #1302
+New Crowdin updates
+Decrease scrollbar width for better usability
+todo.txt: Settings option for always-visible @contexts, closes #1302
+New Crowdin updates
+[feature request] option to disable auto save
+todo.txt: Settings option for always-visible @contexts
+Disable fallback spacing
+txt2tags support
+First tag or category is added twice when "append" is enabled
+Search dialog: Hide search input field when if there is no data, by @harhad1
+search bugs: no check for an already running file search; screen rotate issue
+Recursive file search with in-content search, closes #1295, by @adelobosko
+Search in files with Queue
+[duplicate] Recursive search
+[duplicate] disable auto save
+todo.txt: Browse tags/projects does not show up onLongClick
+WIP: Correctly set extension spinner selection
+Editor: Allow top-menu back button also when the file is empty
+Shortcut to file doesn't work
+Introduce option in settings to hide formatting bar from page view
+Format: Generic Syntax highlighting using sublime-text-specs
+New Crowdin updates
+Improve/Customize image Links in Obsidian
+Windows Version
+Add format: Txt2tags (Highlighter, TextActions)
+todo.txt: Fix trailing space resulting in contexts/projects/due-dates to be entered twice
+Move/Copy file improvements, closes #1264 , closes #1265
+New Crowdin updates
+[Request] Searching texts within files and support for Reddit Markdown
+Add typographic transformations ("--" to en dash etc)
+Feature Request: Ability to Search Within Files
+ShareInto: Improve automatic link reformatting, closes #1240
+Add ability to view/convert File Encoding and Line Endings
+New Crowdin updates
+Bump version_library_flexmark from 0.42.14 to 0.62.2
+Allow md files to transclude other md files with ![]() syntax
+When moving files, prompt to change reference link paths
+The editor activity shows up as a separate entry from the file browser activity in recents, and causes issues when any app switching is involved.
+Markdown: Support superscript^2^ syntax
+Files not editable with markor(e.g. images) should be displayed below other files and grayed out in the file list.
+Color local links to non-existing files red instead of blue.
+File manager: Ask for overwrite confirmation at copy/move
+File manager: Add file copy support
+todo.txt: "rec:" (recurring tasks) supported?
+New Crowdin updates
+New Crowdin updates
+Markdown: Add option for "newline = new paragraph"
+Keeping line-breaks in View mode, without requiring two spaces at end of line 
+Adding Multiple preview modes.
+Add Line number
+HTML Support
+File encryption feature
+Misinterpretation of `\` in KaTeX formula
+Black field at file opening
+Feature request: support for Notable note image (or any) attachments
+Edit text files with arbitrary extensions
+New Crowdin updates
+Changing font color and highlight color
+Markdown toc settings option conflicts frontmatter
+WIP: Improve editor cursor.
+Backup and restore settings, closes #839
+长文需要在编辑模式的toc
+Improve editor cursor - (at file open & at edit/view swap)
+Improve scrollbar grab width on hidpi devices
+ShareInto: web link formatting
+Bump junit from 4.13.1 to 4.13.2
+Start on bottom not respected in bottom tabs(To-Do and QuickNote)
+At times, cursor jumps when editing
+Unable to exit from QuickNote
+New Crowdin updates
+Start move in current folder
+File info in document menu
+File move start location should be the file's folder
+File info should be accessible from within the document
+Bugfix for select current line(s)
+Bugfix: Prevent reuse of TimeDate format from erasing history
+New Crowdin updates
+Zim not auto-detected by other date format
+Remember last used file format, closes #1220
+Markdown: Custom highlight/raise syntax
+Custom Sort order for Folders and change folder colors
+Zim: Improve relative and absolute referencing
+search within search results
+Fix per-file setting of Format
+Live search for files
+Preview In View Mode
+Hide file extension in file browser
+[Feature Request] Exclude filenames by pattern/regex from listing
+Action bar to far at the bottom
+Edit mode: last line too close to toolbar?
+Limit replacement to ROI in regexReplace
+Toggling checkbox causes autocorrect to insert word _after_ end
+Feature: Pick random file button
+Fixed logic to handle restore
+Add org mode support
+README: Various small improvements
+New Crowdin updates
+New Crowdin updates
++/Add button is unresponsive after the app is open for a while
+Prevent accessibility and autofill from crashing markor
+Please support outline in the markdown view
+Editor: Open file at Line Number from Intent
+New Crowdin updates
+Open media in the Markor app (WebView compatible formats)
+Feature request: hide file extension in list
+Feature request: disable delete confirmation dialog
+Improve wording of Markdown table string
+Fixed KaTeX line break
+Additional Textactions for Zim Format, closes #1186
+Zim Wiki: File generator support for Android < 7 / Java 6
+New Crowdin updates
+Truncate file on sdcard before re-writing it
+Color picker does not show
+KaTeX line break not working
+Table of Contents - missing headings
+[sdcard] [duplicate] Issue with paths saving on external sdcard
+WIP: Reduce flicker x2
+zim: edit-mode textaction - link insert 
+Add launcher shortcut for "Share into" (similar to widget + button)
+New Crowdin updates
+zim: format not detected
+privacy: set WebView manifest flag
+Nord theme?
+Encryption: Improve wording of log messages & code
+todo.txt: sort by due date
+Allow to use encryption at Android>=M/API23
+Google Pixel slow I/O
+Compatible File Manager
+Privacy feature: Disallow screenshots (Secure flag)
+Encryption minimum Android version - "Could not encrypt file content. The file was not saved"
+Support the new storage APIs including scoped storage, SAF etc
+New Crowdin updates
+Markdown: Emoji + digit bug (:smiley:1)
+Feature request for Latex/MathJax 
+Per file enable/disable syntax highlighting, default value based on initial filesize
+Insertion of a date closes virtual keyboard
+Exiting a file should not change folder
+no context menu on long press on file, can't mark a file as favorite
+Follow links to headings
+Bugfix for search / replace
+New Crowdin updates
+Upgrade compileSdk, targetSdk to 29, buildTools to 29.0.3
+Upgrade to targetSdk 29
+New Crowdin updates
+Reduce flicker from creating and removing scroll views repeatedly
+Add ZettelKasten template, close #1143
+New Crowdin updates
+Improve Markdown Latex/KaTex/Math when used with complex formulas
+New Crowdin updates
+GitHub Actions CI definitions, Create Makefile, Fix/Ignore warnings
+Undo / Redo only updates 1 character at a time.
+View/Edit-Mode switch changes cursor position
+New Crowdin updates
+[Feature Request] Word Count 
+Bugfix for PR #1129 changes (missing return in markdown textactions)
+New Crowdin updates
+New Crowdin updates
+Add Zettelkasten template/sample
+File explorer: Parse title from textfiles
+add directory tree menu on the sidebar
+New Crowdin updates
+Fix for correct file not opened from shortcut
+ShareInto Markor:: Allow to select folder for new file
+Activity rotation: Changes view/edit mode
+Allow manually specifying hex code of color in color selection
+New Crowdin updates
+Add Nord colors
+Add new preset color scheme
+Bump version_plugin_kotlin from 1.3.72 to 1.4.20
+Prevent onSelectionChanged from triggering a bug with larger files
+Per file settings
+Accessibility crash at big files
+Feature request: non-standard links and image syntax
+todo.txt's tasks in edit mode NOT separated by a line
+Translations update
+Markdown should consistently use '*' or '_' for bold and italics
+UX improvements / simplifications
+Bump gradle from 3.6.3 to 4.1.1
+Auto theme doesn't respect system theme
+Slow file access/update file list (Google Pixel)
+Project License dark theme
+EM Dash from triple or double short dash
+Feature request: "Journal entry" button on the toolbar
+Additionally to builtin encryption: Add support for GPG using OpenKeyChain
+Configurable Encoding (UTF-8)
+App 'Auto' Theme: Theme may not be correctly applied when day/night t…
+Setting to control document open cursor pos (top/bottom), seperate la…
+Editor Search & replace, closes #155
+New Crowdin updates
+New Crowdin updates
+Long press sort to sort by apply most recent sort
+Bugfix - create done file if needed
+todo.txt: done file not created anymore
+[Feature request]: add support for programming language highlight.
+Handle trailing punctuations
+problem with bullet list link lines starting with tab
+todo.txt: Improve todo sorting for Russian & Ukrainian
+New Crowdin updates
+Null checks around dopt.data
+fix crashing file search dialog caused by null object
+Are shourcut icons adaptive?
+Add ZimWiki Format, closes#393
+Add Actions: Move line up & down, start new line
+Insert Date/Time text action: Recent time formats, closes #1092
+Unified theming and font for both Edit and View mode.
+Due date 'days in future' should be configurable
+Remember more than 1 recent time format
+Various feature requests
+New Crowdin updates
+Bump gradle from 3.6.3 to 4.1.0
+(duplicate) Zim-Wiki support nr2 fredericjacob
+Settings toggles to show/hide text actions
+Bump junit from 4.13 to 4.13.1
+Apply app theme to launcher widget, closes #727
+(duplicate) Zim-Wiki support nr1 pschwede
+Open SQL file from filebrowser
+Markdown-dialects: Zim-Wiki
+Search callback with position
+Update translations
+Format project java code
+Add file description customization for file browser entries (#524)
+Add file description customization for file browser entries (#524)
+Feature Request: Larger paragraph spacing in edit mode
+Link to file in parent folder
+Markor v2.4.0 update release prepare
+Potential improve situation across reboots, with title folder contents and plus button
+Save last used folder to settings, use info for titlebar, closes #1019
+New File Dialog: Remember type selection, closes #1020
+switching from edit to view mode doesn't remember cursor position
+Feature request: Add favorites as a tab
+Search will only navigate to first instance
+The "Add" button doesn't work after reboot
+some suggest: 
+highlighting in TodoTxt search dialog
+Apply highlighting for todo.txt in search
+Enable search in outline / headings dialog
+md: Disable edit-mode's TOC menu for view-mode
+(duplicate) Sync position between View and Edit modes for ToC
+Fix due date handling
+md: auto format table rows (auto add new on enter press)
+Bump version_plugin_kotlin from 1.3.72 to 1.4.10
+Bump commons-io from 2.7 to 2.8.0
+does not jump to end of markup document
+New Crowdin updates
+Fix removing priority
+New Crowdin updates
+Add syntax highlighting for more languages
+Open Youtube link in Youtube app, or provide options to open with
+Syntax highlighting for more languages
+Test
+Custom CSS in Edit Mode
+Feature Request: Solarized Light and Dark themes
+Improve "new file/folder" actionbutton spacing
+New Crowdin updates
+ todo: don't add completition date when date setting unchecked  (fixes #1039)
+Q: Have you ever thought about implementing 'find and replace' feature?
+Auto-save not functioning
+Do not remove priority when completing a To-Do item
+todo: don't add completition date when date setting unchecked
+Improve contrast on To-Do list completed items
+New Crowdin updates
+Q:  New file button 
+To-Do list, sort by selected category or tag
+Qualify shortcut by extension
+Can't open .xlf files
+Rework todo.txt support
+Bump version_plugin_kotlin from 1.3.72 to 1.4.0
+Partial text from document appended to end on save with 2.3.1+
+Bugfix - indent and linemove
+Feature Request: Option to show Favorites at startup
+Searching not working while going back to edit mode
+Q: How does insert date button works for todo.txt
+Feature Request: Large file support
+Undo disabled after rotating device while editing
+Request: ==text== for highlighting
+markdown: Improve bold edit highlighting
+New file dialogue always says Type: Markdown rather than previous type used
+Rotating device causes file browser title bar to change to "markor"
+the overwrite to same namefile bug happened again............
+Folder save for quicknote/todo settings
+Bugfix: Delete empty list correctly
+How to enable "Table of Contents" in view/read mode
+Automatically open notebook file on startup
+Changelog colors in darkmode
+New Crowdin updates
+Guards in Stringutils
+App 'Auto' Theme: Theme may not be correctly applied when day/night toggles & app is running
+Todo edit renders underneath toolbar
+Bump gradle from 3.6.3 to 3.6.4
+Make Markor resizable
+App restarts on bluetooth connection to keyboard
+Setting to control document open cursor pos (top/bottom), seperate last pos option
+Saving Problem
+Improved auto insert list prefix
+Auto insert empty checkbox list
+Bump gradle from 3.6.3 to 4.0.1
+New Crowdin updates
+Don't nuke existing file
+Feature Request: Change markdown checkbox status from view mode
+New notes save to "Notes" folder within currently viewing folder
+Can't type in square brackets
+Question regarding newfile + overwrite
+New Crowdin updates
+bug: "Formated" data from clipboard is shown in "plain text" format.
+Widget text color is too dark with dark background
+markdown: Enter press auto-insert empty checkbox list
+Add option to auto-complete projects and contexts when typing
+New Crowdin updates
+Renumber ordered list
+Community discussion - aisbergde
+ Community discussion - PaulEmm43
+feature: Action button for "details" and "anchor". And save open/close state of "details" (markdown)
+Properly change list prefix types
+New Crowdin updates
+Feature request: quickly toggle between light and dark theme.
+Todo.txt should be highlighted/formatted in 'view' mode
+The markdown list actions should correctly change list types
+markdown: Auto update succeeding numbered list items when adding/updating in the middle
+Simplified open correct file
+New Crowdin translations
+Smooth horizontal scrolling (fixes #973)
+Feature Request: Multi-level sort for todo
+Improve edit mode horizontal scrolling
+selected text: quick action to copy or move to existing or new note
+PATTERN_PROJECTS PATTERN_CONTEXT regex modified
+WIP: Open correct file or folder from widgets and shortcuts
+[DE] Improve wording at "Insert picture"
+file browser / view mode: Link to folders
+creating new files in the app often not works
+Feature Request: allow to choose default font in view mode 
+ todotxt: Due date and generic date actions with calendar
+performance improvement discussion
+File browser scrolling sometimes not works
+make long file names easier to read
+New Crowdin translations
+Bump gradle from 3.6.3 to 4.0.0
+I can't rename or delete files on MicroSD  (external memory)
+additional full text search
+Bump commons-io from 2.6 to 2.7
+Improve file saving at editor
+Remove + from illegal character list at NewFile
+Question regarding katex frac rendering
+New Crowdin translations
+Draggable scrollbar for view mode
+remember latest used folder
+Elastic landscape layout (file hierachy, outline and text at same time)
+TextBundle Support
+ShareInto: After sharing, show confirmation containing openfile button
+hUUID crashes the app on Android 7.0 tablet
+WIP: todo.txt: New date picker 
+Added special key to select current line
+Special keys menu: Add list option for "cursor select whole line" 
+todo.txt sort by duedate compatiblity with other lineending
+todo.txt - move current line to another file, move items with selected tag to another file
+Documentation: "experimental functions"
+explain (document), what is the "dedicated launcher"?
+todo.txt - attachment: create "note" as link to markdown file: "note:<file>"
+duplicate: markdown edit toc
+New Crowdin translations
+Draggable scrollbar
+todo: handling image link
+Markdown: Add code block action
+Heading buttons change heading level
+bolded and italicized text immediately followed by a comma not bolded/italicized in edit mode
+New Crowdin translations
+Feature request: please add an ability to change accent color of the app.
+"L" button at widget opens todo
+Save and remember done file
+Minor readme typo fixes and grammar improvements
+Fix readme AES256 typo
+Feature to collapse sections
+Note's last modification changes when moving it
+[Request] Allow change background and font color in reading mode
+Question about, "create a new note " action, when using sharing function
+Could the sharing function grab the content of a webpage
+fix english typo
+Pressing 'back' in the toolbar in a file kicks me back to the root folder
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+New file-names should be trimmed
+List Markor on Nextcloud's app store
+[sdcard] external sd card access
+Create new file: Remember selection
+New Crowdin translations
+Bump gradle from 3.6.2 to 3.6.3
+Per-format TextWatcher, pause text watcher for undo/redo
+New Crowdin translations
+Bump version_plugin_kotlin from 1.3.71 to 1.3.72
+WIP: Undo / Redo functionality
+folder location in sd card issue.
+Main: Foldername in toolbar not reloaded at file browser
+Customizeable Action Order, fixes #844
+Md syntax support is imperfect
+Resilio Sync
+Multiple switchings between Todo and QuickNote tabs will unexpectedly recover deleted content
+Reloading an empty file unexpectedly enables the undo button
+Undo and Redo behave inconsistently when doing text editing
+New Crowdin translations
+Folder under /storage/ is shown as delete-able
+Markdown: copying first character on new line
+"#" sign in normal text is highlighted (when it shouldn't)
+Copy and paste quickly to QuickNotes
+Bump gradle from 3.6.1 to 3.6.2
+Encrypt textfiles option with AES256-custom, fixes #60
+Share Screenshot to Markor Quicknotes directly
+New Crowdin translations
+Change request: Interpret root as notebook folder instead of system root
+Autoindent improvements
+Auto-indenting fails / doesn't work correctly in some cases.
+New Crowdin translations
+Better Indent / De-Indent handling with indent buttons
+Option to disable code block highlight
+Bump version_plugin_kotlin from 1.3.61 to 1.3.71
+WIP: Ignore leading whitespace for list types
+Encryption --> New PR #887
+[FR] Support for linebreaks
+Initial app start takes more time
+creating a document from the markor widget doesn't create it in the widget folder
+Option to disable the big yellow saving permission denied warning message?
+GUI: Wrap Unwrap Option in the Editor Window
+Bump version_plugin_kotlin from 1.3.61 to 1.3.70
+Checking/unchecking TODO items in Markdown sometimes creates new TODO item on same line
+Bump gradle from 3.5.3 to 3.6.1
+Add encryption
+New Crowdin translations
+Jump to section-hyperlink in view mode
+bug: Move text one line up/down
+Bump gradle from 3.5.3 to 3.6.0
+Configurable unordered list character
+New Crowdin translations
+Markdown: Improve/Customize WikiLinks 
+Pure Black theme for amoled display 
+math notation rendering
+Missing Linkbox
+Render a checkbox in the viewer for `- [ ]`
+todo.txt cursor start of line before date
+Customisable unordered list character
+New Crowdin translations
+Feature: Preset filename for New; Note-Taking Friendly
+selecting multiple words at the end of line switches to the view mode
+Sorting by date does not persist
+Missing completion date?
+Huge Cache usage
+quick navigation pageup/pagedown
+remember the last selected format for a file
+Custom reordering of toolbar options
+Remember custom file names when choosing archive destination
+Insert link to file using original file, not the copied version
+New Crowdin translations
+App Settings backup & restore
+List elements indented by over 6 spaces are highlighted
+H1 heading at the start of a file doesn't render properly
+change spelling of (\w+)(bars?)\b and (\w+)(actions?)\b
+Set tooltip text for text actions.
+What the heck happened to hiding textactions?
+Hide buttons on Widget
+Support for "notebook.textbundle" filesystem architecture format
+Disabling option Launcher (Special documents) make every app icon disappear
+tooltips for editor tools
+Add grid layout to file manager (alternative)
+Sometimes floating Plus button dont show New note dialog
+Mathematical Syntax incompatible with TeX: double escapement of curly brace
+Cleared todos/quicklist not saved: permit saving empty files
+todo.txt Archive dialog: Bad layout at buttons
+Sometimes widget is empty
+color in TODO doesn't work
+words separation
+Changelog: Black on gray is badly visible
+ugly cursor in todo mode
+New Crowdin translations
+Crashes when trying to open file on SD card / external storage
+Markdown: Escape square brackets in link text
+Feature request: Implement scoped directory access
+MD: let any list item be a checkbox
+Fix README
+Bump junit from 4.12 to 4.13
+Markdown: nvAlt (Notational Velocity) compatibility (settings option enter=double space end)
+customize editor style for todo.txt format
+Add format: AsciiDoc (Highlighter, TextActions)
+Markor not moving tasks to done.txt
+New Crowdin translations
+Multiple todo.txt files
+New Crowdin translations
+New Crowdin translations
+Force closes when ~1MB txt file set as QuickNote
+Hide bottom bar in Main View
+Broken search function in Edit window
+Open file with Markor, edit it, and push back
+Feature: Possibility to use app without giving a "write to external" permission
+Separate title from content when sharing
+Start on bottom works only in edit mode
+Decrease text margins
+Markdown: Add support for nested check lists
+Bump gradle from 3.5.2 to 3.5.3
+duplicate: markdown edit toc
+Bump version_plugin_kotlin from 1.3.60 to 1.3.61
+Markdown: Add Outline View button (for headings)
+Search in View discards at first try automatically when defaulting to View Mode
+Feature: change format from view mode 
+WIP: Apply app theme to launcher widget (fixes #727)
+New Crowdin translations
+Use correct plurals in delete confirmation dialog
+Bump version_plugin_kotlin from 1.3.50 to 1.3.60
+add dropdown markdown to markor-markdown-reference.md
+Not scrolling down correctly in editor as you type
+Examples: Add accordion dropdown to markor-markdown-reference
+Bump version_library_flexmark from 0.42.10 to 0.50.42
+Files in cloud eg. on onedrive or nextcloud
+[Request] Add global search for notes content
+[Request] Allow to change accent color
+New Crowdin translations
+New Crowdin translations
+Performance: Editor unresponsive when editing in the middle of a markdown file
+Black blank space above the keyboard
+Not able to empty QuickNote file
+Can sharing as HTML be adapted to share as an HTML file?
+Bump gradle from 3.5.1 to 3.5.2
+Voice reader (TTS)
+Always update view mode when reloading file
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+File picker showing wrong path for ".." entry
+Markor as an extension for a web browser or as a web application
+Double tap to edit
+Feature: Save as New File
+New Crowdin translations
+New Crowdin translations
+Http protocol image link address
+inputing nested lists
+Feature request: Search all files for content/Batch html export
+Add search in view mode
+A11y improvements
+[Feature request] Markdown todo: validate from view mode
+New Crowdin translations
+Update CONTRIBUTORS.md
+[improv] Automatically underline phone numbers or street adress ?
+input 
+Feature: Search in View
+search button switches to edit mode
+[ImgBot] Optimize images
+[ImgBot] Optimize images
+ToDo has poor usability
+Hide bar when textactions are disabled.
+different colors to distinguish files and folders
+Also hide bar when textactions are disabled
+Selecting home screen icon action does not work
+Remembered editor position not applied when defaulting to View Mode
+done Tasks are not moved to tasks.done.txt (or similar filename)
+todo.txt: Add option to natural sort whole string
+Editor: Move current/selected line(s) up and down via button (feature #715)
+How to download project
+Constant Crash when opening a file from a folder on SD card 
+WIP: View: Back To Top button (feature #514)
+Insert DateTime button is missing from TextAction toolbar
+[WIP] Auto scrolling edit/view (feature #699)
+FsViewer: Image thumbnails (feature #724)
+Apply app theme to launcher widget
+add changelog link to the "more" tab
+New Crowdin translations
+File browser: Thumbnails for images
+New Crowdin translations
+Add translation on Indonesia for more_fragment
+Copy to clipboard from filebrowser (feature #672)
+Markdown: Diagrams, Graphs, Flowcharts with Mermaid
+Create links in preview for pages with hyphens
+strage folders in the / view
+go back to the notes folder from favourites/recents
+Todo/Editor: Move current/selected line(s) up and down via button
+Bump gradle from 3.5.0 to 3.5.1
+TextActions: Indent/Deindent (feature #584)
+Feature: Presentations / Slides
+Update CONTRIBUTORS.md
+QuickNote launcher shortcut not opens file
+New Crowdin translations
+Loosing changes when forgetting to save
+Bump EpubParser from 1.0.9 to 1.0.95
+MD: Math: Theme KaTex according to Light/Dark app setting
+TODO
+Format changes only after edit-view toggle
+New Crowdin translations
+Add experiments settings option, add epub experiment
+Detect todo.md as markdown, not as todo.txt
+MD: Code block Syntax highlighting in view mode with prism
+Disable saving of empty files, fixes #689
+Add prism files for code highlighting in view mode #690
+Update katex assets
+MD: Math: Update Katex
+MD: Edit: Improve code bgcolor
+date format
+File size
+MD: View: Colored code syntax highlighting
+Last two updates from playstore abolishes Quicknote.md contents
+New Crowdin translations
+New Crowdin translations
+Allow to disable Chrome Custom Tabs, use other installed browser/app
+todo widget
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+Avoid showing permission denied warning when editing files on private storage
+Wrong display of file names with multiple periods
+Sync position between View and Edit modes
+Settings wording could be improved
+"More" tab problem in dark theme sometimes
+Custom File Templates (select, copy file & open it)
+New Crowdin translations
+Converted markup always shows body font-weight in bold
+Q: Use on B/W only devices
+Copy to clipboard from filebrowser
+[sdcard] Implement file move/rename/delete for SD card
+New Crowdin translations
+New Crowdin translations
+Add option to specify folder where assets should be copied to (instead of textfile dir)
+The \tag implementation from KaTeX doesn't work
+Is there a native way to display equations?
+New Crowdin translations
+[WIP] TextAction: Record audio
+Share files from file browser (multiple) #590
+New Crowdin translations
+MD: TOC in edit mode (for nav in edit mode)
+Website certificate for gsantner.net invalid
+View mode for .txt files wrongly assumes markdown formatted
+Bump version_plugin_kotlin from 1.3.41 to 1.3.50
+New Crowdin translations
+Bump gradle from 3.4.2 to 3.5.0
+Text files formatted as markdown
+[WIP] Add template for Hugo
+Hugo/Notable markdown template
+custom font through import in css
+V2 loses view features I had yesterday
+Markdown relative links with spaces does not work
+New Crowdin translations
+New Crowdin translations
+Fix renaming overwriting existing file/folder
+Links escaping in preview with % in filepath
+WIP: File browser selection bugs
+Bump assertj-core from 3.13.1 to 3.13.2
+[ImgBot] Optimize images
+File browser: Minor selection issues
+New Crowdin translations
+Uncheck syntax highlighting making Markor crash
+Bump assertj-core from 3.12.2 to 3.13.1
+Bump assertj-core from 3.12.2 to 3.13.0
+New Crowdin translations
+Write newline to end of file
+[FEATURE] Add CSS class to body based on document  type
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+Bump assertj-core from 3.8.0 to 3.12.2
+Bump butterknife from 8.8.1 to 10.1.0
+[ImgBot] Optimize images
+Bump version_library_flexmark from 0.32.18 to 0.50.20
+Bump AppIntro from 4.2.3 to v5.1.0
+Bump version_plugin_kotlin from 1.3.11 to 1.3.41
+Bump gradle from 3.2.1 to 3.4.2
+dependabot
+Quick Note does not appear as a destination when sharing selected text
+LinkBox missing in Markor 2.0.2
+Disallow renaming to existing file (overwrites target with source content)
+Vertical scrollbar for editor
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+Add ability to sort todo by date ascending or descending
+Make Markor more accessible (accessibility)
+Can't browse thru folders of txt as markdown html
+Jumpt to anchor on TOC click
+Sort todo by date (created||finished)
+Add option to set font size in view mode
+Feature Request: AMOLED Black Theme
+Links to local images don't work
+Fix folder title not visible sometimes #600
+Feature request: External storage read/write
+Embedded images are not displayed
+[sdcard] Improve SD-Card support, home on sd looping
+New Crowdin translations
+QuickNote label is cut when selecting it
+File browser: Foldername/Title not visible/updated sometimes
+[Q] Date sort order
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+Fix tiny typo
+img/pdf export; white bg
+Open plain files silently.
+Once enabled dot file could not be hidden.
+New Crowdin translations
+Share files from file browser (multiple)
+Katex: input inconsistency and possible user-defined macros support
+Back button doesn't go back
+Add reload button / improve auto-reload
+Support for content:// urls
+Add option to set tab width
+TextActions: Indent/deindent buttons
+New Crowdin translations
+Nested outline support in Markdown
+Image Share Render Clipping Issue
+Incorrect Markdown Formatting
+[q] CSS class of bold text?
+Feature request: Converting selected files into PDF etc and recognizing youtube or google map URL to show it as a thumbnail
+Image link path [Q]
+Can't delete note
+New Crowdin translations
+bug, have to save to get the correct preview
+MD: Support markdown footnotes
+[duplicate #156] todo.txt deskop widget
+Sorting notrs by date is not working
+missing search
+None type files support
+White flash between screens
+Unable to open file without an extension
+Big plus/new file button no longer working
+Strange grey panel appear in pdf export
+EXIF rotation tags of images are not honoured in rendered mode
+Preview instead of path
+Wrap lines when zooming md preview
+Allow typing in hex value for background and text color customization 
+Archive Todo: Add line break between old/new tasks
+New Crowdin translations
+New Crowdin translations
+'Modified date' in Fileview (Notebook)
+New Crowdin translations
+This commit corrects the filename in the file dialog (see #549)
+Where did the search function go?
+Count words in text files
+Wrong date shown below filenames in Files view
+Three minor usability enhancements
+Crash on file move (v1.7.7)
+Minor bug - file information
+New Crowdin translations
+[Feature request] Use Storage Access Framework (SAF) for better cloud integration
+file browser: hide dotfiles
+Sort option not persistent
+New Crowdin translations
+New Crowdin translations
+'Prefer representation' setting doesn't work for To-Do, QuickNote or LinkBox buttons
+Cannot share text from my browser
+Crash of 1.7.3 on startup
+Add option for line breaks / disable word wrap in editor
+Scroll position is being incorrectly remembered when entering subfolder
+Feature Request - Export to Zim-Wiki's markup format
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+Proposal - Todo.txt to be more list-like
+Move finished todo's to the bottom
+Text deleted from edited note when switching apps
+Links to folders show a default file (index) instead?
+New Crowdin translations
+README Refactor
+Feature Request: Bundle markdown demo with Markor
+Feature Request: Add explainers for each page
+What does the LinkBox function do?
+File browser: Customization of Filename and description/date format
+New Crowdin translations
+bad display when open an existing markdown file
+Click on task list from the representation mode (markdown)
+Quicknotes section title cut off when selected
+Shortcut to folder
+Make the new L/R swipe feature optional
+New Crowdin translations
+Line breaks in rendered markdown
+Feature proposal: Black theme
+View: Back To Top button
+table of Contents
+Fix typo
+Markor switches to display mode when selecting text
+New Crowdin translations
+Add app shortcuts
+New Crowdin translations
+Pin files in notebook
+Markor switches to display mode as soon as you scroll the formatting bar
+New Crowdin translations
+Be able to check boxes from the markdown preview
+Feature request: make note title optional
+The string for "Cancel" is missing from Crowdin
+"Notebook" translations are cut in Sardinian, Spanish and Portuguese
+katex % sign broken
+Setting editor->hide_statusbar
+Automatically pick "last used" as time format
+Toggle checkbox status in preview mode
+Support for org-mode syntax highlight
+Missing borders in tables
+margin in css is ignored
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+Feature request: go up in folder structure
+markor crashes immediately if I open a file while the keyboard is still up from search
+Optional hiding of YAML front matter?
+Internal links using double square brackets
+share/export to PDF produces large file when document contains image(s)
+accentuated character in filename sorted in wrong order
+Change that pink color, maybe?
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+RTL Rendering
+Markor sets the wrong file type when a filename starts with todo.
+New document sometimes isn't created in current folder
+Swipe for preview [feature request]
+[Feature request] Hide sections of the bottom bar
+Allow multiple folders for Notebook section
+Bad color choice
+Change rename icon
+New Crowdin translations
+Link to named anchors
+Code blocks being greyed out in editor
+Custom themes
+No word wrap when previewing Markdown vs TXT
+Can't open color dialogue when setting editor color scheme
+Feature Request: Custom Fonts
+MD: QOwnNotes-style relative images path
+Formatter / syntax highlighting for VSCode Todo+ extension format
+Can't see all files in browser
+New Crowdin translations
+Enable localization of "my_note" filename suggestion
+Can't rename a file
+Activity Title not updated at MainActivity
+better pattern for SimpleDateFormat, fixes #455
+Cannot add new Jekyll Post
+TextAction: Date & Time insertion #375
+Feature Request: Words Count, Customise Markdown Colors
+Feature request: Option to select default new file type
+New Crowdin translations
+New Crowdin translations
+Todo sorting
+New Crowdin translations
+New Crowdin translations
+Feature Request: Add option to show files before folders
+New Crowdin translations
+[issue #443] make the keep screen on in the setting
+Option to Prevent automatic screen timeout
+"Apps" not opening correctly
+New Crowdin translations
+$x$ gives block equation instead of inline equation
+Problems receiving file intents (several apps)
+moved checkbox action button next to other list actions
+TextAction: Insert custom snippets/text blocks
+fixed indentation bug for auto insertion in case of nesting lists
+Format: Key - Value (e.g. VCARD)
+solve the ambiguity problem of the title (fixes issue #432)
+Incorrect activity title in some cases
+[Feature] Shortcut in toolbar to create a checklist
+Bullets are redundant for checklist
+Md checkbox action
+New Crowdin translations
+When sharing from another app, would be nice to add a title
+fix the problem of changing file.ext as file.ext.md(fixes issue #409)
+Made small changes to sentences
+Add .html to MD_EXTENSIONS List(fixes issue #409)
+Changed <br> separated list to markdown list
+Feature/mutliline action
+"Sort by" button too close on the screen side during a searching
+Selection not discarded if "New document" clicked
+Imageviewer (migration from #395)
+New Crowdin translations
+Unobtrusive syntax highlighting
+Black theme for AMOLED devices
+Changelog link to 1.3.0 blog post 404s
+Modified background image + checking if link has image in it
+Feature/popupimageview
+Feat: Export to hastebin
+Update string-not_translatable.xml
+flash of white when previewing markdown
+Cannot edit a HTML file without making it an MD file
+Feature Request: Adding settings option to determine whether the editor opens in edit mode or view mode by default
+Add 'App Shortcuts' for launchers
+Unsmooth scrolling in open source licenses area
+A lot of features request!!
+New Crowdin translations
+Representation is confusing
+Settings UI does not update path when changing quicknote, linkbox or todo
+Bug: Path does not update in settings right away when changing the path for the quicknote, todo or linkbox
+New Crowdin translations
+Crash because ressource could not be loaded
+feature request: support for multiple window
+FS: Directory 'go up' sometimes doesn't detect being in subfolder
+New Crowdin translations
+pull request image view from url in popup
+color picker
+Format: Zim Wiki 
+New Crowdin translations
+Documentation
+Configurable file extension
+Title bar not sets to first line of content
+Set title to first line content when title is empty
+New Crowdin translations
+Fix issue #376 IndexOutOfBoundsException
+New Crowdin translations
+New Crowdin translations
+Complete Danish translation
+New Crowdin translations
+MD: Math block rendering
+Fixed ArrayIndexOutOfBoundsException for WrFilesystemListFragment
+Fix crash when no calendar app is found. Use toast message to inform …
+Fix exception: WrFilesystemListFragment IndexOutOfBounds
+Fix execption: createCalendarAppointment ActivityNotFoundException
+Fix execption in WrFilesystemListFragment
+TextAction: Date & Time insertion
+Lifehack: Insert dynamic Timestamp / calendar date
+Remove storage permission dialog from appearing a second time
+Permission dialog appears twice
+Update strings.xml
+Improve original string wording
+Add Chrome custom tabs (fixes issue #363)
+Add [Jesica Chu] to contributors list
+TextAction: Add voice to note (audio recording)
+New Crowdin translations
+TextAction: Show pictures in a picture view
+TextAction: color picker
+Add support for Chrome Custom Tabs
+Simplify original (english) wording
+Italic TextAction apperance
+New Crowdin translations
+Dialog with Special Characters (like Ω, ∂, ..)
+Write document: How to use Markor together with Sync apps
+Write document:  Markor introduction/showcase
+New Crowdin translations
+Fix #354
+Various minor problems and lint warnings
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+todo list: first char on cursive-ish font/lang not connected
+New Crowdin translations
+MD: Option to markdownify entries in linkbox
+New Crowdin translations
+New Crowdin translations
+New Crowdin translations
+Providing visual feedback when save button is perssed
+Option to save documents in app data
+New Crowdin translations
+Updated zh-rTW (Chinese (Taiwan)) translation
+Main view: toolbar too big
+Markdown Table Editor
+Website | Blog unreachable, unavailable
+MD: Remove current list item if enter pressed and nothing entered
+Updated nb-rNO (Norwegian Bokmål (Norway)) translation
+Improve todo.txt for usage of Time tracking
+App does not save sometimes (save button)
+Add new strings in PT-BR translation (#20)
+Save button makes the file not save
+Added preference options to render math, show TOC, inject to body
+Configurable file-import directory, relative filepath button
+Updated fr (French) translation
+Updated fr (French) translation
+Math support in preview
+Update Turkish translations
+Change default line height back to 100
+PermissionRequest result -> storage warning not hidden
+what is network permission used for?
+Maybe I could help with this small feature?
+single-document-revisioning support
+Add option to take photo and insert it's markdown link (#306 -> #319)
+Allow spaces in markdown links
+Vimwiki support
+Updated fr (French) translation
+Encrypt
+md [hl]: header hightlighting spacing bug?
+version 1.0.0?
+Markdown table and image size rendering
+Updated zh-rCN (Chinese (China)) translation
+Root considerations
+Nested lists
+TextAction: Request location
+Bug reports from gplay console
+Text-Module-Action: Ask for picture (drawing / camera)
+Converter: Liquid templating (parser/converter)
+Color red on gray (dark theme) 
+Format: Ledger (Accounting, money)
+Multi-step undo (or: I just irretrievably deleted whole file!) 
+Recursive file search and/or search by content
+Filter to do list by priority, context, tag or keyword
+Format: Markdown- Math Tex
+Feature Request: Toggle text wrapping
+Editor mode improperly formats multi-line ```code``
+Headers defined with ==== don't always occupy 2 lines
+White-on-light highlighting in edit mode
+Status Bar hidden : Display twitch while editing note
+Markdown:  highlighting code blocks issues
+feature request: file encryption
+Feature Request: enable choosing automatic RTL/LTR text direction in preview setting
+Markor can not write or change the file to a SD memory card
+Widget not opening selected files
+Incompatibility with images added with other editors
+Seperator based on setting
+Remove separator when sharing to linkbox and todo
+Update italian translation
+Don't add seperator when sharing to linkbox
+Export to calendar
+[Not an Issue] Thank You
+CSS property support
+Add support for unix lineendings
+Files are read-only on SD card
+Special docs: diary/journal
+Feature: custom font for editor by selecting TTF file.
+Always enable auto formatter, indp. to highlighter
+Feature: Auto hide top title bar when on-screen keyboard shows.
+help wanted: is it possible to remove vibration?
+Updated es (Spanish) translation
+Clicking on recent button crashes app.
+App crashes on clicking the "recently viewed documents" option
+App crashes while creating folder on screen rotation 
+Written text gets missen on screen rotation 
+Updated Polish translation
+Updated fr (French) translation
+Add "justify text" option for preview.
+Remove fine line at the bottom of the icon
+App crashes when trying to view "Info" for folders
+Add "custom CSS" option in preview settings.
+Change font size for preview
+Add support for document outlines
+TextAction: Insert time/date, for current or selected time
+When sharing to QuickNote, have a clear separator
+ToDo: How to easily mark a task done?
+QuickNote: Optional timestamp?
+Remember position in file list
+Updated de (German) translation
+Share into Quicknote/To-Do/Clipboard
+Crash switching away from large files (TransactionTooLarge)
+single-document-revisioning support
+HTML Export not possible 
+Strange uncomfortable highlighting for 3+ levels of nesting
+Different font for editor and preview 
+Feature fileinfo dialog
+md::List TextAction - match multiple lines if selected
+Feature: Alternative main-navigation using navdrawer
+Updated fr (French) translation
+Feature fileinfo dialog
+Fix new blockquote style for RTL-rendering
+style blockquote
+Feature file info dialog
+Feature file info dialog
+New Logo Design
+Create FAQ.md
+Create FAQS.md
+Frequently Asked Question (FAQ) Proposal 
+Links do not work for files or folders that contain Unicode letters
+Added nl (Dutch) translation
+Update strings.xml
+Update Turkish translation
+Updated zh-rCN (Chinese (China)) translation
+Update PT-BR translation (#20)
+Remember last directory not works when closing app from task switcher.
+Updated fr (French) translation
+Updated it (Italian) translation
+Spelling: Language rework
+Norwegian Bokmål translation
+versioning notes
+Add multiple tab support
+Updated fr (French) translation
+Buttons for selected item are not visible
+Update Turkish translations
+Updated zh-rCN (Chinese (China)) translation
+Updated zh-rTW (Chinese (Taiwan)) translation
+Linkify geo: and xmpp: URIs
+Fixed typos
+Does not respect file extension
+Sort to-do lists  (with dialog asking for order)
+Files not visible through MTP
+BUG: Can't go back after entering folder
+Quick note save button is not working properly in landscape mode
+Persian (farsi) translation.
+App crash when click double on enter button in app tools
+Start document at the recent cursor position
+Clicking "hide status bar" in the main view does not hide the status bar
+Resources section in more tab hidden/inaccessible, when run app in landscape mode.
+Use external card as storage for Markor files?
+Todo.txt Date is deleted when Task marked as done and have a Priority
+Improve and update italian translation
+Updated zh-rCN (Chinese (China)) translation
+Add support for GFM Task Lists
+Filemanager & sync client support
+enhancement request: ability to access files and folders on SD Card
+Don't automatically inject text-theme in export
+ java.lang.NullPointerException: Attempt to read from field 'boolean net.gsantner.opoc.ui.FilesystemDialogData$Options.cancelButtonEnable' on a null object reference
+MD: Update numbered list when inserting in the middle
+Table of contents
+QuickNote.md - window 'bounces' on each input event
+Support GitHub-flavored Markdown?
+Suggestion: "two spaces" on the toolbar
+No way to get out of a directory?
+Create subfolders 
+Update Russian translation
+Page URL When Sharing Selected Content
+FR: Show additionall formats in Notes list, but open externally
+Feature request: export/import all data
+Format: org-mode (Highlighter, TextActions) 
+Update Turkish translations
+Merge pull request #1 from gsantner/master
+Updated Polish translation
+Print document(s)
+Fix link to beginner issues
+Add Simplified Chinese Translation.
+New translations and corrected typo
+Format/File type detection when opening preview
+Updated translations for Spanish
+Toolbar in QuickNode and ToDo
+Foldable headings/lists in preview mode
+Mostly Freeze/Unresponsive When Opened File Size ±500 kb
+Slow editing on large files (#90 / 169)
+Custom line height for editor
+Option to always start on bottom of existing documents
+Bullet points issue
+Bullet points in Markdown do not follow up any longer 
+New swedish translations
+Plugin system
+Cursor position reset when switching away from app
+Support for done.txt
+Document/Folder information
+Section for other files
+Delete in document
+Permanent notification to start editor for a specific file
+Search (+replace?)
+Update Polish translation
+New translations for 0.2.5
+The selection highlight color in dark theme is a bit too light
+Option to use default system file picker
+Tag like feature
+Slow down with code section
+App crashes when renaming a '.md' file to a '.txt'
+Update CONTRIBUTORS.md
+Update fails since releases >0.1.5 
+Colored underline for hex colors
+Update french language file
+improve/change app/project icon
+japanese translation
+menu option to toggle line wrapping
+Version controlling of Notebook using Git
+Highlighter abstraction
+Kabyle translation
+IllegalStateException: FilesystemListFragment.showEmptyDirHintIfEmpty
+Update Turkish translation
+Updated swedish translations
+Fix for #130
+Alternative line color
+Filenames with newlines
+Insert Link/Image select/replaces whole line
+Images from local filesystem loaded in preview
+Manually save
+Add support for syncing with Own/Nextcloud API
+Handling of content:// URIs 
+Markor is not associated with file extension ".md"
+Update Turkish translation
+Syntax highlighting for line breaks
+F-Droid automatic builds stopped working
+Changed back to QuickNote
+Update uk (Ukrainian) translation
+TransactionTooLargeException
+Hide sync folders
+Abstract markdown highlighting, allow to switch between highlighters
+Swedish translations
+Complete rework of filesystem fragment
+Some fixes for #14
+Updated fr (French) translation
+Updated Turkish translations
+Update Spanish translation
+File count for directories includes non-markdown files
+added new pl strings (#20)
+Update PT-BR translation (#20)
+hindi translations for new strings, #20
+Faulty rendering of markdown in preview
+Table has no/incorrect highlighting & resulting table has no borders
+NullPointerException
+Added fr (French) translation
+Add documentation (markup syntax, features, other projects)
+FR: add text editing undo/redo
+Markup editing issues
+Usability issues
+fixed some translations, added new string (#20)
+Added nl (Dutch) translation
+Update PT-BR translation (#20) by @TiagoDanin
+Show line numbers in editor
+Create custom reuseable Preference-class for Rotation-Settings
+Tables not rendering
+Swedish translation
+Drastically slower editing (#90 / #169)
+Set default font in preview accordingly to editor-font
+Feature: Launcher shortcuts
+Feature: QuickNote
+Feature: todo/tasks in todo.txt format
+Widget always opens file in editor mode
+Added Turkish translation
+Add support for share appending  to existing note
+fixed #75
+Fix typo in Spanish translation
+Fixed share as image menu
+Rework Highlighter
+Rework Highlighter
+[WIP] Extension Bug Fix
+FAB Redesign
+Crash  at net.gsantner.markor.model.MarkorSingleton.getFileFromUri
+Fixed #24 part 3
+Added additional syntax highlighting
+[WIP] Added in the skeleton for adding a notification. Partial Fix #44
+Add Polish sort translations (#20)
+Update uk (Ukrainian) translation
+[WIP] Don't change file extension when saving
+Implemented Markdown Actions
+[WIP] Added allow to share Text and link 
+Added Italian translation
+Fix typo in Russian locale
+Add Ukrainian locale
+Return of the french translation
+Fixed #24 part 2
+Fixed #24 part 2
+Encrypted documents feature
+Allow to share text and links into Markor
+Plural for quantity string
+You forgot about add ')' in changelog.md
+Hindi (India) translations of strings
+Fixed #24
+Fixed #24
+Add Polish translation (#20)
+Update PT-BR translation (#20) by @TiagoDanin
+IF
+Fixed #32
+Update Spanish translation (#20)
+Fixed #45, replaced Uri.fromFile with FileProvider
+Fix share document as image
+Implemented Export to PDF for API 19+
+Crash at net.gsantner.markor.activity.PreviewActivity.shareStream (PreviewActivity.java:177)
+Reminder feature
+Add support for Nextcloud Notes API in subfolder
+Replace markdownbar with markdown actions instead of just characters
+Allow export as PDF
+Merge PreviewActivity+NoteActivity / make use of fragments
+Crash at net.gsantner.markor.activity.NoteActivity.saveNote (NoteActivity.java:312)
+Crash at   at net.gsantner.markor.model.MarkorSingleton.getFileFromUri (MarkorSingleton.java:158)
+Don't change file extension when saving
+Add more functionalities to FilesystemDialog, use it in MainActivity instead of current solution
+Rework Highlighter
+Add share option from preview activity for sharing file instead of text
+Swap AndDown for commonmark-java
+Back navigation when viewing a file within a folder returns to the overall screen rather than the folder
+'Hide statusbar' crashing an app
+Find better markdown parser/convertor
+FR: Support of github flavored markdown
+Feature request: sharing text as a file rather than as content 
+Created es (Spanish) translation
+White screen when i put the widget
+Sort notes
+Highlighter matches renderer
+Not registered as Filehandler?
+Complete rewrite of NoteActivity
+enhancement: make links in preview work
+I'm contributing!
+Fix syntax highlighting #1 
+Shortcut bar missing some characters and buttons are too small
+Better french translation
+Markor crashes when pref_key__is_editor_statusbar_hidden pref is checked
+Duplicated setting in v0.1.2
+Fix the forgetful preview (#10) and some improvements to note saving and updating
+Inconsistent behaviour & syntax highlighting when creating lists
+Editor forgets contents when switching back from preview with a newly created note.
+Preview broken
+Changing case of the file name deletes the file
+Added pl (Polish) translation
+Russian translation
+Closing unchanged documents changes modified date
+Fix and update fr (French) translation
+Duplicated Setting in 0.1.0
+[Marshmallow] Directory Empty
+Android >= M permissions
+Markdown settings option - heading syntax
+WIP: Open file location from search dialog
+Launched file shortcut doesn't respect `Prefer view` option
+Crash after intro tour on Chromebook
+Storage mounting
+Markor crashes when making a new note sometimes
+New Crowdin updates
+Feature: App crash handler / Log export
+zim: links within a page to a heading/object result in NullPointer exception
+View-Mode: AsciiDoc convert support
+Better compatibility with physical keyboard on Chromebook
+sort search results and drop down lists alphabetical 
+search result - a way to open the found file in the file list
+area not displayed when editing
+Headline wrapping past the width of screen
+Handle cases where the file is larger than max allowed memory
+Zim: First sentences consisting of one word treated as list index
+Hex color for basic theme instead of color wheel
+Attachment menu: Add section for Videos
+per-file-settings: encryption password
+Fullscreen settings option (Hide SystemUI status/nav)
+per-file-settings: text direction (RTL/LTR)
+zim: View-Mode Checkboxes [x] crossed / [>] arrow
+Add PDF reader to Markor's view mode with pdf.js
+View Mode: Save & Restore scroll position
+todotxt: Allow to insert tags/categories with multiple ++/@@
+Rework Copy/Insert media dialogs: Scrollable selection list between notebook,current, favourite folders 
+Improve View Mode & "default to view mode"
+todo.txt: view mode - Fancy grouping, sort, search etc
+Markdown converter: Add option to break lines on single EOL
+Determine and keep EOL (for saving/reading files) (\n vs \r\n)
+todo.txt: Reminders & Notifications for due date
+Add file history to Viewer navigation
+Editor & Viewer: Reading with auto-scroll
+Document editing widget
+Keyboard shortcuts for editor (HW)
+Markor Project discussion, chat & questions
+Markor translation & localization

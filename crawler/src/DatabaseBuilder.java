@@ -299,6 +299,7 @@ public class DatabaseBuilder {
         List<String> repoNames = new ArrayList<>();
         repoNames.add("gsantner/markor");
         repoNames.add("beemdevelopment/Aegis");
+        repoNames.add("LibrePDF/OpenPDF");
         DatabaseBuilder databaseBuilder = new DatabaseBuilder(repoNames);
         databaseBuilder.buildDatabase();
     }

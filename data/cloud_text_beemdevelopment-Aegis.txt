@@ -1,0 +1,1041 @@
+Unable to import vault
+Directory Structure
+Implement support or import for Norton/Symantec/Verisign VIP Access
+Notification remains after the app is killed by Android
+Can't import .json file to Aegis
+Import from Clipboard
+Unable to import from FreeOTP tokens.xml
+Error while import tokens.xml from FreeOTP
+Immediately unlock Aegis after entering numerical password with enabled PIN keyboard without tapping "Unlock" button after
+Can't import from google auth app
+Add support for importing 2FAS schema v3 backups
+com.beemdevelopment.aegis.importers.DatabaseImporterException: Unsupported schema version: 3
+UX: Prompt for biometric login on login-app, when biometry is activated
+Tap > minimize / close app
+Option to automatically assign an icon based on Issuer?
+Add quick setting tiles
+Reveal hidden code on HOTP increment click
+Only copy code if not hidden
+Allow exporting specific groups
+Add 'No Icons' view mode
+Added Norwegian Bokmål translation
+App strings reworked
+Let us import TOTPs using secret instead of QR
+Add ability to pin/favorite entries
+Add support for predictive back gesture
+Export a vault to windows
+Add an option to disable the entry thumbnail icons
+Possibility to have numeric keypad for unlock
+Fix some typos in docs
+Improve UI feedback for near rotating entries
+Feature Request: add Import from Google Authenticator by scanning the QR code(s) from Google Authenticator
+Wrong password when importing to Work Profile
+BUG FIX: Remove animations accessibility setting not respected
+sorting by usage count is not working
+Additional code grouping options
+App window closes after phone unlocked
+Allow app unlocking via phone scheme or specific scheme
+biometric authentication as default
+Error scanning QRcode on Samsung website.
+Aegis fails to import from new Steam app beta
+Add Yandex.Key support
+How do I import from Microsoft Authenticator without root access?
+Pin / Favourite accounts to the top
+Error when using face unlock
+Add monochrome launcher icon
+Windows port of Aegis
+Password requirement when adding Aegis to a second device.
+Minimise the App Automatically After Copying the OTP
+Crash from imported keys
+[Feature Request] Option: Set biometric login as default
+Add entries showing count
+Filter by ungrouped entries
+[Feature Request] Backup file number
+Minimize or Close app after copying OTP #805
+Text is cutoff because of small display
+Import Google Auth db/app
+Export encrypted Zip file
+Google Authenticator compatible export
+New button disappears
+Rename groups
+Enable sharing text to Aegis
+one barcode to rule them all
+Support otpauth-migration protocol
+Import Google Authenticator exports by image
+Add warning banner after plaintext export
+The entryList emptyView adjustment to the center.
+Import Bitwarden codes from file
+Set the searchview to occupy all Toolbar widths when it expands
+Don't duplicate entries upon import
+Zxing hardwired
+Add MOTP support
+Even 'compact is view' is not enough
+Rename "root access" to "rooted phone"
+com.beemdevelopment.aegis.otp.GoogleAuthInfoException: Unsupported protocol: https
+Default to fingerprint if biometric factor enabled
+Add PIN as option
+Biometrics works with 1 fingerprint, fails with 2 and more
+Add copy button next to entry
+Material You icon support for Aegis
+Aegis 2FA giving me wring codes only on my chromebook
+Out of sync timer versus KeePassXC
+Add cotp support to import from a file
+Add "No Group" option to group filter selection UI
+Google Authenticator export QR code can be imported by camera, but not by picture
+'Unsupported protocol: null​​' on Gaijin.net (gaming service)
+Set icons from installed Apps or Play Store and F-Droid
+Hi，i have a question
+Google Authenticator Import Support?
+Add an option to set a separate password for backups and exports
+Add an import button to the intro
+Avoid crash when double clicking on "Copy" button
+Check if Google Authenticator entries are encrypted
+Crash if trying to double-click on copy button
+Possible computer implementation? 
+Option to open search immediately upon opening the app
+Import from Google Authenticator fails
+APK on GitHub
+Icon transparent background does not perform well
+Can Aegis restore using recovery code from Google Authenticator app?
+Windows or web version
+Restore search query on screen rotation
+Security pattern
+Sort list after editing entry
+Issue with Samsung Secure Folder
+Add Bitwarden importer
+Order alphabetically A to Z is not always enforced correctly
+Cannot backup to Nextcloud anymore
+Sign in into Yandex by QR scan
+Don't hide "Add entry" button when a DPad key is pressed
+TXT file export -> import error
+[question] how is encryption implemented?
+Support for Steamgaurd-cli
+Cryptographic APIs misuses
+Judy
+Judy
+Terrible "New User" experience when moving between devices
+Ability to quickly copy other attributes (Name, Issuer, Note)
+Fresh install on new device always prompts for password
+Multiple Steam Accounts Guard Import only imports the first Steam Recovery
+2FA Authenticator Import Error
+2fas Authenticator
+do not show codes at app startup
+Importing Same Codes, Creates Duplicates
+Biometrics face unlocking not working on Pixel Experience.
+Gratitude and feature request.
+Support for Okta verify
+Easy to click button for deleting/locking database
+Icon colour selection
+project
+Error Scan QR Code AOL.com
+Backup  and Sync with Google Drive
+Add icon Tip
+add a bundle of favicons in the app
+Unable to import Aegis backup file to Android 12 CalyxOS
+Time syncing issue when using AWS MFA
+Add an option to make biometric a default  option even if i click "password"
+Fix Aegis import dialog message title
+Add Entry button not always selectable via d-pad
+Scan QR Code not working on v2.0.2
+Sometimes exporting json or txt (unencrypted) creates a 0 byte file
+Missing "Facebook" issuer when import from FreeOTP `tokens.xml`
+Biometrics setup fails
+Feature: Add Yandex OTP support
+Improved decrypt.py
+Automatic Backups directly to Google Drive
+Linux Desktop .AppImage version?
+Please accept $XNO (Nano) donations
+Can't register the specific format correctly
+Emoji not supported in icon
+Allow to configure default group to select at startup
+Crash when enabling encryption on Android 12
+Add an option to use biometric authentification by default
+Support importing totp from Bitwarden
+Ability to Open Protected Vault on Personal Computer
+Emulate a Virtual Keyboard
+Is there any chance of a Desktop version?
+Locked out of app
+Please, take from Crowdin the catalan translation to be included with the compiled app... when you have time, of course (almost one year later)
+please add support 2SV from Yahoo
+Aegis in-app NTP clock as alternative to system's for TOTP codes
+Export secret key to qr codes
+Yessir otp bot
+Sync backups to cloud storage
+Incorrect color
+Is there any chance to consider maintaining the Windows version of 2-FA TOTP app, like WinAuth?
+Updated Delete Dialog
+Added Focus Search on App Start
+Open with fingerprint-input instead of pincode-input when fingerprint unlock is setup. 
+Added Scroll to Group selection dialog 
+Multi-device sync
+Biometrics as default unlock
+Vauld.md inconsistency fix
+Unsupported protocol: https while scanning QR code
+Support for Authenticator Plus
+Add DUO importer
+Download failed on FDroid
+Be able to backup using webdav protocol
+Upgrade Android Gradle plugin
+Make group chips checked when selected
+Allow filtering by "No group"
+support using Fido2/yubikey + password/biometric to authenticate 
+Browser integration or allow for adding to Android quick panel
+Filter by "no group"
+Network permission issue 
+Android Keystore key invalidated after device unlock on Pixel 4
+Allow disabling Code Group Size
+Add setting to focus search on app start
+Support WebDav backup
+restoring Aegis
+Folder option for better organization
+Splash Screen Implemented
+Changed the Chip to match the background in Amoled and Dark Mode
+Dialog with now show both name and Issuer If present
+Splash Screen
+Rounded Corners
+Improve Biometric Security
+Changed the Chip to match the background in Amoled and Dark Mode, Adjusted the Bottom Buttons
+2 questions
+Migrate App Compat Buttons To Material Buttons
+Migrate Button To Material Design in Share Entry Class
+Minimize or Close app after copying OTP
+Migrate Pages Slowly to Kotlin
+Electronic Arts Unsupported Protocol: HTTPS
+Using Jetpack Compose
+Please help out a noob
+Password protection
+Aegis Desktop app
+Synchronize clock with NIST servers
+Aegis for iOS
+Custom text field
+Text is cutoff because of small display
+add note text field when editing entry
+When deleting an entry, please show its name in the confirmation dialogue
+Option to Disable Automatic Refresh for Selected Code
+Option to Disable Automatic Refresh for Selected Code
+Invalid OTP code
+Space required for dutch string
+one account in two or more groups
+"time correction for codes" function is essential
+Import password prompt string is unclear
+Make compact mode more compact
+add a note field (annotation)
+2FA tokens are valid even after the expiration
+Improve icon suggestions
+Allow exporting of specific group(s)
+add support to import json files
+Tutanota Mail Bad Secret
+Support the non-standard Authy TOTP algorithm
+add shortcut for applying group filter
+Add Separate passwords for automatic Encrypted Backups
+Automatic Backup Doesn't Show Cloud Storage
+Bad secret invalid input length
+Can't modify advanced options when adding an entry via scan QCode with v2.0
+Support configurable password reminders
+another type of characters to hide the token code
+using a monospaced font to display code
+Creating multiple files with tokens (work, home, other tokens)
+Recording time and date for last login
+import option request: authenticator pro
+Fix blank text in delete dialog for entries with no issuer
+Fuzzy Match between Issuers in Token and in Icon Pack
+Add usage count to entries
+Backup Dialog Cannot Identify Every Possible Backup Location (Cloud Storage)
+Blank text when trying to delete an entry with no issuer.
+Icon pack import issue
+F-Droid updates are behind play store
+Use biometrics automatically when enabled
+Grouping
+Outline for Issuer on Add new entry / edit entry is cut off when system font size is set to Small
+No entries info not shown and entries missing
+How to add a Steam token?
+Anyway to get this to Windows?
+can not import 2FAS app's *.json to Aegis
+List beta builds on F-Droid
+filter
+Request support for this app
+Tap to copy / reveal
+Biometrics prompt not showing at launch
+Allow search to find Issuer
+Paint the codes if the timer is below x seconds
+Support PIN code for unlocking vault
+[ImgBot] Optimize images
+Gradle: Validate wrapper in CI and update to 6.8.3
+App Unresponsive To Fingerprint Scan and Does Not Recognize Correct Typed Password
+any plans for Window app?
+App "locking" itself or closing when attempting to change icon of entry if "Automatically lock Aegis when the app is minimized" is enabled
+Import from Google Drive imports only 12 out of 33 items
+add support for sharing text to Aegis
+Quick copy number 
+App Not Locking Reliably
+Scan QR Code Not Working on v2.0-beta1
+[v2.0-beta1] Icons from the iconpack turn into grey after scrolling
+[v2.0-beta1] Can't import SVG separately (only with icon packs)
+Can't change group if the last one is deleted
+Entering password second time is not visible during encrypted backup
+Multiple Devices Support and Cloud Sync 
+Aegis biometrics unusable on Samsung S10e
+Bad 2 factor or recovery code 
+Facebook QR Code is not recognized
+Biometric unlock greyed out after upgrading from Android 10 to Android 11 (LineageOS)
+Fixed that app vanished from recent apps list after locking
+Fixed minor markup irregularities in bug report template
+Aegis vanishes from recent apps when locking the vault
+Device's security settings change text overlapping
+I need to backup file to always be the same name
+Feature request: hide images
+Add an option to automatically ask for biometrics instead of clicking on the option.
+Support of RFID-capable hardware security keys
+App crashes when trying to import from Authenticator plus
+Security Question : how is encryption password stored while using biometric
+Root access to move Authy xml file
+Items are not sortable in custom order after searching
+UI Suggestion: Show Total Number of Entries (Either Main Screen or Filter List)
+Common Site Icons/Logos
+Producing Invalid codes even with time "synced"
+Import from Google Authenticator not possible
+[question] how to make aegis work with my website?
+Add a Tutorial on how to add Steam Authenticator to Aegis
+Enlarge "biometrics" authentication button
+wiki python-bna usage
+Desktop / Web Version
+Opening screen biometric unlock
+Adding Cross-Platform Support via Syncing
+When Tap to reveal is enabled change how tap to copy works
+Export to remote storage (eg. NAS) 
+Add support for creating entries from shared images
+Allow creating new entries from QR code images received via "share intents"
+Search box closes when screen is rotated
+Take icon from Website of service
+Browser Extension to receive codes in clipboard
+Aegis
+Biomatric error
+Face Unlock support
+Codes stopped working
+Crash when i try to export or bakcup
+Unsuccessful import from SDA
+App doesn't react to QR codes surrounded by dark background
+Click on TOTP to copy it.
+Make a Desktop App
+Chrome Browser Extension
+Importing the vault from Nextcloud results in a "File not found" error
+Start working on bottomsheet for group chips
+Import error authentication plus data
+Support importing from other apps' ADB backup files (.ab)
+Automatically get the icon from the url by parsing the favicon
+Split preferences into separate fragments
+Import from Authenticator Plus: Error "Error trying decrypting database"
+Downgrade zip4j to 2.6.0
+Explicitly opt out of WebView usage statistics collection
+Allow hiding icons
+Use name() instead of toString() on StandardCharsets.UTF_8
+Error when exporting to unencrypted text file.
+Add dark theme variants of the fullscreen style
+Dark theme is not applied in the "Scan QR code" camera activity
+QR Code Scanning not working [Xiaomi Poco M3]
+Make biometric unlocking easier
+Show a clearer error message when encountering phonefactor:// URI's
+Add support for participating in Android's backup system
+Import backup bug
+Don't rely on accountType to detect proprietary Authy tokens
+Replace the FAB with a bottom sheet dialog
+[Privacy] WebView
+Scanning QR-code does not work
+Aegis crashes when adding an icon (for the 17th item)
+Add some more tests
+Secret is not valid base32
+Guide for Steam Desktop Authenticator to Aegis App
+Remove the "search in account names" option and do so by default
+Simplify the auto lock block logic and show an error if DocumentsUI is missing
+Fix an issue where the app would lock when showing DocumentsUI
+Use GoogleAuthInfo.parseSecret for secrets from Google Authenticator
+Invalid code for Firefox account
+Add support to wear OS
+Importing from Google Authenticator fails with “Error: App is not installed”
+Add pills to bottom of list to quickly jump to another group
+Run libsu commands inside the global mount namespace
+Can't extend OTP Lifetime (to 1 min.) and/or Hash Algorithm (to SHA256) while Google Authenticator does
+Explicitly define which packages (apps) we want to query
+Only show secrets for specific passwords or dont show them at all
+Crash when setting icon with Aegis 1.4-beta2
+The app locks itself when trying to import a file if auto lock when minimized is enabled
+Auto-Backup config/encrypted vault via SFTP/FTPS/WebDav/etc.
+Can't import Json file 
+Display the password reminder popup on top instead of the bottom
+Update dependencies
+Search doesn't search "name"
+Make the Google Authenticator Protobuf parser more complete
+crash when trying to export
+Windows/ macOS app or WebApp
+Sync cross devices
+Update both portuguese translations to last version
+Move the creation of exports/backups to a background thread
+Yandex
+"Tap to reveal": change min duration from 3 to 1
+backup/export to Nextcloud folder failed
+OpenPGP support for encrypted backups
+Verifivation code is invalid (error) 
+I can't import Steam over WinAuth
+Greek Translation Fixed and Completed!
+Error on export/backup to Nextcloud: java.io.FileNOtFoundException
+[Q] cli app that can use the db export directly
+mOTP support
+Unable to import from Authenticator Plus
+Is there any way to copy the text in one step ?
+After adding a new entry, scroll to it and highlight it
+Improve the export functionality in numerous ways
+Resize images to a max res of 640x480 before scanning for QR codes
+Combine ACTION_PICK and ACTION_GET_CONTENT when selecting an image to scan
+Display some help text in the importer selection dialog
+Strip " " and "-" when parsing secrets
+Backup database compression
+Provide easier icon support
+Automatically hightlight newly created item in vault.
+Show toast message if backup was created successfully
+Update
+Unrecognized character: 0x20 (space) when scanning QR-codes from Authenticator+ export
+Update dependencies
+Reset the PIN keyboard option when the password is changed
+Show biometric unlock by default when biometric authentication is enabled
+Authy import failing to import some tokens `No value for secretSeed`
+Microsoft 2FA
+Automatic Cloud Backup
+The app crashes when I try to export the passwords on Aegis. 
+Add Toast/UI feedback for manual backup trigger/click (no visual feedback right now)
+More Documentation with example needed
+Enhancement List
+Google and Plain Import fails
+Biometric authentication automatic popup for unlocking
+What password is used with backups?
+Hide TOTP Codes with Huge Dots - A bit Obnoxiously Looking?
+Feature request: automatically lock when app is no longer in foreground
+Can't export Aegis data
+Biometric lock disabled, settings inaccessible so can't re-enable, no password set/remembered
+Wanna add zh-TW language support and maintain zh-rCN
+Add panic trigger which deletes vault
+Minor color improvements for dark themes
+Prevent a crash on rotation while a ProgressDialogTask is still running
+Add checkbox dialog to wipe vault before import
+Prevent a crash caused by adding the same entry to the vault twice
+Add tests for the Slot classes
+Add tests for deep links and fix a minor issue
+Add empty state for GroupManagerActivity
+Fix hidden FAB when list changes
+Add issuer to confirmation when deleting an entry
+Improve auto lock and make it more customizable
+Replace use of android:tint with app:tint to fix lint errors
+Don't use deprecated ActivityTestRule in UI tests
+Update Gradle and dependencies
+Some layout issues on small-screen devices
+Please add qrcode compatibility for outlook Microsoft
+Convert pref_backups_versions_summary to a plurals definition
+Ability to choose a different password for a backup
+Any plans to launch a ios app?
+Update contributing guidelines
+Replace some string definitions with plurals definitions
+Show a message or allow an interaction when clicking "edit groups" in Settings, when there are no groups
+Grammar fix (setup -> set up)
+Possibility to export data in google authenticator compatible QR-code
+Do not display fingerprint unlock option right after startup
+Import from KeePass
+Disable UI tests on Travis CI
+Cloud sync?
+Rephrase the password reminder message to be a bit clearer
+Enable auto backup for shared preferences
+Immediately proceed to biometric unlock when app is launched
+Let back button lock+close Aegis instead of returning to lock screen
+Set the correct navigation bar color pre API 27
+Introduce support for icon packs
+Unable to scan QR Code or Image
+Support importing proprietary tokens from Authy
+Replace AppIntro with a new custom intro
+Alphabetical order 
+Update Simplified Chinese Translation
+Add translation link
+Increase the number of KDF iterations
+System buttons are very hard to read being white over white on Android 6.0.1
+Aegis doesn't seems to be able to use biometric sensor on Pixel 3a
+Fix behavior of AuthActivity under certain conditions
+Allow for system previous button to work in the first run assistant
+Automatically focus the EditText when showing text/password dialogs
+Make all remaining hardcoded strings translatable
+Combine ACTION_PICK and ACTION_GET_CONTENT when selecting an icon
+Support for Autofill of OTP tokens
+Unable to pick icon from downloaded folder
+[UX] Biometric unlock requires several screen touches before fingerprint accepted
+Preserve backwards compatibility with Android < 7.0
+QR code reader got broken on older Android versions since commit c65ed16
+Fix two minor issues in themes
+Support for push-notifications when TOTP is requested
+Introducing Arabic language
+Introducing Arabic support
+Default to biometric login (bitwarden stealing focus of password field)
+Biometric or password during setup, broken? Results in wrong password everytime!
+Add brazilian portuguese translation
+Ask for password on import & export only
+Fix an issue where the progress bar refresher ran in a tight loop
+Add ability to enable PIN keyboard
+Icon packs
+Support Share mechanism on Export
+Google Drive does not initially appear on Export
+How about a /sdcard/Aegis directory?
+Provide an alternate method of selecting icons
+Fix division by zero when calculating progress for large periods
+Improve usability of drag-and-drop feature
+Guard against starting multiple instances of IntroActivity or AuthActivity
+Add support for SVG icons
+If code refresh time is set to "9999" - Aegis crashes
+Improve the lifecycle handling of BiometricPrompt some more
+Allow changing the password if no password slot is present
+Can't select two or more entries
+After typing the password - app crashes
+Wrong export filename
+Fix export filename (again)
+Improve discoverability of drag-and-drop feature
+Export doesn't work.
+Fix catching ProviderException with KeyStoreException as the cause
+Clarify that backups are automatic in the preference summary
+Make the buttons in TransferEntriesActivity behave like actual buttons
+Change hidden text to the 'Black circle' character
+Add some missing Dutch translations
+Allow Long-press Drag and Drop reordering
+Unset "singleTask" as the launchMode for MainActivity
+Show code in 4-digit grouping (only for 8 digits codes like Battle.net)
+Password error when unlocking vault by password
+Let Android handle the lifecycle of BiometricPrompt
+Incomplete import from Microsoft Authenticator
+Vault password page is not scrollable when viewing in landscape mode
+Change verification code hiding design
+Fix the flakiness of importing from SQLite databases
+Localization not included
+Fix menu item title for transfer
+Localization issues
+Update Chinese translation
+Update Chinese translation.
+After clicking "Trigger backup", the application crashes.
+Fix an issue where codes were not refreshed
+Rootless import from Google Authenticator
+Improve backup error handling and frequency
+Add initial set of UI tests
+Update Gradle and enable dependency verification
+Improve RTL support
+Replace barcodescanner with CameraX and ZXing
+Disable wizard mode when the done slide of the intro is reached
+Don't allow drag and drop if the entry list is filtered in any way
+Respect the global animator duration scale setting
+Rename the security slides of the intro
+Crash when importing if PreferencesFragment is restored from instance state
+Add lockscreen overhaul
+Fix importing andOTP backups with more than 10000 PBKDF iterations
+Add Turkish Translation
+Add Turkish Translation
+malfunction in RTL language
+Export file is not encrypted
+Camera freeze when scanning QR Code
+Aegis improvements and theme bug.
+Update strings.xml
+Fix an issue where the password reminder popup was not shown
+Fix an issue where backups where enabled when exporting the vault
+Enable wiki for this repo
+Add password strength meter
+Fix crash that would occur when locking the screen with a locked vault
+Disable optimization in Proguard and retain line numbers
+Add an option to copy tokens on tap (and disable it by default)
+Fix issue where VaultManager was erroneously initialized with creds in intro
+Fix issue where the copy animation continued after view holder rebind
+Prompt for "Company", not just "Name".
+Don't add new entries to the view if restoring from instance state
+Reset vault credentials when password/biometric slide is selected
+Only allow one key slot of each type in the vault
+Improve icon editing flow
+Update dependencies and sort them alphabetically
+Improve Action Bar consistency for Settings and About
+Toggle for auto-copying into clipboard
+Add ability to transfer tokens with qr codes
+Can't change entry icons
+App starts with white screen
+Generate QR Codes for Export
+Navigation Bar Color White?
+Navigation Bar Color White?
+Password strength indicator when signing up
+Unable to restore backup
+Add Turkish Translation
+RTL support
+Update translations
+Apply image changes without checkmark button, or prompt for confirmation
+First time setup does not require confirming password if "show password" box is checked
+New release
+Add options to hide issuer (and icon?)
+Increase password reminder period to 30 days
+Reuse existing PreferencesFragment when restoring from instance state
+Logo Library
+Bottom Navigation & Auto Dark Mode
+Import from ZIP for the Authenticator Plus, instead of SQLite databases
+Add initial support for importing Google Authenticator export QR codes
+Improve layout perf
+Authenticator Plus import without depending on SQLCipher
+Add minor card entry layout overhaul
+Password reminder happens too often
+Invalid Backup is created 
+Change license link color so it is legible on dark
+Ask directly for fingerprint if biometrics configured
+Sort by Recently Used
+Changes to UI 
+Add Hungarian metadata
+Add Hungarian translation
+Update AppIntro to 6.0.0
+Fingerprint Unlock Does Not Work On OnePlus 7 Pro
+Append a timestamp to the filename of exported vaults
+Display a warning if automatic time sync is not enabled
+Issues w/ adding Steam profile
+Write entries to the vault directly in EditEntryActivity
+Minify and optimize the APK using ProGuard
+Add folders 
+Create FUNDING.yml
+Wrong generationed code
+[Bug] Problem with biometrics
+Move buttons (Unlock/Biometrics) away from "Enter your password" box
+Desktop App for 2 step Auth Windows 10
+Use most frequent period to show progress
+Allow password reminder popup dismissal by typing
+Let the user input text into the password field while the "Do you still remember the password?"-popup is up.
+Improve overall exception handling and error feedback to the user
+Show the password reminder popup after the window has been attached
+QR code scanning from EA / Origin Store Account not possible
+Option to change code display format (Issue #373)
+Enabling Biometrics Fails on Android R DP2
+Settings to change "Code display format"
+Support for RSA SecurID Tokens
+Drag and drop should not work in filtered lists
+Show account name only if it's set
+automatically adapt to system theme
+Fix bug where multiselect triggers copy animation
+"Copied" animation is triggered when selecting items
+Add support for otpauth://steam URI's
+Replace SpongyCastle with BouncyCastle
+Crash without more info when trying to enable biometric unlock
+Entry is duplicated and App Crashes on using our own image.
+exported .json file is empty
+Tap to Reveal Tokens Enabled by Default and Better Placeholder Name
+For more security spongycastle -> bouncycastle
+Add support for importing a plain text Google Authenticator URI file
+Rename "profile" text to "entry"
+In the sort order menu, we see "custom". But then there's no way to customize that.
+In the menu, instead of just saying filter, say filter by group.
+Add "show group name" option
+Keep field titles visible, even after filling
+Call 'edit profile' edit site instead
+Name just becomes user name upon WinAuth import
+Missing ellipsis for long key upon eyeball press
+issuer is universally set to be "WinAuth" upon import despite issuer being present
+Can't see bottom of intro pages, so only can select "None" encryption, probably due to font size assumptions
+Offer export and import of vault into otpauth URIs etc. app-neutral formats, and import of such files too
+Document migration from and to Authy, Google Authenticatior etc.
+Can't import any QR Codes anymore
+[UX] Image Editing Tweak: Save current view/crop when pressing save button for entry
+Add selection indicator to ListItem
+Accept QR codes with type 'steam' (e.g otpauth://steam/....)
+Fingerprint unlock prompt gets stuck sometimes drawing over all apps until reboot on OnePlus 6
+Add support for backups
+Sites don't accept my 2FA codes after restoring my Aegis backup
+Setup loop / Can't setup Biometric Unlock
+Keep groups when importing from Authenticator Plus
+Update Chinese translation
+[Feature Request]  Security key can be used to unlock Aegis vault
+Color contrast of selected entries with amoled theme is too low
+Autolock
+Crash when importing Authy data with root privileges
+Crash when reconfiguring biometric authentication
+Automatically switch night mode over time
+Update Chinese translation.
+Added Database Import from Authenticator Plus
+Authenticator Plus import
+Fix crash on KitKat due to multidex
+Update Russian localization for new strings
+Improve confirm password functionality
+Set confirmation not required on BiometricPrompt
+Improve method to notify users on copy
+Reordering entries in the list doesn't work
+Don't request user confirmation after biometric authentication
+Update Gradle and enable dependency verification
+Change Capitalization
+Make the parsing logic of the QR code URI more robust
+Codes Auto-Copying To Clipboard On FIRST Tap
+Missing unification of names
+Typo in string
+Localization issue: Missing plural forms
+Windows version?
+Add support for Ripple panic button
+Scanning python-bna's QR code crashes the app
+Consider repositioning the login UX to the center/bottom hemisphere
+Confirm password not enforced when show password is checked
+Aegis will not open its own .json backup file, claims password is wrong.
+use PIN authentication to start and lock/unlock app (separate from vault encryption)
+Protect writes of the vault file against corruption with AtomicFile
+Add support for importing encrypted and manually entered tokens from Authy
+Add support for importing from Microsoft Authenticator
+Add support for importing from TOTP Authenticator
+Add navigation bar color to themes
+Crash when creating password-protected vault
+Unable to activate Biometric unlock after biometric change
+Append ".json" extension to export filenames
+flexible export file name (basename + date/time)
+Fix #295
+Codes are not refreshing because of entry with custom period
+Dark theme too bright
+Remind users who use biometrics to enter their password periodically
+Remote export of data
+Password reminder
+iOS app
+Webapp or windows application or java app...
+Fix setting locale on 7.0
+Language setting doesn't work
+Add explanation for the security options
+Remove EXTERNAL_STORAGE permissions
+A port to .PAF
+Aegis doesn't respect user's animation settings
+Option to change icon colors
+Support for Android Biometrics API
+Don't Copy On Tap To Reveal
+Add ability to select multiple entries
+Rewrite the export functionality to use the Storage Access Framework
+Add ability to select multiple entries
+Add option to replace existing entries when importing a backup
+Set requestLegacyExternalStorage to true in AndroidManifest
+Export does not work on Pixel running Android 10
+Always cancel the persistent notification when the app task is removed
+Compatibility with KeePass kdbx
+Replace implementations of Base16, Base32 and Base64 with Guava
+Support for WearOS
+Update translations
+Fix changelog
+Update gradle and dependencies
+Rename "Database" to "Vault"
+Authy import not working
+Fix bug where invalid secrets made Aegis crash
+Camera only works after switch to front and back
+Add import from LastPass Authenticator
+Add import from Microsoft Authenticator
+Fix exception when importing an old export
+Crash with secret "="
+Syncing using cloud services
+Add a 'copy' button to the entry action mode menu in MainActivity
+F-Droid takes over old android tablet (Kobo reader)
+Make the behavior of highlighting and revealing entries consistent
+Update the icon of the F-Droid listing
+Allow creation of Czech translation
+Update the icon when pressing "Save"
+Option for Normal view mode but without gaps.
+Add Support for SafeNet MobilePASS OTP
+Transparency in image/icon displays as black.
+german translation updated
+Update strings.xml
+new version/platform port request
+Save keys when in TWRP
+Navigation bar isn't black on OxygenOS
+[Information] UTC -3 Sao Paulo without Summer Time
+Repair of a little detail
+codes generated on oneplus 7t pro are always invalid
+Replace the custom fingerprint auth UI with BiometricPrompt
+Add minor text improvement
+Add checkbox to toggle visibility in password fields
+Fingerprint Reader on One Plus closes app
+Update screenshots
+Ask users for their device model in the bug report template
+Chinese translation improvement
+Fingerprint not available
+Explicitly state in AndroidManifest that a camera is not required
+Change in timer animation when tokens have different durations
+Remember new entry details after app is locked/unlocked
+Add toggle to show password during setup & on change password dialog
+Wouldn't proceed after setup, had to do again
+Google Play Store - Unable to install on Pixelbook or Dell Chromebook 11
+Hide ok buttons, if they don't do anything
+Intro screens should be swipable
+Link website on GitHub
+Changelog
+Add "aegis-icons" project to README
+Add the option to highlight entries when tapped
+Add support for the new andOTP backup format
+Add Crowdin support
+Persistent notification does not close the database
+Support the new andOTP backup format
+Add ungrouped filter
+Is there a security benefit in using the app based encryption when the phone is already using full disk encryption?
+Support Device Credentials 
+Set pref_account_name to true by default
+Allow re-ordering rows in group/filtered view
+Allow user to filter for un-grouped entries.
+Docs / Github - include Small and Compact view mode screenshots
+Authentication on GitHub fails when phone time is not precisely correct
+Target API 29, update gradle and update the dependencies
+Immediate app crash after start
+Add ability to set default filters
+Add WinAuth importer
+Update french translation
+Add ability to search in account names
+Autolock doesn't work anymore
+Is it Aegis Wordpress and Wordfence compatible?
+Add Simplified Chinese translation
+Add ability to search for username
+Center label if account name and issuer are not set
+Add git commit hash and branch information to AboutActivity for debug builds
+Add placeholder for empty recyclerview
+Fix app icon in IntroActivity
+Add temporary backpress fix
+Add Travis CI configuration
+Add AboutActivity
+Set a default value for period and digits for new entries
+Added German Translation
+Add basic contribution guidelines, issue templates and a guide for ADB
+Add import from Microsoft Authenticator
+Import error from supported apps
+Set group on new entries automatically when group filter is active
+Change auto lock preference visibility behaviour
+Aegis doesn't close using the back button
+Check for the possibility of an overflow when parsing OTP period
+Exiting the app brings me to the "Unlock the Vault" screen again
+Blizzard Authenticator Support
+Show Only Individual Accounts?
+Correctly display codes with an uneven number of digits
+Wear OS support
+Wrong OTP displayed for 7-digit tokens
+Add support for WinAuth txt backup format
+Overhaul entry interaction
+Add support for deeplinking otpauth uris
+Support file-based import from Authenticator Plus
+update Russian localization
+Add ability to toggle password visibility
+Add new icon
+Add ability to show password in AuthActivity
+Cannot select downloaded image as icon
+Add desktop apps
+v0.4.3 Error when exporting database
+Fix #162
+Misleading 'invalidated fingerprint' message
+deleted
+Error when importing from Authy
+The application suddenly stops when rotating the screen in the unlock section
+Get external storage read permissions before selecting an image to scan
+Updated Russian translation
+[feature] Keep in notifications feature
+High battery usage
+Intercept otpauth:// scheme (used by Google Authenticator and other TOTP apps)
+[feature] put encryption, digits and seconds under an advanced group when entering manual token
+App keeps crashing if entered big integer in time
+Lock screen shows again when pressing back button
+Aegis v0.4.3 - The application suddenly stops when adding images
+Camera just show a blank page when open it twice
+Add notification to warn user about the unlock state
+[Feature] Support for Authy's 7-Digit Non-RFC TOTPs
+"Fingerprint" checkbox does not get set to false after enrolling a new fingerprint
+Add reminder dialog for passwords
+Unregister any listeners when destroying EntryListView
+Use glide to load and cache icons
+[Feature] Use Google Play Open Beta program
+Add a language option to the preference menu
+Disable screen security by default for debug builds
+Suggestion: Default Filter (Category)
+Proposal for standard data exchange format
+Show version number/about section in preferences activity
+Introduce UUIDMap for storing objects that are keyed by a UUID
+Move entry divider logic to EntryListView
+Move icons out of the vault file to a separate folder
+Notification if database is unlocked
+Optional warning banner on main activity when user has exported a plaintext backup
+Adding a new group on the create/edit profile screen does not open the keyboard
+Limit the amount of entry info passed to SelectEntriesActivitiy
+Set group on new entries automatically when group filter is active
+Floating action button doesn't reset visibility after changing filters
+Steam?
+Show groups on main screen and allow expand/collapse of groups
+App is laggy
+Unable to Read and Process QR code
+Missing Button
+Add an option to sort OTPs per last usage time.
+Add an option to use another password for encrypted backups
+turkish-language
+'"repaired": true' showing up in my vault export?
+Back button doesn't work on password prompt screen
+Support "Duo-Protected" accounts
+Highlight entry after adding one
+Add ability to automatically adapt to Android Q's dark mode / battery saver
+Feature request: add a copy button next to the codes
+Replace SpongyCastle with BouncyCastle
+Don't ignore the result of IntroActivity when the vault is locked
+Countdown bar is invisible
+Add ability to search for entries in vault
+Add new QR shortcut icon which follows material guidelines
+Add support for importing from Authy
+Add support for importing from FreeOTP+
+Use openPgP for encryption
+Launcher QR code quick action icon
+Add auto backup
+Always try to decrypt the password slot first, before the fallback
+Adapt the unlock button size in AuthActivity to the text width
+Always launch AuthActivity on lock if MainActivity is resumed
+No Progress bar
+Use the old encode method for passwords over 64 bytes and repair the slot
+Update french translation
+Blank screen on screen locking
+Update broke Aegis
+Crash on fingerprint login if new fingerprints have been added
+Update french translation
+Localization errors
+Button size not adaptive
+Add search feature
+Add possibility to ignore spaces in EditTexts
+Ignore spaces in 'secret' field
+Prefer Strongbox for storage of Android KeyStore keys
+Select and focus password on failed unlock attempt
+Delete password field when user types wrong password
+Set the Activity theme before calling super.onCreate
+Update Krop to 0.44
+Importing from Google Authenticator
+Fingerprint setup turns screen off on Moto G5 Plus
+Unable to set account photo
+Fix a bug where Aegis would forcibly pop up after unlocking the device
+Unlocking phone always immediately brings up Aegis
+Fix the last couple of sorting bugs
+Black screen when adding an entry by scanning QR code
+Is there anywhere to donate?
+Add support for importing encrypted andOTP backups
+Refactor database importer logic
+Add ability to select entries when importing
+Fix a bug where the password encode function added trailing null bytes
+App unlock via fingerpint doesn't work if phone is unlocked via fingerprint
+Crash when trying to import from an app that is not installed
+Support importing from Duo
+The sort mode is not respected for new entries
+Add ability to scan image for QR code
+Support importing from Authy
+An error occured while reading QR code
+[Resource] I made some 2FA profile icons
+Support selecting which entries you wish to import
+Support adding entry using image of QR code
+Add documentation for Aegis' security design and vault format
+French translation and small changes to english strings.
+Added F-droid icon to readme
+Strings.xml cleanup
+Darkened Krop color
+Show keyboard automatically
+Add support for pin instead of password
+Add an option to automatically lock the app
+Incorrect token for imported authy
+Enabling fingerprint fails with IllegalBlockSizeException
+Can't translate themes and view modes in settings
+Add Dutch translations
+Crash when restoring EditEntryActivity from savedInstanceState
+Is there any plan to add a desktop app for macOS?
+Support importing encrypted andOTP backups
+Support importing from FreeOTP+
+Can't import andotp backups that include steam
+Thanks for submitting the first translation! A small part seems to be missing though:
+Option to backup to Google Drive/OneDrive/Other Cloud Storage
+Updated ru (Russian) translation
+Description for F-Droid release
+Smaller boxes and text
+Auto-lock if the app is closed or after a minute
+Dark mode in main menu, doesn't work if you don't have any entries.
+Metadata fix path
+No progress bar
+Header: distinguish timer and top panel
+Add quick sorting options
+Add amoled / true black theme
+Have tapping on a code copy it rather than open the menu.
+Alternative Download Source
+Add support for importing from Google Authenticator
+Add an option to hide codes by default and reveal them only when tapped
+Save the database file atomically
+Add support for Microsoft Authenticator's "phoneauth" URIs
+The "discard changes" dialog is shown for new empty entries
+ImagePicker in the EditActivity has the wrong color
+Last slide of onboarding process is missing an icon
+Only show the key slots menu in debug builds
+Add an option to change the password
+The intro doesn't show the app icon
+Allow storing the database on external storage
+The "Encryption" step in the intro activity has multiple issues
+Not all strings are defined in strings.xml
+Make text less cryptic
+Update to SDK 28
+Prompt the user about unsaved changes when closing SlotManagerActivity
+Dialogs don't respect the dark mode setting
+Importing an entry with a non-unique UUID causes a crash
+Rename "Night mode" to "Dark mode"
+Allow switching from an encrypted database to a plain text 
+database and vice versa
+Allow switching to the front-facing camera in the camera view
+Lock the database after x minutes of inactivity
+Support importing encrypted Aegis databases
+The margin of the icon in EditProfileActivity is slightly off
+Night mode is broken in most views
+Hide 'advanced' OTP fields by default in EditProfileActivity
+Set FLAG_SECURE on every window
+HOTP support
+Long press to reorder no longer working
+Export vault to HTML
+First biometric attempt fails
+Add support Import from Authenticator Pro
+Export to Clipboard
+Battle.net Authenticator Import Support
+Unlocking the database takes a long time
+Improve entry validation feedback
+Add support for codes from YubiKey
+Some strings are unable to be translatable
+Language setting still does not work
+Ugly placeholders when codes set to be hidden
+Please add support for OTP Auth
+Please add support for "Entrust Identity"
+Deselecting a selected entry while using custom sort doesn't work well
+Updated ActivityResults to the new API recommended by Google
+Added checks for animations accessibility
+Improve clarity of the password reminder
+andOTP import: Usage count & icons
+Auto-fill service not working anymore after updating to GrapheneOS Amdroid 13
+Hide TOTP dots to make the list more compact
+Add shortcuts for groups
+When the text is empty, the generated TextDrawable uses a grey bgcolor
+Suggestions for exporting features
+Enter Manually should also allow otpauth: strings 
+Option to import/export app settings 
+add auto import of files
+"Remove animations" accessibility setting not respected
+Add unlimited backups for automatic backups
+Keep displaying expired TOTP token next to the new one
+Pill-based group selection
+Allow showing account name below the issuer
+Feature: Screen Orientation bottom-up
+Discussion: Material You Integration
+Make Motorola bottom gesture navigation bar transparent in system default dark Amoled mode
+Add "Share" button for entries
+Share option for time based codes
+StartActivityForResult Deprecated In some Cases
+Scan QR code not working on v2.0.1
+Codes wrap to the next line on certain devices
+Provide option to batch assign icons to existing 2FA entries
+Screen rotation cancels group selection
+Can't see all Groups
+After upgrade to the version 2.0 main menu items are invisible
+Add option for single undated backup file
+Delay in OTP code change after expiration
+Fast scroll drag
+Dynamically decide KDF parameters and consider implementing caching
+Add options for larger text for tokens, and maybe colored text
+Mnemonic Phrase for Backups
+When "tap to reveal" is selected, obscured entries' dots should be greyed out to reduce clutter
+Can't press use biometrics after locking aegis (sometimes)
+Improve clarity and arrangement
+Add Recycle Bin
+Allow Adding Multiple OTP Entries to Group
+Grid view layout
+Join us on Matrix! #aegis:matrix.org
+Highlight: All items remain dark after standby
+Import Battle.net Codes from various sources
+Feature request: remove duplicate entries
+Change color of code before it expires.
+Switch to libsodium for the scrypt implementation
+How-to guide
+Allow square/uncropped icons
+Key derivation causes OOM crash on low-end devices
+Improve entry group management

@@ -190,8 +190,8 @@ public class Crawler {
 
 	public static void main(String[] args) throws Exception {
 		List<String> repoNames = new ArrayList<>();
-		repoNames.add("gsantner/markor");
-		repoNames.add("beemdevelopment/Aegis");
+		repoNames.add("LibrePDF/OpenPDF");
+		//repoNames.add("beemdevelopment/Aegis");
 		Crawler crawler = new Crawler(repoNames);
 		//crawler.getAllData();
 		crawler.getTopContributorsInfo();
