@@ -89,7 +89,7 @@ public class RepoController {
         return contributionService.getContributionByRepo(repoName, paging);
     }
 
-    @GetMapping("{repo_name}/contributors")
+    @GetMapping("{repo_name}/contributor")
     public Page<ContributorInRepoDTO> getTopContributorsByRepo(@PathVariable("repo_name") String repoName,
                                                                @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum) {
         Pageable paging = PageRequest.of(pageNum, AppApplication.pageSize);
