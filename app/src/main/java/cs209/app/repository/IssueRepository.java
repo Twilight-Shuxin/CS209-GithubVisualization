@@ -30,4 +30,12 @@ public interface IssueRepository extends JpaRepository<Issue, Integer> {
     @Query(value = "SELECT avg(closed_at - created_at) FROM ISSUES WHERE REPO_ID = ?1 AND STATE = true;",
             nativeQuery = true)
     public PGInterval getAverageIssueResolveTime(int repoId);
+
+    @Query(value = "SELECT max(closed_at - created_at) FROM ISSUES WHERE REPO_ID = ?1 AND STATE = true;",
+            nativeQuery = true)
+    public PGInterval getMaxIssueResolveTime(int repoId);
+
+    @Query(value = "SELECT min(closed_at - created_at) FROM ISSUES WHERE REPO_ID = ?1 AND STATE = true;",
+            nativeQuery = true)
+    public PGInterval getMinIssueResolveTime(int repoId);
 }

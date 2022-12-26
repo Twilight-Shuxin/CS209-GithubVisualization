@@ -23,4 +23,10 @@ public interface IssueService {
 
     public PGInterval getAverageIntervalByRepo(String repoName);
     public PGInterval getAverageIntervalByRepo(int repoId);
+
+    public PGInterval getMaxIntervalByRepo(String repoName);
+    public PGInterval getMaxIntervalByRepo(int repoId);
+
+    public PGInterval getMinIntervalByRepo(String repoName);
+    public PGInterval getMinIntervalByRepo(int repoId);
 }

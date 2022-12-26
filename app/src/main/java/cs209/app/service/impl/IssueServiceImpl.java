@@ -69,4 +69,26 @@ public class IssueServiceImpl implements IssueService {
         return issueRepository.getAverageIssueResolveTime(repoID);
     }
 
+    @Override
+    public PGInterval getMaxIntervalByRepo(String repoName) {
+        return issueRepository.getMaxIssueResolveTime(
+                repoService.getRepoByName(repoName).get().getId());
+    }
+
+    @Override
+    public PGInterval getMaxIntervalByRepo(int repoId) {
+        return issueRepository.getMaxIssueResolveTime(repoId);
+    }
+
+    @Override
+    public PGInterval getMinIntervalByRepo(String repoName) {
+        return issueRepository.getMinIssueResolveTime(
+                repoService.getRepoByName(repoName).get().getId());
+    }
+
+    @Override
+    public PGInterval getMinIntervalByRepo(int repoId) {
+        return issueRepository.getMinIssueResolveTime(repoId);
+    }
+
 }

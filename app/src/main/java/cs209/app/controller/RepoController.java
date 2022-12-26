@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.sql.Time;
 import java.time.OffsetDateTime;
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -39,6 +40,11 @@ public class RepoController {
         return repoService.getRepoByName(repoName);
     }
 
+    @GetMapping("all_repo")
+    public List<Repo> getAllRepo() {
+        return repoService.getRepo();
+    }
+
     @GetMapping("test/{repo_id}")
     public Optional<Repo> getRepo(@PathVariable("repo_id") int repoId) {
         return repoService.getRepoById(repoId);
@@ -58,6 +64,27 @@ public class RepoController {
         else return issueService.getIssueByRepoWithState(repoName, state, paging);
     }
 
+    @GetMapping("{repo_name}/release")
+    public Page<ReleaseDTO> getReleaseByRepoTimeInterval(@PathVariable("repo_name") String repoName,
+                                                       @RequestParam(value = "start", required = false) String startTimeStr,
+                                                       @RequestParam(value = "end", required = false) String endTimeStr,
+                                                       @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum) {
+        Pageable paging = PageRequest.of(pageNum, AppApplication.pageSize);
+        if(startTimeStr == null) {
+            if(startTimeStr == null && endTimeStr == null) {
+                return releaseService.getByRepo(repoName, paging);
+            }
+            return releaseService.getReleaseByRepoBeforeTime(repoName, OffsetDateTime.parse(startTimeStr), paging);
+        }
+        if(endTimeStr == null) {
+            return releaseService.getReleaseByRepoAfterTime(repoName, OffsetDateTime.parse(endTimeStr), paging);
+        }
+        OffsetDateTime startTime = OffsetDateTime.parse(startTimeStr);
+        OffsetDateTime endTime = OffsetDateTime.parse(endTimeStr);
+        return releaseService.getByRepoTimeInterval(repoName, startTime, endTime, paging);
+    }
+
+
     @GetMapping("{repo_name}/commit")
     public Page<CommitDTO> getCommitByRepoTimeInterval(@PathVariable("repo_name") String repoName,
                                                          @RequestParam(value = "start", required = false) String startTimeStr,
@@ -72,10 +99,10 @@ public class RepoController {
             if(startTimeStr == null && endTimeStr == null) {
                 return commitService.getCommitByRepo(repoName, paging);
             }
-            return null;
+            return commitService.getCommitByRepoBeforeTime(repoName, OffsetDateTime.parse(startTimeStr), paging);
         }
         if(endTimeStr == null) {
-            return null;
+            return commitService.getCommitByRepoAfterTime(repoName, OffsetDateTime.parse(endTimeStr), paging);
         }
         OffsetDateTime startTime = OffsetDateTime.parse(startTimeStr);
         OffsetDateTime endTime = OffsetDateTime.parse(endTimeStr);
@@ -106,10 +133,22 @@ public class RepoController {
         return issueService.getAverageIntervalByRepo(repoName);
     }
 
+    @GetMapping("{repo_name}/max_resolve_time")
+    public PGInterval getMaxIssueResolveTime(@PathVariable("repo_name") String repoName) {
+        return issueService.getMaxIntervalByRepo(repoName);
+    }
+
+    @GetMapping("{repo_name}/min_resolve_time")
+    public PGInterval getMinIssueResolveTime(@PathVariable("repo_name") String repoName) {
+        return issueService.getMinIntervalByRepo(repoName);
+    }
+
     @GetMapping("{repo_name}/word_cnt")
     public Page<WordCntDTO> getWordCntByRepo(@PathVariable("repo_name") String repoName,
                                              @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum) {
         Pageable paging = PageRequest.of(pageNum, AppApplication.pageSize);
         return wordCntService.getByRepoWordCntDesc(repoName, paging);
     }
+
+
 }
