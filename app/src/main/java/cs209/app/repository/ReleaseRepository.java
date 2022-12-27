@@ -21,19 +21,19 @@ public interface ReleaseRepository extends JpaRepository<Release, Integer> {
     List<Release> findAllByRepoRepoNameOrderByPublishTimeAsc(String repoName);
 
 
-    public Page<Release> findAllByRepoIdAndPublishTimeGreaterThanEqualAndPublishTimeLessThanEqual
+    public Page<Release> findAllByRepoIdAndPublishTimeGreaterThanEqualAndPublishTimeLessThanEqualOrderByPublishTimeAsc
             (int repoId, OffsetDateTime startTime, OffsetDateTime endTime, Pageable page);
-    public Page<Release> findAllByRepoRepoNameAndPublishTimeGreaterThanEqualAndPublishTimeLessThanEqual
+    public Page<Release> findAllByRepoRepoNameAndPublishTimeGreaterThanEqualAndPublishTimeLessThanEqualOrderByPublishTimeAsc
             (String repoName, OffsetDateTime startTime, OffsetDateTime endTime, Pageable page);
 
 
-    public Page<Release> findAllByRepoIdAndPublishTimeGreaterThanEqual
+    public Page<Release> findAllByRepoIdAndPublishTimeGreaterThanEqualOrderByPublishTimeAsc
             (int repoId, OffsetDateTime startTime, Pageable page);
-    public Page<Release> findAllByRepoRepoNameAndPublishTimeGreaterThanEqual
+    public Page<Release> findAllByRepoRepoNameAndPublishTimeGreaterThanEqualOrderByPublishTimeAsc
             (String repoName, OffsetDateTime startTime, Pageable page);
-    public Page<Release> findAllByRepoIdAndPublishTimeLessThanEqual
+    public Page<Release> findAllByRepoIdAndPublishTimeLessThanEqualOrderByPublishTimeAsc
             (int repoId, OffsetDateTime endTime, Pageable page);
-    public Page<Release> findAllByRepoRepoNameAndPublishTimeLessThanEqual
+    public Page<Release> findAllByRepoRepoNameAndPublishTimeLessThanEqualOrderByPublishTimeAsc
             (String repoName, OffsetDateTime endTime, Pageable page);
 
     @Query(value = "SELECT * FROM RELEASES WHERE REPO_ID = ?1 AND extract(isodow from PUBLISHED_AT) -1 = ?2",

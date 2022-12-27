@@ -52,37 +52,37 @@ public class ReleaseServiceImpl implements ReleaseService {
     @Override
     public Page<ReleaseDTO> getByRepoTimeInterval(int repoId,
                                                     OffsetDateTime start, OffsetDateTime end, Pageable paging) {
-        return releaseRepository.findAllByRepoIdAndPublishTimeGreaterThanEqualAndPublishTimeLessThanEqual(repoId, start, end, paging)
+        return releaseRepository.findAllByRepoIdAndPublishTimeGreaterThanEqualAndPublishTimeLessThanEqualOrderByPublishTimeAsc(repoId, start, end, paging)
                 .map(release -> toReleaseDTO(release));
     }
 
     @Override
     public Page<ReleaseDTO> getByRepoTimeInterval(String repoName, OffsetDateTime start, OffsetDateTime end, Pageable paging) {
-        return releaseRepository.findAllByRepoRepoNameAndPublishTimeGreaterThanEqualAndPublishTimeLessThanEqual(
+        return releaseRepository.findAllByRepoRepoNameAndPublishTimeGreaterThanEqualAndPublishTimeLessThanEqualOrderByPublishTimeAsc(
                 repoName, start, end, paging
         ).map(release -> toReleaseDTO(release));
     }
 
     @Override
     public Page<ReleaseDTO> getReleaseByRepoAfterTime(int repoId, OffsetDateTime start, Pageable paging) {
-        return releaseRepository.findAllByRepoIdAndPublishTimeGreaterThanEqual(repoId, start, paging)
+        return releaseRepository.findAllByRepoIdAndPublishTimeGreaterThanEqualOrderByPublishTimeAsc(repoId, start, paging)
                 .map(release -> toReleaseDTO(release));
     }
     @Override
     public Page<ReleaseDTO> getReleaseByRepoAfterTime(String repoName, OffsetDateTime start, Pageable paging) {
-        return releaseRepository.findAllByRepoRepoNameAndPublishTimeGreaterThanEqual(repoName, start, paging)
+        return releaseRepository.findAllByRepoRepoNameAndPublishTimeGreaterThanEqualOrderByPublishTimeAsc(repoName, start, paging)
                 .map(release -> toReleaseDTO(release));
     }
 
     @Override
     public Page<ReleaseDTO> getReleaseByRepoBeforeTime(int repoId, OffsetDateTime end, Pageable paging) {
-        return releaseRepository.findAllByRepoIdAndPublishTimeLessThanEqual(repoId, end, paging)
+        return releaseRepository.findAllByRepoIdAndPublishTimeLessThanEqualOrderByPublishTimeAsc(repoId, end, paging)
                 .map(release -> toReleaseDTO(release));
     }
 
     @Override
     public Page<ReleaseDTO> getReleaseByRepoBeforeTime(String repoName, OffsetDateTime end, Pageable paging) {
-        return releaseRepository.findAllByRepoRepoNameAndPublishTimeLessThanEqual(repoName, end, paging)
+        return releaseRepository.findAllByRepoRepoNameAndPublishTimeLessThanEqualOrderByPublishTimeAsc(repoName, end, paging)
                 .map(release -> toReleaseDTO(release));
     }
 
