@@ -80,4 +80,31 @@ public class DTOUtil {
                 wordCnt.getCnt()
         );
     }
+
+    public static String getWeekdayName(int weekday) {
+        String weekdayStr;
+        switch (weekday) {
+            case 0:
+                weekdayStr = "Monday";
+                break;
+            case 1:
+                weekdayStr = "Tuesday";
+                break;
+            case 2:
+                weekdayStr = "Wednesday";
+                break;
+            case 3:
+                weekdayStr = "Thursday";
+                break;
+            case 4:
+                weekdayStr = "Friday";
+                break;
+            case 5:
+                weekdayStr = "Saturday";
+                break;
+            default:
+                weekdayStr = "Sunday";
+        }
+        return weekdayStr;
+    }
 }

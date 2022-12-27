@@ -1,17 +1,18 @@
 package cs209.app.util;
 
 public class WeeklyCommitRecord {
-    int weekday, cnt;
-    public WeeklyCommitRecord(int weekday, int cnt) {
+    String weekday;
+    int cnt;
+    public WeeklyCommitRecord(String weekday, int cnt) {
         this.weekday = weekday;
         this.cnt = cnt;
     }
 
-    public int getWeekday() {
+    public String getWeekday() {
         return weekday;
     }
 
-    public void setWeekday(int weekday) {
+    public void setWeekday(String weekday) {
         this.weekday = weekday;
     }
 

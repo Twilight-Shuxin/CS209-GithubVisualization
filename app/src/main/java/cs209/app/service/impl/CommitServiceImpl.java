@@ -8,6 +8,7 @@ import cs209.app.repository.CommitRepository;
 import cs209.app.service.CommitService;
 import cs209.app.service.RepoService;
 import cs209.app.util.CommonUtil;
+import cs209.app.util.DTOUtil;
 import cs209.app.util.MonthlyCommitRecord;
 import cs209.app.util.WeeklyCommitRecord;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -145,7 +146,7 @@ public class CommitServiceImpl implements CommitService {
         Pageable paging = PageRequest.of(0, AppApplication.pageSize);
         for(int i = 0; i <= 6; i ++) {
             Page<CommitDTO> page = getCommitByRepoWeekDay(repoId, i, paging);
-            records.add(new WeeklyCommitRecord(i, (int) page.getTotalElements()));
+            records.add(new WeeklyCommitRecord(DTOUtil.getWeekdayName(i), (int) page.getTotalElements()));
         }
         return new WeeklyCommitSummaryDTO(records);
     }

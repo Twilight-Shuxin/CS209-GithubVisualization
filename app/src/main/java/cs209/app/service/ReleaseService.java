@@ -1,6 +1,7 @@
 package cs209.app.service;
 
 import cs209.app.dto.ReleaseDTO;
+import cs209.app.dto.ReleaseIntervalSummaryDTO;
 import cs209.app.model.Release;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -30,4 +31,6 @@ public interface ReleaseService {
 
     public int getAverageCommitCntBetweenRelease(String repoName);
 
+    public ReleaseIntervalSummaryDTO getCommitCntBetweenRelease(int repoId);
+    public ReleaseIntervalSummaryDTO getCommitCntBetweenRelease(String repoName);
 }

@@ -114,6 +114,11 @@ public class RepoController {
         return commitService.getCommitMonthlySummaryByRepo(repoName);
     }
 
+    @GetMapping("{repo_name}/release_interval")
+    public ReleaseIntervalSummaryDTO getCommitBetweenReleaseByRepo(@PathVariable("repo_name") String repoName) {
+        return releaseService.getCommitCntBetweenRelease(repoName);
+    }
+
     @GetMapping("{repo_name}/weekly_commit_summary")
     public WeeklyCommitSummaryDTO getCommitByRepoWeeklySummary(@PathVariable("repo_name") String repoName) {
         return commitService.getCommitWeeklySummaryByRepo(repoName);

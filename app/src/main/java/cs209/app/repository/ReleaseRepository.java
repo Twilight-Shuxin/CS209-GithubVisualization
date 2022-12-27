@@ -14,6 +14,13 @@ public interface ReleaseRepository extends JpaRepository<Release, Integer> {
     Page<Release> findByRepoId(int repoId, Pageable page);
     Page<Release> findByRepoRepoName(String repoName, Pageable page);
 
+    Page<Release> findByRepoIdOrderByPublishTimeAsc(int repoId, Pageable page);
+    Page<Release> findByRepoRepoNameOrderByPublishTimeAsc(String repoName, Pageable page);
+
+    List<Release> findAllByRepoIdOrderByPublishTimeAsc(int repoId);
+    List<Release> findAllByRepoRepoNameOrderByPublishTimeAsc(String repoName);
+
+
     public Page<Release> findAllByRepoIdAndPublishTimeGreaterThanEqualAndPublishTimeLessThanEqual
             (int repoId, OffsetDateTime startTime, OffsetDateTime endTime, Pageable page);
     public Page<Release> findAllByRepoRepoNameAndPublishTimeGreaterThanEqualAndPublishTimeLessThanEqual
