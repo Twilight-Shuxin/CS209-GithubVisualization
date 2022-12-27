@@ -6,6 +6,7 @@ A visualization for three repositories:
 - beemdevelopment/Aegis
 - LibrePDF/OpenPDF
 
-![图1](C:\Users\lenovo\Documents\Tencent Files\1902605778\FileRecv\归档\图1.png)
+[![zzf4gK.png](https://s1.ax1x.com/2022/12/27/zzf4gK.png)](https://imgse.com/i/zzf4gK)
 
-![image-20221227222753423](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20221227222753423.png)
+[![zzfh36.png](https://s1.ax1x.com/2022/12/27/zzfh36.png)](https://imgse.com/i/zzfh36)
+
