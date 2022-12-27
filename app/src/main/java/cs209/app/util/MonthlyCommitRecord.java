@@ -2,11 +2,15 @@ package cs209.app.util;
 
 public class MonthlyCommitRecord {
     int year, month, commit_cnt;
+    String name;
+    int value;
 
     public MonthlyCommitRecord(int year, int month, int commit_cnt) {
         this.year = year;
         this.month = month;
         this.commit_cnt = commit_cnt;
+        name = year + "/" + month;
+        value = commit_cnt;
     }
 
     public int getYear() {

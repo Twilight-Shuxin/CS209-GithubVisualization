@@ -2,10 +2,14 @@ package cs209.app.util;
 
 public class ReleaseIntervalRecord {
     int releaseId, commitCnt;
+    String name;
+    int value;
 
     public ReleaseIntervalRecord(int releaseId, int commitCnt) {
         this.releaseId = releaseId;
         this.commitCnt = commitCnt;
+        name = Integer.toString(releaseId);
+        value = commitCnt;
     }
 
     public int getReleaseId() {
