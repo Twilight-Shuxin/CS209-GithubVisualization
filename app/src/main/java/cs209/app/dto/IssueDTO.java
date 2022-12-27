@@ -1,8 +1,6 @@
 package cs209.app.dto;
 
-
 import cs209.app.model.Repo;
-
 import java.io.Serializable;
 import java.time.OffsetDateTime;
 

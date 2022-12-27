@@ -1,8 +1,6 @@
 package cs209.app.model;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-
 import java.util.Set;
 
 @Entity

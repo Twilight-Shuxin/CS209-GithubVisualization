@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import org.hibernate.annotations.ValueGenerationType;
 import org.springframework.web.bind.annotation.GetMapping;
-
 import java.time.OffsetDateTime;
 
 @Entity
