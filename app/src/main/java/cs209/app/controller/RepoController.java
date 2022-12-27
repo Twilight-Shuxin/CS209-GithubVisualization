@@ -6,6 +6,10 @@ import cs209.app.model.Issue;
 import cs209.app.model.Repo;
 import cs209.app.model.WordCnt;
 import cs209.app.service.*;
+import java.sql.Time;
+import java.time.OffsetDateTime;
+import java.util.List;
+import java.util.Optional;
 import org.postgresql.util.PGInterval;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -13,11 +17,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
-
-import java.sql.Time;
-import java.time.OffsetDateTime;
-import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/repo")
@@ -55,11 +54,11 @@ public class RepoController {
                                            @RequestParam(value = "state", required = false) String state,
                                            @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum) {
         Pageable paging = PageRequest.of(pageNum, AppApplication.pageSize);
-        if(state == null) {
-            Page<IssueDTO> issueDTOS = issueService.getIssueByRepo(repoName, paging);
-            OffsetDateTime timestamp = issueDTOS.getContent().get(0).closedTime();
+        if (state == null) {
+            Page<IssueDTO> issueDTOs = issueService.getIssueByRepo(repoName, paging);
+            OffsetDateTime timestamp = issueDTOs.getContent().get(0).closedTime();
             System.out.println(timestamp);
-            return issueDTOS;
+            return issueDTOs;
         }
         else return issueService.getIssueByRepoWithState(repoName, state, paging);
     }
@@ -74,10 +73,12 @@ public class RepoController {
             if(startTimeStr == null && endTimeStr == null) {
                 return releaseService.getByRepo(repoName, paging);
             }
-            return releaseService.getReleaseByRepoBeforeTime(repoName, OffsetDateTime.parse(startTimeStr), paging);
+            return releaseService.getReleaseByRepoBeforeTime(repoName,
+                    OffsetDateTime.parse(startTimeStr), paging);
         }
         if(endTimeStr == null) {
-            return releaseService.getReleaseByRepoAfterTime(repoName, OffsetDateTime.parse(endTimeStr), paging);
+            return releaseService.getReleaseByRepoAfterTime(repoName,
+                    OffsetDateTime.parse(endTimeStr), paging);
         }
         OffsetDateTime startTime = OffsetDateTime.parse(startTimeStr);
         OffsetDateTime endTime = OffsetDateTime.parse(endTimeStr);

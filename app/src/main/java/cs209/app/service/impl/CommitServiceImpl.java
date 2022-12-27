@@ -11,20 +11,18 @@ import cs209.app.util.CommonUtil;
 import cs209.app.util.DTOUtil;
 import cs209.app.util.MonthlyCommitRecord;
 import cs209.app.util.WeeklyCommitRecord;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Service;
-
+import static cs209.app.util.DTOUtil.toCommitDTO;
+import static cs209.app.util.DTOUtil.toReleaseDTO;
 import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.time.YearMonth;
 import java.util.ArrayList;
 import java.util.List;
-
-import static cs209.app.util.DTOUtil.toCommitDTO;
-import static cs209.app.util.DTOUtil.toReleaseDTO;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 @Service
 public class CommitServiceImpl implements CommitService {
@@ -115,8 +113,8 @@ public class CommitServiceImpl implements CommitService {
         int year = now.getYear();
         Pageable paging = PageRequest.of(0, AppApplication.pageSize);
         List<MonthlyCommitRecord> records = new ArrayList<>();
-        for(int i = 0; i < 12; i ++) {
-            if(month <= 0) {
+        for (int i = 0; i < 12; i ++) {
+            if (month <= 0) {
                 year -= 1;
                 month = 12;
             }

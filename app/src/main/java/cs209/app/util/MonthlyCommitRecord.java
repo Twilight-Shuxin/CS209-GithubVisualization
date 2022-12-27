@@ -1,16 +1,16 @@
 package cs209.app.util;
 
 public class MonthlyCommitRecord {
-    int year, month, commit_cnt;
+    int year, month, commitCnt;
     String name;
     int value;
 
-    public MonthlyCommitRecord(int year, int month, int commit_cnt) {
+    public MonthlyCommitRecord(int year, int month, int commitCnt) {
         this.year = year;
         this.month = month;
-        this.commit_cnt = commit_cnt;
+        this.commitCnt = commitCnt;
         name = year + "/" + month;
-        value = commit_cnt;
+        value = commitCnt;
     }
 
     public int getYear() {
@@ -29,11 +29,27 @@ public class MonthlyCommitRecord {
         this.month = month;
     }
 
-    public int getCommit_cnt() {
-        return commit_cnt;
+    public int getCommitCnt() {
+        return commitCnt;
     }
 
-    public void setCommit_cnt(int commit_cnt) {
-        this.commit_cnt = commit_cnt;
+    public void setCommitCnt(int commitCnt) {
+        this.commitCnt = commitCnt;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
     }
 }
