@@ -2,17 +2,23 @@ package cs209.app.service.impl;
 
 import cs209.app.AppApplication;
 import cs209.app.dto.CommitDTO;
+import cs209.app.dto.MonthlyCommitSummaryDTO;
 import cs209.app.repository.CommitRepository;
 import cs209.app.service.CommitService;
 import cs209.app.service.RepoService;
 import cs209.app.util.CommonUtil;
+import cs209.app.util.MonthlyCommitRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
+import java.time.YearMonth;
+import java.util.ArrayList;
+import java.util.List;
 
 import static cs209.app.util.DTOUtil.toCommitDTO;
 import static cs209.app.util.DTOUtil.toReleaseDTO;
@@ -97,6 +103,38 @@ public class CommitServiceImpl implements CommitService {
     public int getTotalContributorCountsByRepo(String repoName) {
         Pageable paging = PageRequest.of(0, AppApplication.pageSize);
         return (int) commitRepository.findDistinctContributorIdByRepoRepoName(repoName, paging).getTotalElements();
+    }
+
+    @Override
+    public MonthlyCommitSummaryDTO getCommitMonthlySummaryByRepo(int repoId) {
+        LocalDateTime now = LocalDateTime.now();
+        int month = now.getMonthValue();
+        int year = now.getYear();
+        List<MonthlyCommitRecord> records = new ArrayList<>();
+        for(int i = 0; i < 12; i ++) {
+            if(month <= 0) {
+                year -= 1;
+                month = 12;
+            }
+            String monthStr = month < 10 ? "0" + month : Integer.toString(month);
+            String startStr = year + "-" + monthStr + "-01T00:00:00+00:00";
+            YearMonth yearMonthObject = YearMonth.of(year, month);
+            int daysInMonth = yearMonthObject.lengthOfMonth();
+            String endStr = year + "-" + monthStr + "-" + daysInMonth + "T23:59:59+00:00";
+            OffsetDateTime startTime = OffsetDateTime.parse(startStr);
+            OffsetDateTime endTime = OffsetDateTime.parse(endStr);
+            Pageable paging = PageRequest.of(0, AppApplication.pageSize);
+            Page<CommitDTO> page = getCommitByRepoTimeInterval(repoId, startTime, endTime, paging);
+            records.add(new MonthlyCommitRecord(year, month, (int) page.getTotalElements()));
+            month -= 1;
+        }
+        return new MonthlyCommitSummaryDTO(records);
+    }
+
+    @Override
+    public MonthlyCommitSummaryDTO getCommitMonthlySummaryByRepo(String repoName) {
+        int repoId = repoService.getRepoByName(repoName).get().getId();
+        return getCommitMonthlySummaryByRepo(repoId);
     }
 
 

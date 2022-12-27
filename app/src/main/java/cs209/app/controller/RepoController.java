@@ -109,6 +109,11 @@ public class RepoController {
         return commitService.getCommitByRepoTimeInterval(repoName, startTime, endTime, paging);
     }
 
+    @GetMapping("{repo_name}/year_commit")
+    public MonthlyCommitSummaryDTO getCommitByRepoMonthlySummary(@PathVariable("repo_name") String repoName) {
+        return commitService.getCommitMonthlySummaryByRepo(repoName);
+    }
+
     @GetMapping("{repo_name}/contribution")
     public Page<ContributionDTO> getContributionByRepo(@PathVariable("repo_name") String repoName,
                                                        @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum) {

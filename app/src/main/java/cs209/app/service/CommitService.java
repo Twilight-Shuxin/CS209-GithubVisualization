@@ -1,6 +1,7 @@
 package cs209.app.service;
 
 import cs209.app.dto.CommitDTO;
+import cs209.app.dto.MonthlyCommitSummaryDTO;
 import cs209.app.dto.ReleaseDTO;
 import cs209.app.util.CommonUtil;
 import org.springframework.data.domain.Page;
@@ -36,4 +37,7 @@ public interface CommitService {
 
     public int getTotalContributorCountsByRepo(int repoId);
     public int getTotalContributorCountsByRepo(String repoName);
+
+    public MonthlyCommitSummaryDTO getCommitMonthlySummaryByRepo(int repoId);
+    public MonthlyCommitSummaryDTO getCommitMonthlySummaryByRepo(String repoName);
 }

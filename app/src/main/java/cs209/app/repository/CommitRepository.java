@@ -41,4 +41,6 @@ public interface CommitRepository extends JpaRepository<Commit, Integer> {
 
     Page<Commit> findDistinctContributorIdByRepoId(int repoId, Pageable page);
     Page<Commit> findDistinctContributorIdByRepoRepoName(String repoName, Pageable page);
+
+
 }
