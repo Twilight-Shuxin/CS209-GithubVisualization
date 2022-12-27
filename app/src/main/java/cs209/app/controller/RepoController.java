@@ -114,6 +114,11 @@ public class RepoController {
         return commitService.getCommitMonthlySummaryByRepo(repoName);
     }
 
+    @GetMapping("{repo_name}/weekly_commit_summary")
+    public WeeklyCommitSummaryDTO getCommitByRepoWeeklySummary(@PathVariable("repo_name") String repoName) {
+        return commitService.getCommitWeeklySummaryByRepo(repoName);
+    }
+
     @GetMapping("{repo_name}/contribution")
     public Page<ContributionDTO> getContributionByRepo(@PathVariable("repo_name") String repoName,
                                                        @RequestParam(value = "page", required = false, defaultValue = "0") int pageNum) {

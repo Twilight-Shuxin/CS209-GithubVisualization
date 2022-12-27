@@ -3,11 +3,13 @@ package cs209.app.service.impl;
 import cs209.app.AppApplication;
 import cs209.app.dto.CommitDTO;
 import cs209.app.dto.MonthlyCommitSummaryDTO;
+import cs209.app.dto.WeeklyCommitSummaryDTO;
 import cs209.app.repository.CommitRepository;
 import cs209.app.service.CommitService;
 import cs209.app.service.RepoService;
 import cs209.app.util.CommonUtil;
 import cs209.app.util.MonthlyCommitRecord;
+import cs209.app.util.WeeklyCommitRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -110,6 +112,7 @@ public class CommitServiceImpl implements CommitService {
         LocalDateTime now = LocalDateTime.now();
         int month = now.getMonthValue();
         int year = now.getYear();
+        Pageable paging = PageRequest.of(0, AppApplication.pageSize);
         List<MonthlyCommitRecord> records = new ArrayList<>();
         for(int i = 0; i < 12; i ++) {
             if(month <= 0) {
@@ -123,7 +126,6 @@ public class CommitServiceImpl implements CommitService {
             String endStr = year + "-" + monthStr + "-" + daysInMonth + "T23:59:59+00:00";
             OffsetDateTime startTime = OffsetDateTime.parse(startStr);
             OffsetDateTime endTime = OffsetDateTime.parse(endStr);
-            Pageable paging = PageRequest.of(0, AppApplication.pageSize);
             Page<CommitDTO> page = getCommitByRepoTimeInterval(repoId, startTime, endTime, paging);
             records.add(new MonthlyCommitRecord(year, month, (int) page.getTotalElements()));
             month -= 1;
@@ -135,6 +137,23 @@ public class CommitServiceImpl implements CommitService {
     public MonthlyCommitSummaryDTO getCommitMonthlySummaryByRepo(String repoName) {
         int repoId = repoService.getRepoByName(repoName).get().getId();
         return getCommitMonthlySummaryByRepo(repoId);
+    }
+
+    @Override
+    public WeeklyCommitSummaryDTO getCommitWeeklySummaryByRepo(int repoId) {
+        List<WeeklyCommitRecord> records = new ArrayList<>();
+        Pageable paging = PageRequest.of(0, AppApplication.pageSize);
+        for(int i = 0; i <= 6; i ++) {
+            Page<CommitDTO> page = getCommitByRepoWeekDay(repoId, i, paging);
+            records.add(new WeeklyCommitRecord(i, (int) page.getTotalElements()));
+        }
+        return new WeeklyCommitSummaryDTO(records);
+    }
+
+    @Override
+    public WeeklyCommitSummaryDTO getCommitWeeklySummaryByRepo(String repoName) {
+        int repoId = repoService.getRepoByName(repoName).get().getId();
+        return getCommitWeeklySummaryByRepo(repoId);
     }
 
 

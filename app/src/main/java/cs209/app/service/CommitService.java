@@ -3,6 +3,7 @@ package cs209.app.service;
 import cs209.app.dto.CommitDTO;
 import cs209.app.dto.MonthlyCommitSummaryDTO;
 import cs209.app.dto.ReleaseDTO;
+import cs209.app.dto.WeeklyCommitSummaryDTO;
 import cs209.app.util.CommonUtil;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -40,4 +41,7 @@ public interface CommitService {
 
     public MonthlyCommitSummaryDTO getCommitMonthlySummaryByRepo(int repoId);
     public MonthlyCommitSummaryDTO getCommitMonthlySummaryByRepo(String repoName);
+
+    WeeklyCommitSummaryDTO getCommitWeeklySummaryByRepo(int repoId);
+    WeeklyCommitSummaryDTO getCommitWeeklySummaryByRepo(String repoName);
 }
