@@ -1,26 +1,26 @@
 package cs209.app.util;
 
 public class WeeklyCommitRecord {
-    String weekday;
-    int cnt;
+    String name;
+    int value;
     public WeeklyCommitRecord(String weekday, int cnt) {
-        this.weekday = weekday;
-        this.cnt = cnt;
+        this.name = weekday;
+        this.value = cnt;
     }
 
-    public String getWeekday() {
-        return weekday;
+    public String getName() {
+        return name;
     }
 
-    public void setWeekday(String weekday) {
-        this.weekday = weekday;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public int getCnt() {
-        return cnt;
+    public int getValue() {
+        return value;
     }
 
-    public void setCnt(int cnt) {
-        this.cnt = cnt;
+    public void setValue(int value) {
+        this.value = value;
     }
 }
